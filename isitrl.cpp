@@ -613,7 +613,7 @@ void show_suggestions() {
   ss << "etc. are welcome.<br/><br/>You can post an issue on GitHub, comment on itch.io, or just send it here.<br/><br/>";
   ss << "Just sharing your answers, nickname, and your experiences with roguelikes may be used to make it better, as we could include statistical data in the future!<br/><br/>";
 
-  ss << "<form method=\"post\" action=\"http://roguetemple.com/z/isitrl.php\" name=\"submit\">\n";
+  ss << "<form method=\"post\" action=\"https://roguetemple.com/z/isitrl.php\" name=\"submit\">\n";
   ss << "<center><textarea name=\"comment\" rows=20 cols=80>\n";
   ss << "My Roguelike Code: " << rogue_code(" ") << "\n\n";
   ss << "write here!";
