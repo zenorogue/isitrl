@@ -1,0 +1,2109 @@
+# pre-Berlin
+
+PURITY inspire It is not a Roguelike if it is not Rogue and not inspired by another Roguelike.
+
+PURITY rl It is not a Roguelike if it is not like you press a key to immediately move to the adjacent tile and then the monsters move.
+
+PURITY ascii It is not a Roguelike if it does not feature character graphics.
+It is still fine if ASCII is optional, or not displayed on a real terminal. Text-based games with no character map are fine for this particular aspect.
+
+PURITY dungeon It is not a Roguelike if it is not a dungeon crawl.
+Not necessarily a literal dungeon, just some place with walls, loot, and monsters.
+A significant overworld component is a violation.
+
+PURITY rpg It is not a Roguelike if it has no significant RPG elements.
+This is subjective, but generally it should feel more like an RPG than an arcade game or an abstract strategy game.
+
+PURITY randommap It is not a Roguelike if it does not feature random maps.
+It is fine if only a significant part of maps is random, and randomly selecting one of predesigned maps is not enough.
+
+PURITY source It is not a Roguelike if it has no community development.
+Open source counts (even if nobody has contributed yet).
+Being very welcoming of player suggestions is OK too. Moddability is not enough.
+It does not count when it became open source much later after the release.
+(Rogue is exempt from this, even though it was not originally open source, forcing Hack to clone it.
+Very simple games that are easy to clone anyway do not violate.)
+
+PURITY free It is not a Roguelike if it is not free.
+It can have a paid version, but the free version should have most of the content.
+It does not count if it was originally not free and became free later.
+
+PURITY long It is not a Roguelike if it is short.
+Anything with runs significantly shorter than Rogue is disqualified.
+
+PURITY turn It is not a Roguelike if it is not turn-based.
+We accept more complex energy systems (e.g., monsters with different speeds), and time limits for turns, as long as they still feel turn-based.
+
+PURITY decision It is not a Roguelike if it is not purely decision-based.
+Turn-based with unlimited time and real-time-with-pause counts.
+
+PURITY mdecision It is not a Roguelike if it is more about execution than decisions.
+This can be a bit subjective.
+
+PURITY grid It is not a Roguelike if it is not grid-based.
+Game entities are always aligned to the grid. It need not be a square grid, but it must be discrete, and feel more like a grid than a graph.
+This must be relevant for actual combat (rather than e.g. just exploration).
+
+PURITY spatial It is not a Roguelike if it is not spatial.
+Game entities always have position in some space, posibly continuous one.
+This must be relevant for actual combat (rather than e.g. just exploration).
+
+PURITY potion It is not a Roguelike if it features no identification of items like potions.
+
+# Berlin
+
+PURITY forcedeath It is not a Roguelike if it does not enforce permadeath.
+Having an option to disable permadeath is a violation, even if it was added in a later version.
+(Still a violation if labeled as "cheat", but not a violation if the player can cheat outside of what the game allows, e.g., by copying the save files manually.)
+
+PURITY suggestdeath It is not a Roguelike if it does not suggest permadeath.
+It is enough to have a prominent permadeath option to qualify.
+
+PURITY forcecons It is not a Roguelike if it does not enforce consequences for bad decisions.
+If you do not return to the start of the game, but to the last "checkpoint", it still counts as enforcing consequences, but not as permadeath.
+
+PURITY resource It is not a Roguelike if it does not feature resource management.
+One of elements mentioned in the Berlin Interpretation. While typical RPG players like to hoard potions and other
+one-shots, it is not a good strategy when playing roguelikes permadeath.
+
+PURITY exploration It is not a Roguelike if it features no exploration.
+A game needs to give the player choice between visiting different levels, or to display the map progressively as it is uncovered, to qualify.
+
+PURITY modality It is not a Roguelike if combat and exploration are separate modes.
+
+PURITY single It is not a Roguelike if you directly control multiple characters.
+The "single character" must feel like an actual entity in the game, rather than being completely abstract.
+It is fine to have allies who act on their own.
+
+PURITY similar It is not a Roguelike if the monsters are not similar to player character.
+This is a bit subjective. This does not mean "if the player has inventories, the player needs full inventories too", but they have to be reasonably similar:
+make one move per turn if the player makes one move per turn, etc.
+
+# anti-Berlin
+
+PURITY short It is not a Roguelike if it is not short death loop.
+Anything with runs significantly longer than Rogue is disqualified.
+(That is a nonsense for traditional roguelikes fans, but many people who do not know traditional roguelikes
+feel that e.g. Diablo hardcore or Noita are not roguelikes, expecting games where you die quickly.)
+
+PURITY meta It is not a Roguelike if runs do not affect each other.
+(The Berlin Interpretation says nothing about meta, but many people think that having or not having meta is somehow important.)
+
+PURITY strictnometa It is not a Roguelike if runs can make later runs easier.
+
+PURITY loosenometa It is not a Roguelike if runs can make later runs significantly easier.
+This still allows very minor metaprogression or unlocking new classes.
+
+PURITY randombuilds It is not a Roguelike if it does not feature builds (influenced by randomness).
+For example, if you find random items which significantly affect the run.
+(The Berlin Interpretation says nothing about builds, but many people add this, to separate from simple arcade games such as Tetris.)
+
+PURITY userbuilds It is not a Roguelike if it does not feature builds (influenced by player's decisions).
+For example, shops (with enough cash to buy only some of the stuff), or a choice of skill to level up.
+It is not enough if you choose whether to risk getting a powerful upgrade or not.
+(Might be a bit controversial in Rogue, but you get a choice of which weapon/armor to enchant, so that is enough.)
+
+# VIOLATE inspire turn decision mdecision forcedeath suggestdeath forcecons grid spatial potion exploration modality single similar dungeon long short meta strictnometa loosenometa randommap randombuilds userbuilds resource rpg rl
+
+GAME Ro:Rogue
+YEAR Rogue (1980)
+OFFICIAL A Guide to the Dungeons of Doom (Rogue manual) <a target="_blank" href="https://roguetemple.com/z/rogue.txt">(link)</a>
+
+What is going on here?
+
+You have just begun a game of rogue.  Your goal  is  to
+grab as much treasure as you can, find the amulet of Yendor,
+and get out of the Dungeons of Doom alive.  On the screen, a
+map  of  where  you  have been and what you have seen on the
+current dungeon level is kept.  As you explore more  of  the
+level, it appears on the screen in front of you.
+
+     Rogue differs from most computer fantasy games in  that
+it  is  screen  oriented.  Commands are all one or two keys-
+trokes and the results of your commands are displayed graph-
+ically on the screen rather than being explained in words.
+
+     Another major difference between rogue and  other  com-
+puter  fantasy  games  is  that once you have solved all the
+puzzles in a standard fantasy game, it has lost most of  its
+excitement and it ceases to be fun.  Rogue on the other hand
+generates a new dungeon every time you play it and even  the
+author finds it an entertaining and exciting game.
+
+PNG rogue-epyx-dos-1984 Epyx Rogue for DOS (1984)
+PNG rogue-atarist-1986 Rogue for Atari ST (1986)
+
+PLAY https://playclassic.games/games/role-playing-dos-games-online/play-rogue-online/ online DOS emulator
+
+
+EXTRA x:How could Rogue be a roguelike? It is Rogue itself!
+VIOLATE meta
+
+INSPIRED Star Trek (1971), Colossal Cave Adventure, D&D
+INTER Rogue-like
+VISUAL Rogue-like (and tiles versions)
+DEATH deletes saves
+META highscore lists
+RPG experience, strength/life, equipment
+RANDOM maps, items, monsters, potions, traps
+THEME high fantasy dungeon
+STRUCTURE linear, no backtrack
+LENGTH 3-4h
+MODEL academic closed-source (later, commercial and open-sourced)
+COMPLEX 26 monsters, 77 items of 6 types
+
+FUNFACT
+Rogue is one of the first games long enough to have a true save feature! (About 3 hours long.)
+However, they did not want people to enter multi-user leaderboards by
+reloading the same save many times, so they deleted the save file when it was loaded.
+It is still a great game today, even if modern roguelikes are better!
+
+CONTRO 
+That should not be controversial, since Rogue is the game
+the genre is called after! Some people argue that you
+cannot be Roguelike if you are in fact Rogue, but in this
+particular case, <i>roguelike</i> is supposed to highlight the
+similarities, not the differences.
+
+GAME NH:NetHack
+YEAR Hack (1982-1984-1985) - NetHack (1987-2023)
+OFFICIAL A Guide to the Mazes of Menace (NetHack manual) <a target="_blank" href="https://roguetemple.com/z/rogue.txt">(link)</a>
+
+2.  What is going on here?
+
+     You have just begun a game of nethack.  Your goal is to grab
+as  much  treasure as you can, find the Amulet of Yendor, and get
+out of the Mazes of Menace alive.  On the screen, a map of  where
+you have been and what you have seen on the current dungeon level
+is kept.  As you explore more of the level,  it  appears  on  the
+screen in front of you.
+
+     Nethack differs from most computer fantasy games (other than
+its  ancestors  hack and rogue and its cousin larn) in that it is
+screen oriented.  Commands are all one or two keystrokes (as  op-
+posed to sentences in some losing parser's notion of English) and
+the results of your commands are  displayed  graphically  on  the
+screen  rather  than  being  explained in words (a minimum screen
+size of 24 lines by  80  columns is required; if  the  screen  is
+larger, only a 24x80 section will be used for the map).
+
+     Another major difference between nethack and other  computer
+fantasy  games  is that once you have solved all the puzzles in a
+standard fantasy game, it has lost most of its excitement and  it
+ceases  to  be  fun.  Nethack, on the other hand, generates a new
+dungeon every time you play it and even the authors still find it
+an entertaining and exciting game.
+
+FUNFACT
+The usual narration of the game journalists and content creators
+is that we had Rogue and NetHack, and then nothing has happened
+for like 20 years, when "modern roguelikes" started being created
+in 2010+. That just shows how biased such sources are. In the
+roguelike communities, these "modern roguelikes" are not considered
+roguelikes, and there are lots of actual modern roguelikes, we
+do not play Rogue and NetHack that much anymore! You should probably
+start with those, even if NetHack
+is still the best at "being NetHack" (unexpected interactions such
+as killing a monster and wielding its body as a powerful weapon
+instead of eating it).
+
+CONTRO
+That should not be controversial, since NetHack is one of the
+most important games that the term <i>roguelike</i> was originally
+created for. However, some people recently define <i>roguelike</i> in a
+way which excludes NetHack, for example, no interaction between
+runs (while in NetHack you can find the inventory of an earlier
+character), permadeath enforced (while NetHack has permadeath-less
+"exploration mode"), or short runs (while NetHack is like 10-20
+hours long).
+
+PNG nethack-ascii NetHack 3.6.7 (ASCII)
+PNG nethack-x11 NetHack 3.6.7 (graphical)
+PNG falconseye NetHack (Falcon's Eye)
+
+PLAY https://alt.org/nethack/ NetHack online server (needs registration)
+
+VIOLATE forcedeath forcecons short strictnometa
+
+INSPIRED Rogue, D&D
+INTER Rogue-like
+VISUAL Rogue-like (and tiles and isometric versions)
+DEATH deletes saves ("exploration mode" option disables that)
+META highscore lists, bone levels
+RPG experience, stats, race/class, equipment, gods, skills, spells, shops
+RANDOM maps, items, monsters, potions, traps
+THEME kitchen-sink fantasy dungeon
+STRUCTURE branched with backtrack
+LENGTH 10h+
+MODEL open source community development
+COMPLEX 384 monsters, 450 items of 16 types, 6 races, 14 classes
+
+GAME AB:Angband
+YEAR Umoria (1983-1994) - Angband (1993-2023)
+
+OFFICIAL The Pits of Angband (the Angband manual)
+
+The game of  Angband is  a single player  dungeon  simulation.  A
+player  may choose from a number of races and classes when creat-
+ing a character, and then `run' that character over a  period  of
+days, weeks, even months, attempting to win the game by defeating
+Morgoth who lurks in the deeper levels.
+
+[...]
+
+If your character falls below 0 hit points, he has died and  can-
+not  be  restored.   A  tombstone  showing information about your
+character will be displayed.  You are also  permitted  to  get  a
+record  of  your  character,  and all your equipment (identified)
+either on the screen or in a file.
+
+PNG angband Angband 4.2.5 (ASCII)
+PNG angband-david-gervais-tiles Angband 4.2.5 (David Gervais's tiles)
+
+FUNFACT
+Angband is a variant of an earlier game called <i>Moria</i>. It has
+lots of variants itself.
+The two main early roguelike branches are usually called <i>hacklikes</i> and
+<i>bandlikes</i> (or just <i>bands</i>).
+
+CONTRO
+This should not be controversial, given than the growing popularity
+of Angband is what has originally sparked "roguelike" becoming an
+<a target="_blank" href="https://blog.slashie.net/on-the-historical-origin-of-the-roguelike-term/">official Usenet category in 1993</a>.
+As in the case of NetHack, some recent definitions would exclude Angband, for similar reasons.
+
+VIOLATE forcedeath short strictnometa
+
+PLAY https://angband.live/ Angband online server (needs registration)
+
+INSPIRED Rogue, D&D
+INTER Rogue-like
+VISUAL Rogue-like (and tiles versions)
+DEATH deletes saves ("cheat death" option disables that)
+META highscore lists, monster memory
+RPG experience, stats, race/class, equipment, gods, skills, spells, shops
+RANDOM maps, items, monsters, potions, traps
+THEME Tolkien fantasy dungeon
+STRUCTURE linear large levels, regenerated on re-entry
+LENGTH 50h+
+MODEL open source community development
+COMPLEX 625 monsters, 376 items, 11 races, 9 classes
+
+GAME KR:Kroz
+YEAR Kroz series (1987-1990)
+
+OFFICIAL from <a target="_blank" href="https://github.com/tangentforks/kroz">here</a>
+After writing to Infocom-inspired text adventure games, Beyond the Titanic and Supernova, I decided it was time to step up my game and make something with graphics.  This was style four-color CGA days, and while 16-color EGA was making headway, the vast majority of PCs didn't have it.  So, I decided to try making a game with ASCII characters, using a lot of the high-end character, many of which worked quite well for games back then.  One of those games was Rogue, released by long-gone Epyx Games (also famous for Jumpman and several games based on the Summer and Winter Olympics).
+
+I had a love/hate relationship with Rogue.  I loved it, yet I hated that it was really quite random, meaning that even the best player in the world could not be assured of finishing the game, because too much luck was involved.  I decided I could out-do Rogue, and that's what Kroz attempts to do.  In the end, Kroz was more arcade-ish in nature, and less RPG-ish.  The key is that a good player can finish Kroz each and every time.  This became an important design rule I've stuck with in the 20+ years since making the first Kroz game.
+
+Anyway, hope people enjoy the game, and maybe get a kick out of the source code.
+
+Scott Miller
+
+Founder, Apogee Software Ltd.
+
+FUNFACT
+This game pioneered the concept of shareware trilogies, with the first game being free. Apogee Software and their competition
+Epic MegaGames (using a similar concept) later became big.
+
+CONTRO
+As seen from the quote above, this game is actually inspired by Rogue. Wikipedia calls it a "roguelike" game.
+Just like Rogue, it uses text-mode grid.
+However, neither the mainstream nor the roguelike communities would call it a roguelike today.
+The monsters move if you wait, making it feel more like an action game.
+It is not randomized (Scott Miller hated the randomness in Rogue), and the instructions recommend saving at every level.
+
+PNG kroz Kingdom of Kroz
+
+VIOLATE turn decision mdecision forcedeath suggestdeath forcecons potion similar meta randombuilds userbuilds rl rpg source free randommap exploration
+@here
+INSPIRED Rogue
+INTER action Rogue-like
+VISUAL Rogue-like (but a bit different characters)
+DEATH you can save
+META basic highscore lists
+RPG items
+RANDOM some maps
+THEME fantasy dungeon
+STRUCTURE linear
+LENGTH 1h?
+MODEL shareware, later opensourced
+
+PLAY https://www.myabandonware.com/game/kingdom-of-kroz-1t7/play-1t7 online emulator
+
+GAME MS:Minesweeper
+YEAR Microsoft Minesweeper (1990) and many clones
+
+FUNFACT
+Minesweeper is included with Microsoft Windows and many other operating systems, so probably needs no introduction.
+We give the date of the famous Microsoft version, although the concept is older (Mined-Out 1983).
+
+CONTRO
+Minesweeper is a good test of your roguelike definitions.
+Its game design features random generation and permadeath, with both being essential.
+It is also grid-based, uses simple number graphics, and lets you think as long as you want.
+However, its gameplay is definitely nothing like Rogue.
+
+# EXTRA x:The main reason why Minesweeper is not a roguelike is that there are no random builds
+
+PLAY https://minesweeper.online/ Minesweeper online
+
+PNG minesweeper-terminal a terminal version of Minesweeper
+VIOLATE inspire potion similar dungeon long meta randombuilds userbuilds rl resource rpg single
+
+INTER puzzle
+VISUAL Rogue-like
+DEATH arcade
+META none
+RPG none
+RANDOM maps
+THEME military
+STRUCTURE one level
+LENGTH 30min
+MODEL easy to make
+COMPLEX none
+
+GAME UW:UnReal World
+YEAR UnReal World (1992-2023)
+OFFICIAL UnReal World on Steam
+UnReal World is a unique combination of roguelike roleplaying game and survival simulation set in the Far North long, long ago. Throughout the years, UnReal World has been praised for its depth, realism, atmosphere and immersion. The game is completely open-ended and you decide whether you wish to lead a life of a fisherman, a hermit searching for the peace, a brave adventurer, a rough hunter, a trapper or a tradesman.
+
+As a member of one of the nine different cultures you'll enter a detailed and enchanting iron-age game world in which northern folklore, knowledge and way of life play an important part. The world and mechanics of the game are highly realistic, rich with historical atmosphere and emphasized on survival in the harsh ancient wilderness.
+
+A wide world with vast forests, mires and mountains to roam and watercourses to row is randomly and procedurally generated - and you can live off the land and explore it on very detailed level. Track animals, set traps, hunt with bows and spears, tan hides, go fishing, pick berries, cook food, sleep in a temporary shelter or build a log cottage, trade with the villagers, craft items, interact with cultures near and far -- and so much more. 
+
+FUNFACT
+The first game in the <i>survival roguelike</i> subgenre. 
+UnReal world is not only the first of these, but also one of the earliest survival games ever, with crafting etc.
+
+CONTRO
+Survival roguelikes are quite different from typical ones focusing more on tactics, for example, they are endless. Also more wilderness than dungeons.
+Probably for this reason, UnReal world seems to be discussed less often than other classic games in this quiz, but still, its roguelikeness should not be controversial.
+
+PNG urw UnReal World
+
+VIOLATE potion dungeon short meta
+
+DOWNLOAD http://unrealworld.fi/urw_downloads.html free download or buy
+
+INSPIRED early roguelikes
+INTER Rogue-like
+VISUAL tiles (originally Rogue-like)
+DEATH deletes saves
+META none?
+RPG stats, equipment, skills, gods, shops, crafting
+RANDOM maps, items, monsters
+THEME Iron Age survival
+STRUCTURE open-world
+LENGTH endless
+MODEL shareware
+COMPLEX 150 items, 30 skills
+
+GAME TT:Tetris
+YEAR Tetris (1985 and newer versions)
+
+PNG tetris A Tetris clone, using the Curses library.<br/> (An ASCII library, originally created for Rogue.)
+
+PRE 
+In 1993, on USENET, a suggestion on creating a hierarchy for "rogue type" games appeared.
+There were some discussions on how this hierarchy should be named, and the name "roguelike"
+was chosen. To celebrate this, we ask about a game that has been declared as a "not roguelike"
+in these discussions. Some people thought that the element which made these games similar
+was that they were played using ASCII characters, or that they were played on a computer.
+
+QUOTE USENET Discussions, July 1993
+
+<hr/>
+
+: I think a better name would be rec.games.tty.
+
+Sigh, this was discussed about a week ago. Sigh.
+
+: there are non-rogue style games that also
+: use this interface
+
+precisely. What's to prevent me from thinking that this hiearchy is
+for discussing ascii tetris? (Eiji Hirai, 14 Jul 1993)
+
+<hr/>
+
+This has nothing to do with discussion of a `roguelike' hierarchy.
+Tetris and Space Invaders hardly qualifies as roguelike. (Per Abrahamsen, 16 Jul 1993)
+
+<hr/>
+
+Axl> rec = recreation
+Axl> games = games ;)
+Axl> comp = computer.
+
+Axl> Seems very straightforward, and non-misleading. Anyone with
+Axl> an IQ over 19 will see this and say "Oh wow...I bet they talk about
+Axl> computer games on here. Maybe that moria game I heard of will be in
+Axl> this grouping somewhere..."
+
+Anyone with IQ over over 19 would also think Tetris belong to that
+hierarchy. But Tetris is not a rogue like game and does not belong in
+a hierarchy for rogue like games, thus the group name is misleading. (Per Abrahamsen, 19 Jul 1993)
+
+PLAY https://tetris.com/play-tetris Tetris online
+
+CONTRO
+Recently, some people think that any game with randomness and permadeath is a roguelike. So, what about Tetris?
+
+VIOLATE inspire turn decision mdecision potion single similar dungeon long meta randombuilds userbuilds rl resource rpg free exploration
+
+INSPIRED pentomino, tennis
+INTER action block puzzle
+VISUAL simple tiles
+DEATH arcade
+META basic highscore
+RPG none
+RANDOM bricks you get, which create a map
+THEME abstract
+STRUCTURE one level (gets harder and harder)
+LENGTH 30min
+MODEL commercial
+COMPLEX 7 bricks
+
+GAME CW:Castle of the Winds
+YEAR Castle of the Winds (1993)
+
+OFFICIAL For Shareware Vendors
+
+   Epic MegaGames brings you Castle of the Winds, a fantasy role playing game
+created by Rick Saada.  Your quest begins with A Question of Vengeance, as you
+try to discover the secret of your mysterious past, and why is has proven so
+deadly to those you love.  It then continues with Lifthransir's Bane, as you
+attempt to vanquish the dark forces of evil which plague the land and are
+after your life!
+
+   Set in the world of Norse mythology, this game has plenty of surprises.
+Nearly a hundred unique monsters oppose your quest, and there are hundreds
+of enchanted objects to aid you.  Castle of the Winds presents a new style of
+adventure game. While the anchor points of the story remain the same, most of
+the adventure is created anew every time you play, so the game can be enjoyed 
+again and again.
+
+FUNFACT When people come to the roguelike communities to ask what a roguelike they had played as a kid
+was, it was usually Castle of the Winds.
+
+PNG cotw Castle of the Winds
+
+CONTRO
+Castle of the Winds is a roguelike, typically included in early lists of popular roguelikes.
+
+However, some modern roguelike fans find this surprising, since they
+consider "permadeath" a defining property of roguelikes, and in Castle of the
+Winds, you can save and reload at any time. However, permadeath was not even
+typically included in 
+<a target="_blank" href="http://web.archive.org/web/20051221170749/http://www.hut.fi/~eye/roguelike/index.html">roguelike definitions</a>
+until about 2003, and <a target="_blank" href="https://en.wikipedia.org/w/index.php?title=Roguelike&oldid=1510481">even then,</a>
+they mentioned it more as a roguelike honor code. Permadeath defines the
+hardcore roguelike fan, not the game, and any hardcore roguelike fan sees that
+reloading it is not the correct way to play Castle of the Winds! Even if the
+only thing in CotW that makes it clear what the indended way to play is is
+the highscore list.
+
+Castle of the Winds is also more mouse-based than typical roguelikes, but
+you can still do most things using the keyboard.
+
+PLAY https://archive.org/details/win3_CasWin1 online emulator
+
+VIOLATE forcedeath suggestdeath short meta source free ascii
+
+INSPIRED early roguelikes
+INTER Rogue-like
+VISUAL tiles
+DEATH self-imposed
+META highscore lists
+RPG experience, stats, equipment, spells, shops
+RANDOM maps, items, monsters, potions
+THEME Norse fantasy dungeon
+STRUCTURE linear with backtrack
+LENGTH 10h+
+MODEL shareware
+
+GAME AD:ADOM
+YEAR Ancient Domains of Mystery (1994-2019)
+
+OFFICIAL ADOM manual, version 1.1.1
+
+Ancient Domains of Mystery (ADOM for short) is a rogue-like game
+which means that it is a single-user game featuring the exploration of
+a dungeon complex.  You control a fictional character described by
+race, class, attributes, skills, and equipment.  This fictional
+character is trying to achieve a specific goal (see below) and succeed
+in a difficult quest.  To fulfill the quest, you have to explore
+previously undiscovered tunnels and dungeons, fight hideous monsters,
+uncover long forgotten secrets, and find treasures of all kind.
+
+During the game, you explore dungeon levels which are randomly
+generated each game.  You might also encounter certain special levels,
+which present a particular challenge or are built around a certain
+theme.
+
+FUNFACT
+While the manual mentions "exploration of a dungeon complex",
+the game actually features a (fixed) overworld with multiple dungeons
+and quests. (An earlier version was called Ancient Dungeon of Mystery.)
+It was not the first roguelike like this, earlier ones are Omega (todo) and
+Alphaman (todo), but the most influential one.
+
+PLAY https://www.adom.de/home/downloads.html free download / store links
+
+PNG adom-ascii ADOM 3.3.3 (ASCII)
+PNG adom-tiles ADOM 3.3.3 (tiles)
+
+VIOLATE forcedeath forcecons dungeon short
+
+INSPIRED NetHack, Bard's Tale
+INTER Rogue-like
+VISUAL Rogue-like (tiles and other options in newer versions)
+DEATH deletes saves ("story mode" option disables that)
+META highscore lists, log files, meet ghosts
+RPG experience, stats, race/class, equipment, gods, skills, spells, quests, basic storyline, talents, shops
+RANDOM maps (except overworld and some fixed locations), items, monsters, potions, traps
+THEME high fantasy dungeon
+STRUCTURE overworld, branched with backtrack
+LENGTH 20h+
+MODEL postcardware/commercial
+COMPLEX 480 monsters, 896 items (with 63 prefixes and 43 suffixes), 100 talents
+
+GAME XC:XCOM
+YEAR X-COM: Ufo Defense aka UFO: Enemy Unknown (1994), with many sequels
+
+OFFICIAL X-COM Ufo Defense manual
+X-COM UFO Defense puts you in command of X-COM, with the
+finest Earth technology at your disposal to defend the Earth
+from alien invasion. Shooting down UFOs is just the beginning. You
+will then control a squad of heavily-armed soldiers, edging cautiously
+through the local terrain, battling aliens and recovering UFO
+technology.
+
+When you command a ground assault, you will use the 3-D isometric
+‘Battlescape’ display. This shows terrain, buildings, X-COM craft and
+UFOs, but will only display what your soldiers can see - so beware of
+danger lurking around corners or down dark corridors!
+
+CONTRO
+This famous series of games is not generally called roguelikes, although it shares many
+similar qualities: turn-based, grid-based, low RPG elements, procedurally generated maps,
+and played permadeath by serious players.
+
+The core difference is that XCOM is squad-based, while in Rogue, you control a
+single character (which is apparently why the game was called Rogue). As a result,
+roguelikes can be played much faster (it is enough to press a key to move and have
+the enemies move in response).
+
+The Civilization series is another famous series with similar similarities and
+differences from roguelikes. Traditional roguelike fans point out the
+issues of some mainstream interpretations by mentioning that they should include these series.
+
+PLAY https://playclassic.games/games/turn-based-strategy-dos-games-online/play-x-com-ufo-defense-online/ online emulator
+
+VIOLATE inspire forcedeath suggestdeath forcecons potion dungeon short meta randombuilds rl source free ascii
+
+INSPIRED Rebelstar, Laser Squad
+PNG xcom UFO: Enemy Unknown (1994)
+INTER turn-based tactics
+VISUAL isometric
+DEATH self-imposed
+META none
+RPG promotion, stats, equipment, shops
+RANDOM maps, items, monsters
+THEME military vs UFO
+STRUCTURE separate missions
+LENGTH 10h+
+MODEL commercial
+COMPLEX 11 monsters, 30 items
+
+GAME DC:DCSS
+YEAR Linley's Dungeon Crawl (1995) - Dungeon Crawl Stone Soup (2008-2024)
+
+OFFICIAL Crawl Quick-Start Guide, Crawl manual version 400b26
+
+Crawl is a large and very random game of subterranean exploration in a fantasy 
+world of magic and frequent violence. Your quest is to travel into the depths 
+of the Dungeon (which is different each time you play) and retrieve the Orb of 
+Zot. 
+
+Crawl is an RPG of the 'rogue-like' type, one of the descendants of Rogue. Its 
+graphics are simple but highly informative, designed to be understood at a 
+glance, and control is exercised largely through one-keystroke commands. 
+
+FUNFACT
+Dungeon Crawl Stone Soup is a fork of Linley's Dungeon Crawl. It is still
+very actively developed, one of the central games played in the roguelike
+community, and an usual suggestion for an introduction to roguelikes.
+
+PNG crawl-tiles Dungeon Crawl Stone Soup, tiles version 
+PNG dcss-ascii Dungeon Crawl Stone Soup, ASCII version 
+
+PLAY https://crawl.develz.org/ free downloads and the online server
+
+VIOLATE forcedeath forcecons short
+
+INSPIRED NetHack
+INTER Rogue-like
+VISUAL Rogue-like (tiles in newer versions)
+DEATH deletes saves (an option disables that)
+META highscore lists, log files, meet ghosts
+RPG experience, stats, race/class, equipment, gods, skills, spells, shops
+RANDOM maps, items, monsters, potions, traps
+THEME high fantasy dungeon
+STRUCTURE branched with backtrack
+LENGTH 10h
+MODEL open source community development
+COMPLEX about 550 monsters, 350 items, 100 spells, 27 gods, 35 branches, 27 races, 25 classes
+
+GAME OD:DROD
+YEAR Deadly Rooms of Death (1996-2022)
+
+OFFICIAL DROD: Gunthro and the Epic Blunder on Steam
+
+"Deadly Rooms of Death" (DROD) is a turn-based strategy and tactics puzzle game series. It is a 2D top-down puzzle adventure that focuses on pure gameplay mechanics. The DROD series began over a decade ago and has enthralled thousands of players.
+
+Swordplay and puzzles combine in this thinking man's dungeon crawl. It's simple to learn, with just a handful of commands to master. This game's rogue-like exterior belies clever puzzle design and unique play mechanics that provide amazing depth. Each room is a hand-crafted puzzle that you solve by clearing out all the monsters with your Really Big Sword without letting any reach and kill you. Monster types each have their own AI, with deterministic movement patterns. Puzzle elements and terrain types help and hinder you in solving each puzzle. You start by learning basic mechanics and fighting techniques, and then the difficulty steadily ramps up as each room you face presents a fresh challenge with a logical solution. This game features a novel play style, with story- and puzzle-driven voiced dialogue delivered inline with hardcore puzzle solving that involves a mix of strategy, tactics, lateral thinking and linchpins. As developers, our goal is to present you with a novel experience where game mechanics are paramount. DROD will give you that "just one more room" feeling.
+
+This game is the entry-point title in the ongoing DROD franchise. "Gunthro" is designed as an beginner-level offering to the DROD world, with both new players and veterans in mind. The level layout is has multiple hub areas to explore as you progress. The game starts easy, has a smooth learning curve and an integrated online hints system. You should be pleased by the puzzle designs that went into this game, making for a delightful blend of fun and challenge. A level editor and enthusiastic player community make this a game you can relish for years.
+
+CONTRO
+DROD is not usually seen as a roguelike, but rather, a thinky puzzle game. As usual in thinky puzzle games, the levels are manually designed,
+and you get full information. And since you get full information, undoing your moves is considered the intended way to play, rather than cheating. 
+However, there are some aspects that make it similar to roguelikes, especially the later "puzzle roguelike" subgenres.
+It is about combat; you press a key to move to the next tile, and then the enemies move.
+Rooms are quite large, like Rogue levels, while
+typical puzzle games tend to have small levels. It has a basic storyline, while (pre-Braid) puzzles tended to be purely abstract.
+If you want to see how a "puzzle roguelike" would work with manually designed challenges, DROD is a great game to try.
+(The author of DROD calls this genre <a target="_blank" href="http://forum.caravelgames.com/viewtopic.php?TopicID=9513">stepping games</a>.)
+
+PLAY https://caravelgames.com/Articles/Games.html free download or buy
+
+VIOLATE inspire forcedeath suggestdeath forcecons short meta randommap randombuilds userbuilds resource free ascii rpg potion
+
+INSPIRED stepping puzzle games?
+INTER Rogue-like
+VISUAL tiles
+DEATH checkpoints, undo
+META none
+RPG basic questline
+RANDOM nothing
+THEME high fantasy dungeon crawl
+STRUCTURE overworld, branched with backtrack
+LENGTH long
+MODEL free/commercial (open-source engine)
+COMPLEX about 30 monsters
+
+PNG drod Deadly Rooms of Death, King Dugan's Dungeon
+
+GAME D1:Diablo
+YEAR Diablo (1997)
+
+FUNFACT
+Diablo was <a target="_blank" href="https://www.graybeardgames.com/download/diablo_pitch.pdf">originally</a>
+supposed to be a roguelike, except with high
+production values. In particular, it was supposed to be turn-based,
+and feature permadeath, but they thought that a permadeath game would
+not sell. It is still very similar to Angband (but not as long...).
+Diablo has many sequels (Diablo IV released in 2023), but they diverge from the original Diablo and its roguelike roots.
+
+CONTRO
+Many people in the roguelike community considered it a roguelike, although much less complex due to its focus on action. 
+todo
+
+PNG diablo Diablo
+
+VIOLATE turn decision forcedeath suggestdeath forcecons potion short meta rl source free ascii
+
+INSPIRED Angband, NetHack, Warcraft
+INTER Rogue/RTS hybrid
+VISUAL isometric
+DEATH self-imposed
+META none
+RPG experience, stats, class, equipment, spells, shops
+RANDOM maps, items, monsters, quests
+THEME horror dungeon
+STRUCTURE linear with backtrack
+LENGTH 5h
+MODEL commercial
+COMPLEX about 20 monsters, 70 items with 200 affixes, 50 spells
+
+GAME PM:Pokémon Mystery Dungeon
+YEAR Pokémon Mystery Dungeon (2005-2020)
+
+CONTRO
+There are some commercial roguelikes on consoles, usually called "mystery dungeon" (which could be understood as a Japanese term for "roguelike").
+Pokémon Mystery Dungeon seems to be the most popular series, there are also older mystery dungeon games (like <i>Shiren the Wanderer</i>, 1995).
+The gameplay is rogue-like (one less usual feature is the extra characters in your team, but they are controlled by AI). Some people think
+they should not be called roguelikes because of their looser approach to death: when you die in a dungeon, you just awake before the dungeon.
+However, such looser approach is typical to commercial roguelikes (otherwise they would not sell), and dying has consequences (a loss of gold and
+items).
+
+PNG pokemon-md Pokémon Mystery Dungeon: Blue Rescue Team (2005)
+
+VIOLATE forcedeath suggestdeath potion short meta source free ascii
+
+INSPIRED early roguelikes (?)
+INTER Rogue-like
+VISUAL tiles
+DEATH checkpoints, with loss of gold and items
+META none
+RPG experience, stats, equipment, skills, quests, shops
+RANDOM items, monsters, maps
+THEME pokémon dungeons
+STRUCTURE each dungeon is linear with no backtrack
+LENGTH 20h?
+MODEL commercial
+
+GAME Le:Legerdemain
+YEAR Legerdemain 2005-2022
+
+OFFICIAL Legerdemain on itch.io <a target="_blank" href="https://nathanjerpe.itch.io/legerdemain">link</a>
+A surreal fantasy RPG inspired by roguelike games and interactive fiction. Become a magician in the world of Phenomedom! Escape from prison! Learn rituals! Collect paragraphs! Converse with conjoined twins! Do battle with wild and original enemies, including pookahs, imp-imps, and boogadah dream porridge. Altogether there are dozens of areas to explore, hundreds of  original monsters to slay, and nearly two hundred citizens brimming with  lies and idle gossip.
+
+There are also some puzzles, and a fair number of shrewd (lewd?) jokes. Mild  psychotic interludes and hallucinatory episodes are also featured. 
+
+PNG legerdemain-tiles Legerdemain (tiles)
+PNG legerdemain-ascii Legerdemain (ASCII)
+
+CONTRO
+Legerdemain takes lots of inspiration from roguelikes such as Angband, and is quite well-known in the community.
+The gameplay is challenging, and quite typical for a roguelike. However, Legerdemain puts much focus on the story. It is checkpoint-based. You can save your game
+in an inn, and then, instead of dying, you "wake up from a nightmare". Inns are rare, so dying is still quite costly. The maps are not randomized,
+so you are exploring the same maps again after dying. However, most items and monsters are placed randomly. 
+
+VIOLATE forcedeath suggestdeath potion dungeon short meta randommap randombuilds source
+PLAY https://nathanjerpe.itch.io/legerdemain free download or buy
+
+INSPIRED Angband, interactive fiction
+INTER Rogue-like
+VISUAL Rogue-like (or simple tiles)
+DEATH checkpoints
+META none
+RPG experience, stats, equipment, skills, spells, quests, heavy storyline, shops
+RANDOM items, monsters, traps
+THEME high fantasy land
+STRUCTURE a graph of levels, regenerated on re-entry
+LENGTH 20h+
+MODEL freeware, but cluebooks and source code are paid
+COMPLEX 250 monsters, 270 items
+
+GAME DF:Dwarf Fortress
+YEAR Dwarf Fortress (2006-2023)
+
+OFFICIAL Dwarf Fortress website <a target="_blank" href="http://www.bay12games.com/dwarves/features.html">link</a>
+Dwarf Fortress is a single-player fantasy game. You can control a dwarven outpost or an adventurer in a randomly generated, persistent world.
+
+Although Dwarf Fortress is still in a work in progress, many features have already been implemented.
+
+* The world is randomly generated with distinct civilizations spanning centuries of detailed history, hundreds of towns, caves and regions with various wildlife.
+
+* The world persists as long as you like, over many games, recording historical events and tracking changes.
+
+* Command your dwarves as they search for wealth in the mountain. 
+
+* Play an adventurer and explore, quest for glory or seek vengeance. 
+
+PNG dwarf-fortress Dwarf Fortress (adventure mode, old version)
+PNG df-fortress Dwarf Fortress (fortress mode, commercial version)
+
+PLAY http://www.bay12games.com/dwarves/ free download / buy
+
+CONTRO
+Dwarf Fortress has two modes, the fortress mode (which is an influential colony-sim) and the adventurer
+mode (which is a survival roguelike). Both modes are extremely complex, randomly
+generated, feature permanent death, and displayed traditionally in ASCII.
+Definitely an important element of the roguelike culture.
+
+VIOLATE turn single short meta source rl
+VIOLATEX x short meta source
+
+EXTRA x:The adventurer mode of Dwarf Fortress is a roguelike, the fortress mode is not
+
+INSPIRED Hack, Starflight, Ultima
+INTER Rogue-like (colony sim in Fortress mode)
+VISUAL Rogue-like (graphics in newer versions)
+DEATH deletes save
+META same world
+RPG experience, stats, class, equipment, quests, crafting
+RANDOM maps, items, monsters
+THEME high fantasy
+STRUCTURE open world
+LENGTH endless
+MODEL freeware (recently commercial)
+COMPLEX extreme
+
+GAME ES:Eschalon
+YEAR Eschalon series (2007 - 2010 - 2014)
+
+OFFICIAL Eschalon on Steam <a target="_blank" href="https://store.steampowered.com/app/25600/Eschalon_Book_I/">link</a>
+Eschalon: Book I is an old-school role-playing game that will take you across massive outdoor environments and deep into dozens of sprawling dungeons as you seek to uncover the mystery of who you are. It features a tile-built, turn-based game world where the result of absolutely every action is rolled, calculated or statistically determined. Hundreds of items and dozens of creatures await your discovery in this classically inspired RPG.
+
+<ul>
+<li>
+    A tile-built, turn-based game world where the result of absolutely every action is rolled, calculated or statistically determined. Strategy is paramount to success; careful skill management, equipment selection and magic usage will win your fights, not rapid button clicking. We are very pleased to say this is not another "action RPG".
+<li>
+    Hundreds of items and dozens of creatures await your discovery. A combination of randomly generated treasure and carefully hidden goodies means that no two games will play the exact same way.
+<li>
+    Unlimited character development style: Choose from 24 unique skills to make the character you want and 8 base attributes that affect your character's every action throughout the game. The game world does not scale or adjust itself to match anyone's play style, so the ease or difficulty of the game is directly related to how successful you are at developing your character.
+<li>
+    Combat plays out at your pace. Eschalon: Book I features a turn-based system that allows you to roll through combat as fast or slow you want...make it fast and furious, or analyze every option for maximum advantage.
+<li>
+    A non-linear storyline means that the game world is open to explore as you desire. Follow the storyline or don't...it's up to you. Just be careful where you go and who you choose to trust- the world of Eschalon can be a deadly place for an inexperienced adventurer.
+<li>
+    An epic adventure that you must face alone...a single-player RPG carefully designed to feel like the great old school RPGs of the past such as Ultima®, Might & Magic®, and Wizardry® 
+</ul>
+
+PNG eschalon Eschalon: Book I
+
+VIOLATE forcedeath suggestdeath forcecons dungeon short meta randommap source free ascii
+
+CONTRO
+This RPG is not discussed much in the roguelike communities. However, it has <a target="_blank" href="https://gamefaqs.gamespot.com/boards/916373-pc/63525918">typical roguelike combat</a>
+-- single character, single action per turn, grid-based -- although the maps are fixed and the focus is on storyline.
+
+PLAY https://store.steampowered.com/app/25600/Eschalon_Book_I/ free download (Steam)
+
+INTER Rogue-like
+VISUAL isometric
+DEATH you can save
+META none?
+RPG experience, stats, skills, class, equipment, heavy storyline...
+RANDOM items
+THEME high fantasy
+STRUCTURE RPG-like
+LENGTH 20h+
+MODEL commercial (the first part is free since 2017)
+COMPLEX about 20 monsters, 27 item classes
+
+GAME BA:Beneath Apple Manor
+YEAR Beneath Apple Manor (1978-1982)
+
+PRE
+This game is from 1978, but we list it as 2008, because 2008 is when it 
+was <a target="_blank" href="https://blog.roguetemple.com/2008/01/29/bam/">discovered</a> by the roguelike community. 
+Indeed, Beneath Apple Manor is very similar to Rogue, and developed independently from it!
+
+OFFICIAL advertisement
+BENEATH APPLE MANOR - Explore an underground labyrinth, fighting monsters and finding magical treasures. Uses color graphics for floor plans. 16K APPLE $15 CASSETTE $20 DISKETTE
+
+OFFICIAL Manual from the 1978 version <a target="_blank" href="https://www.macintoshrepository.org/60512-beneath-apple-manor">link</a>
+Beneath Apple Manor (BAM) is a solitaire role playing simulation game,
+loosely based upon several popular fantasy games such as Dungeons and Dragons,
+Tunnels and Trolls, etc. BAM allows you to play the role of an adventurer,
+exploring an underground maze of corridors, rooms, secret passage, and the like,
+killing dangerous monsters and finding rich and powerful treasures. The
+dungeon complex consists of many floors and levels, each more dangerous
+than the last, but as you gain experience from vanquishing Green Slimes,
+Ghosts, and other fearsome critters, your capabilities will rise to meet
+each new challenge. Finally, in a dragon horde many levels below Apple
+manor you may even find the ultimate object of your quest, the fabled
+golden apple.
+
+Don't be misled. BAM is not another WUMPUS look-a-like. The dungeon
+construction is two-dimensional and graphically represented. The monsters
+are different, each having unique capabilities and movement. Unlike most
+micro-based games, the thrill of exploration and discovery as well as the
+satisfaction of advancement will keep you playing for hours at a time.
+Although BAM is easier to learn to play than STARTREK, the strategies
+developed by an experience player are many and complex.
+
+VIOLATE inspire forcedeath suggestdeath potion meta free
+
+PNG bamshot Beneath Apple Manor for Apple II (1978)
+
+PLAY https://www.myabandonware.com/game/beneath-apple-manor-256/play-256 online DOS emulator
+
+CONTRO
+Well, for one, Beneath Apple Manor is not inspired by Rogue.
+
+Some people say that BAM is not a roguelike because it has no permadeath -- you can perform
+"brain scan" which resurrects your character after they die. However, this is
+expensive, and you still get a substantial stats penalty, so it is more like an "Amulet of Life Saving" from NetHack.
+
+# EXTRA Beneath Apple Manor is not a Roguelike, Rogue is a BAM-like
+
+INSPIRED Star Trek (1971), Hunt the Wumpus
+INTER Rogue-like
+VISUAL Rogue-like (or colored squares, or simple graphics)
+DEATH costs stats
+META none
+RPG stats, items, shops
+RANDOM maps, items, monsters
+THEME high fantasy dungeon
+STRUCTURE linear, no backtrack
+LENGTH 5h?
+MODEL commercial
+COMPLEX 7 monsters, about 10 items
+
+GAME DO:Dominion
+YEAR Dominion (2008-2023)
+
+OFFICIAL Dominion rule book
+
+ou are a monarch, like your parents before you, a ruler of a small pleasant kingdom of
+rivers and evergreens. Unlike your parents, however, you have hopes and dreams! You
+want a bigger and more pleasant kingdom, with more rivers and a wider variety of
+trees. You want a Dominion! In all directions lie fiefs, freeholds, and feodums. All are
+small bits of land, controlled by petty lords and verging on anarchy. You will bring
+civilization to these people, uniting them under your banner.
+
+But wait! It must be something in the air; several other monarchs have had the exact
+same idea. You must race to get as much of the unclaimed land as possible, fending
+them off along the way. To do this you will hire minions, construct buildings, spruce
+up your castle, and fill your treasury. Your parents wouldn't be proud, but your
+grandparents, on your mother’s side, would be delighted
+
+This is a game of building a deck of cards. The deck is your Dominion. It contains your resources,
+victory points, and the things you can do. It starts out a small sad collection of Estates and Coppers,
+but you hope by the end of the game it will be brimming with Gold, Provinces, and the inhabitants
+and structures of your castle and kingdom.
+
+FUNFACT
+Dominion has started the <i>deckbuilder</i> genre. It inspired by trading card games such as
+<i>Magic: the Gathering</i>, however, while in a TCG/deck construction game, you "own" (or draft) cards
+and construct your deck out of them before the game, in a deckbuilder, managing your deck is part of the game itself (e.g., by buying or upgrading cards using in-game mechanisms).
+Dominion is originally a physical card game, but can be also played online for free.
+
+CONTRO
+<i>Dominion</i> is not generally called a roguelike, although it feels a bit like a roguelike 
+in some aspects.
+It is probably one of the best choices if you want to play a game that is different every time
+(in each game of Dominion, a set of 10 cards is selected to be used in the given run, and much
+of the strategy depends on these 10 cards). Your choices are permanent (at least that is how
+most physical strategy games are typically played).
+It is a multi-player game, but the interaction 
+between them is relatively low -- often, the winner is the one who can apply the synergies
+between the cards better. It is very complex, with new expansions being
+released. It feels <a>non-modal</a> due to getting new cards and using them being strongly
+interleaved. Some implementations of Dominion can be played for free.
+
+PNG dominion Dominion online
+
+VIOLATE inspire grid spatial potion exploration single dungeon long meta randommap rl rpg
+
+INSPIRED Magic: the Gathering
+INTER cards
+VISUAL cards
+DEATH consequences are permanent unless your opponent agrees to undo
+META none
+RPG deckbuilding, building a kingdom
+RANDOM selection of cards
+THEME fantasy kingdom
+STRUCTURE Spire-like
+LENGTH 30min
+MODEL physical cards / semi-commercial digital
+COMPLEX 786 cards
+
+PLAY https://dominion.games/ Online implementation of Dominion (needs registration; free against bots, when using basic cards, or if your opponent has a subscription)
+
+GAME DR:DRL
+YEAR DoomRL (2008) DRL (2016-2024)
+
+OFFICIAL DoomRL manual
+
+DoomRL (abbr. for Doom, the Roguelike) is, as the name implies, a
+roguelike game. If you don't know what a roguelike is... hell, then visit
+http://www.adom.de.
+
+DoomRL is based on the world from id Software's(tm) game Doom(tm). You're
+the sole surviving marine from a squad sent to investigate a distress call
+from the moonbase of Phobos.  It turns out that all hell has broken loose
+on the plant... literally.
+
+Your quest in DoomRL is to descend into the moonbase complex, find the
+source of this evil outbreak, and destroy it at all costs.
+
+Unlike many other roguelikes, DoomRL is intended to be simple and easy to
+get into. To that end, there is a limited inventory, maps of the size of
+one screen, and one item per tile.  The number of keys you need to 
+remember is also quite small compared to many other games.
+
+FUNFACT
+You might have noticed a surprising lack of games in this quiz from 1995 (DCSS) to
+2005 (not counting Diablo). Why such a long break? Before 2008, most roguelike developers were making more and more
+complex games, like NetHack and ADOM but even more complex, and never
+produced anything. DoomRL (later renamed to DRL due to trademark violation [todo check]) taught us that it is
+possible to also make a great coffeebreak roguelike.
+
+DoomRL is a great introduction to the literal meaning of "roguelike" -- what
+needs to be change in Doom to make it a roguelike.
+
+# EXTRA No, it is too simple.
+VIOLATE potion long randombuilds source
+
+PNG doomrl-ascii DoomRL (ASCII mode)
+PNG doomrl-gfx DoomRL (graphical mode)
+
+PLAY https://drl.chaosforge.org/downloads free download
+
+INSPIRED DOOM, ADOM (?)
+INTER Rogue-like
+VISUAL Rogue-like (tiles in newer versions)
+DEATH deletes saves
+META unlock new modes
+RPG experience, talents, equipment
+RANDOM maps, items, monsters
+THEME DOOM-like dungeon (military vs demons)
+STRUCTURE linear, no backtrack
+LENGTH coffebreak
+MODEL freeware (later open sourced)
+COMPLEX 15 monsters + 10 elite + 10 bosses, 70 weapons, 30 items/power-ups
+
+GAME Sp:Spelunky
+YEAR Spelunky Classic (2009) - Spelunky HD (2013) - Spelunky II (2020)
+OFFICIAL Spelunky website https://spelunkyworld.com/original.html
+"Legends speak of a Colossal Cave that extends deep underground, so twisted by time that its passages shift like the sand under which it lies... the Cave is said to be filled with fabulous treasures, but also incredible danger!"
+
+Spelunky is a cave exploration / treasure-hunting game inspired by classic platform games and roguelikes, where the goal is to grab as much treasure from the cave as possible. Every time you play the cave's layout will be different. Use your wits, your reflexes, and the items available to you to survive and go ever deeper! Perhaps at the end you may find what you're looking for...
+
+Don't be afraid to die! But also don't be afraid to live! Happy Spelunky-ing!
+
+FUNFACT
+In the time when Spelunky were released, basically all platformers (such as <i>La Mulana</i> which has inspired Spelunky, or metroidvanias in general) had manually designed levels.
+Derek Yu, a famous indie game developer, has taken inspiration from roguelikes to make it more interesting: randomized level layouts, somewhat NetHack-like shops and altars, a return
+to the <i>arcade</i> roots of platformers by reintroducing permadeath. 
+This approach has proven to be very innovative: not only platformers, but many other genres (with gameplay very different from roguelikes) could also be improved by a similar randomization;
+Spelunky was soon followed by a large number of randomized games from various genres, and this randomization started being referred to as "roguelike elements".
+It also has been followed by more specifically ``spelunky-like'' platformers, such as <i>Caveblazers</i>, <i>Vagante</i> and <i>Noita</i>,
+which took more roguelike elements than Spelunky (such as randomized potions in Caveblazers and Vagante).
+
+PNG spelunky-hd Spelunky HD
+
+PLAY https://tinysubversions.com/game/spelunky/ free browser version of the original Spelunky
+PLAY https://store.steampowered.com/app/239350/Spelunky/ buy Spelunky HD on Steam
+
+CONTRO
+Spelunky (and later The Binding of Isaac) has started a big subdivision in how people understand "roguelike".
+
+While previously people had differing opinions on whether, for example, Diablo counts as a roguelike or not, it did not matter -- Diablo players did not call it a roguelike,
+roguelike communities did not discuss Diablo.
+
+However, in case of Spelunky, the game referred to roguelikes as its inspiration, which, for many people, was the first time they had heard about roguelikes.
+Roguelike fans, who generally thought that roguelikes were much better than anything else, were happy when Spelunky was released, and hoped that people would check what these
+roguelikes are. Unfortunately, that did not happen -- instead, journalists with no knowledge of the roguelike genre started to refer to games like Spelunky "roguelike".
+Games with randomization and permadeath (and usually more arcade-style permadeath than roguelike-style one). Eventually, original roguelike communities started to become
+more strict in their definitions, and not count "games with roguelike elements" as roguelikes, while mainstream roguelike lists would typically never include any games that the original
+communities would call roguelike.
+
+VIOLATE turn decision mdecision grid potion similar long rl rpg ascii source
+
+INSPIRED NetHack, La Mulana, Spelunker
+INTER platformer
+VISUAL 2D
+DEATH arcade
+META shortcuts, some unlockable modes
+RPG arcade-like equipment, shops
+RANDOM maps, items, monsters, potions, traps
+THEME fantasy dungeon
+STRUCTURE linear, no backtrack
+LENGTH 30min
+MODEL original is free (later open sourced), HD is commercial
+COMPLEX about 70 monsters and 50 items (Spelunky HD)
+
+GAME DU:Desktop Dungeons
+YEAR Desktop Dungeons (public beta 2010-Steam 2013-2023)
+
+OFFICIAL Desktop Dungeons on Steam
+FREE GAME UPDATE! Desktop Dungeons: Enhanced Edition. More ways to die horribly in 10 minutes or less. The award winning quick-play puzzle roguelike is now packed with new content, 2 new classes and a new way to play: Compete against your friends in the seeded Daily Dungeon!
+
+<ul>
+<li> The perfect coffee-break game for genius tacticians and chilled clickers alike:
+<li> Fight your way through fantasy dungeons in 10 minutes or less. We’re busy people too.
+<li> Prize-winning game design awesomeness (13th Annual IGF Awards)
+<li> Classic roguelike play re-imagined as a unique single-screen puzzle game sort of thing! Reviewers have a hard time with genres.
+<li> Explore unrevealed terrain to regain health and mana. Game hook!
+<li> 6 hours of gameplay? Try 6 billion... You can (and will) play Desktop Dungeons for the rest of your life.
+<li> Randomly generated dungeons are different every time you play. Build your Kingdom to unlock hordes of new classes, races and challenges.
+<li> Daily Dungeon allows you to compete against your Steam friends!
+<li> Amazing soundtrack by the improbably astounding team of Danny Baranowsky and Grant Kirkhope.
+</ul>
+
+VIOLATE potion rl long strictnometa source ascii spatial similar
+
+CONTRO
+In a roguelike, you press a key to move to the next tile, and then the monsters move. Here, the monsters <b>do not</b> move (they only retaliate if you attacked them),
+making the gameplay of <i>Desktop Dungeons</i> quite different from a roguelike. As the description says, "reviewers have a hard time with genres".
+
+PLAY https://store.steampowered.com/app/226620/Desktop_Dungeons/ buy on Steam
+
+PNG desktop-dungeons Desktop Dungeons
+
+INSPIRED Dungeon Crawl Stone Soup 
+# https://www.gamedeveloper.com/game-platforms/interview-enjoy-a-coffee-break-of-victory-with-i-desktop-dungeons-i-
+INTER quasi-Rogue-like, but monsters do not move
+VISUAL tiles
+DEATH arcade
+META unlock classes
+RPG experience, stats, class, equipment, spells, shops
+RANDOM maps, items, monsters
+THEME high fantasy dungeon
+STRUCTURE single level
+LENGTH 10min
+MODEL commercial (but the public beta and some versions are free)
+COMPLEX about 50 monsters, 47 items
+
+GAME HR:HyperRogue
+YEAR HyperRogue (2011-2024)
+
+OFFICIAL HyperRogue on Steam
+You are a lone adventurer in a strange, non-Euclidean world. Gather as much treasure as you can before the nasty monsters get you. Explore about 60 different lands, each with its own unique treasures, enemies, and terrain obstacles. Your quest is to find the legendary treasure, the Orbs of Yendor. Collect one of them to win! Or just ignore your quest and collect smaller treasures.
+
+The twist is the unique, unusual geometry of the world: it is one of just few games which takes place on the hyperbolic plane. Witness a grid composed of hexagons and heptagons, straight lines which seem to be parallel, but then they diverge and never cross, triangles whose angles add up to less than 180 degrees, how extremely unlikely is it to reach the same place twice due to practically infinite size of the world (centillions of locations in just 700 steps from the starting point), and how the world seems to be rotated when you do return. All this matters for the gameplay. The game is inspired by the roguelike genre (focusing on puzzle-roguelike positioning tactics rather than RPG elements), works of M. C. Escher, and by puzzle games such as Deadly Rooms of Death.
+
+HyperRogue is often updated! Other than the original 2D hyperbolic puzzle roguelike, HyperRogue includes experimental modes, allowing one to change many aspects of the game for your non-Euclidean experimentation, such as racing mode, real-time "shmup" mode, 3D geometries including Thurston geometries, SteamVR virtual reality. If you want to play HyperRogue as a non-Euclidean first person shooter, it is possible too! 
+
+PNG hyperrogue HyperRogue 
+PNG hyperrogue-fpp HyperRogue played in First-Person mode
+
+VIOLATE forcedeath potion dungeon short resource randombuilds userbuilds rpg
+VIOLATEX x forcedeath potion dungeon short
+VIOLATEX y forcedeath potion dungeon resource randombuilds userbuilds rpg
+
+PLAY https://roguetemple.com/z/hyper/online.php free browser version
+PLAY https://zenorogue.itch.io/hyperrogue free download / buy (also on Steam)
+
+INSPIRED minor roguelikes (ChessRogue, Frozen Depths), Deadly Rooms of Death
+INTER Rogue-like
+VISUAL many options
+DEATH deletes saves (permadeath disabled in 'casual' mode)
+META unlock new modes
+RPG loot, classes (blade/crossbow)
+RANDOM maps, monsters
+THEME DOOM-like dungeon (military vs demons)
+STRUCTURE non-Euclidean
+LENGTH depends on mode and goal (1h to win Orb of Yendor in Classic, 10h to win Hyperstone Quest in Orb Strategy Mode, you can also play endlessly after completing your goal)
+MODEL academic open-source / commercial
+COMPLEX about 60 lands and 150 monsters
+
+CONTRO
+One possible controversy is the lack of typical RPG elements. As some people say, in HyperRogue the world levels up, not the player.
+
+Another possible controversy is the lack of resource management in HyperRogue classic. You can find orbs, but they are just temporary power-ups. The "Orb Strategy Mode" is
+designed to make HyperRogue more similar to classic roguelikes: orbs are now a limited resource that you have to use when needed. Also, the run is significantly longer. 
+To a person for whom "roguelike" means "a game with short runs that you play again and again", the Orb Strategy Mode would probably make HyperRogue less roguelike.
+
+EXTRA x:HyperRogue is a roguelike in Orb Strategy Mode, not a roguelike in Classic
+EXTRA y:HyperRogue is a roguelike in Classic, not a roguelike in Orb Strategy Mode
+
+GAME DD:Dungeons of Dredmor
+YEAR Dungeons of Dredmor (2011)
+
+OFFICIAL Dungeons of Dredmor on Steam
+Classic Roguelike gameplay with the sweet, refreshing taste of point-and-click interfaces. No longer must you press CTRL-ALT-SHIFT-x to drink a potion.
+
+Randomly generated dungeons entice you with the sweet, sweet promises of treasure and … things.
+
+Old-school pixel goodness. Face lovingly hand-animated monsters and enjoy the great taste of beautiful, individually rendered items on top of a sea of gorgeous, potent tile-work.
+
+CONTRO
+Apparently its roguelikeness was a bit controversial after it was released. Probably some gatekeeping due to nice graphics, being popular (one of most popular indie games at that
+time), being commercial, or no permadeath gatekeeping by the game. Whatever the controversy was, the roguelike community does not seem to care anymore.
+
+PNG dredmor Dungeons of Dredmor
+
+VIOLATE forcedeath forcecons potion short meta source free ascii
+
+PLAY https://store.steampowered.com/app/98800/Dungeons_of_Dredmor/ buy on Steam
+
+INTER Rogue-like
+VISUAL tiles
+DEATH deletes saves (option at startup)
+META none
+RPG experience, stats, equipment, gods, skills, shops, crafting
+RANDOM maps, items, monsters
+THEME kitchen-sink fantasy dungeon
+STRUCTURE linear with backtrack
+LENGTH 10h+?
+MODEL commercial
+COMPLEX about 75 monsters, 50 skills, 600 items
+
+GAME KK:Kerkerkruip
+YEAR Kerkerkruip (2011-2014)
+OFFICIAL Kerkerkruip website, <a target="_blank" href="https://kerkerkruip.org/about/">link</a>
+
+<i>Kerkerkruip</i> is an interactive fiction roguelike game first released in 2011, and still actively developed by the Kerkerkruip team. But what is an interactive fiction roguelike?
+
+(Just looking for help? Try the in-game help, or the command list.)
+
+Roguelike
+
+Roguelikes are a subgenre of roleplaying games characterised by random world generation and permanent death. Random world generation means that the game world you encounter will be different each game — no matter how often you’ve played the game, you will not know what this game is going to bring you. Permanent death means that you cannot restore a saved game if something goes wrong with your character. Death is death, your character is lost forever, and you will have to restart the game with a new character. This leads to intense play, while the random world generation ensures that each new game brings new surprises.
+
+In general, roguelikes are about a single character traversing a dungeon full of deadly monsters that have to be defeated in combat. Kerkerkruip is no exception to this rule. Where Kerkerkruip does differ from other roguelikes, is in its form or presentation. Instead of the usual top-down graphical view of the world, Kerkerkruip is a prose-based interactive fiction game.
+
+Interactive fiction
+
+An interactive fiction is a story in which you determine what actions the protagonist performs. As a player, you are given prose descriptions of the world around you, and you then type short commands indicating what you want to do: “go north”, “take glass cannon”, or “read scroll of summoning”, to take a few examples from Kerkerkruip. The game then prints out a new prose description based on the results of your actions. “You speak the awful spell, and a zombie toad appears in front of you.”
+
+In general, interactive fictions are either puzzle-filled adventure games or pure stories. Kerkerkruip is relatively untypical in being a roleplaying game, and — as far as we know — unique in being a roguelike.
+
+CONTRO
+<i>Interactive fiction</i> is just a more modern name for the <i>text adventure</i> genre. Rogue was heavily inspired by classic 
+text adventure games such as <i>Colossal Cave Adventure</i>; Rogue has clearly compared itself to these, with the <a target="_blank" href="https://roguetemple.com/z/rogue.txt">Rogue manual</a>
+highlighting the differences, such as displaying a map graphically and single-keypress commands.
+Kerkerkruip removes this crucial innovation, while keeping the randomness and RPG elements.
+Some roguelike fans think that roguelike should mean precisely the interface, as a thing almost unique to roguelikes
+(and in fact how roguelikes were defined in 1993), while randomness and RPG elements have been very common for most of the video game history.
+
+PNG kerkerkruip Kerkerkruip (online version)
+PLAY https://textadventures.co.uk/games/view/QfAvXH_1s0_124KAHeYAsw/kerkerkruip online
+
+VIOLATE grid spatial rl meta
+
+INSPIRED interactive fiction and roguelikes
+INTER text adventure
+VISUAL text adventure
+DEATH deletes saves
+META none?
+RPG experience, stats, race/equipment, ?
+RANDOM maps, items, monsters
+THEME high fantasy dungeon
+STRUCTURE linear, ?
+LENGTH ?
+MODEL open source?
+
+GAME MC:Minecraft
+YEAR Minecraft (2011-2023)
+
+OFFICIAL Minecraft website <a target="_blank" href="https://www.minecraft.net/en-us/about-minecraft">link</a>
+Minecraft is a game made up of blocks, creatures, and community. Blocks can be used to reshape the world or build fantastical creations. Creatures can be battled or befriended, depending on your playstyle. Experience epic adventures solo or with friends, there’s no wrong way to play.
+Unless you’re digging straight down.
+
+FUNFACT
+Minecraft is the most popular game indirectly inspired by roguelikes; the author, Notch gives Dwarf Fortress as one of his inspirations.
+Notch was also a fan of classic roguelikes; the game used to sometimes display "I miss ADOM" at startup.
+
+CONTRO
+Minecraft is not normally called a roguelike, although there are some indirect inspirations (crafting derives from UnReal World/Dwarf Fortress), and it is procedurally generated.
+
+EXTRA x:Minecraft hardcore is a roguelike
+
+PNG minetest MineTest (a free clone of Minecraft)
+
+VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short meta randombuilds userbuilds resource rpg source free ascii rl
+
+INSPIRED Infiniminer, Dwarf Fortress, Dungeon Keeper
+INTER First-person perspective
+VISUAL Blocks                                              4
+DEATH depends on the mode
+META none
+RPG equipment, crafting
+RANDOM maps, items, monsters
+THEME fantasy overworld/mines
+STRUCTURE one huge level
+LENGTH 20h+
+MODEL commercial
+COMPLEX about 80 creatures, 781 items
+
+GAME BI:The Binding of Isaac
+YEAR The Binding of Isaac (2011) - Rebirth (2014) - Afterbirth (2017) - Repentance (2021)
+
+OFFICIAL The Binding of Isaac Rebirth on Steam
+
+The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.
+
+CONTRO
+The best way to be hated in the roguelike communities is to call The Binding of Isaac a roguelike.
+More arcade than RPG, more action than strategy or tactics.
+It locks the doors when you fight, while much of the fun and strategy of roguelikes is based on fleeing from encounters,
+exploration and combat being the same (<a>non-modality</a>), and interactions between different parts of the map.
+But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'. 
+Many later successful games are quite similar to Isaac -- such 'Isaac-likes' include <i>Enter the Gungeon</i> and <i>Hades</i>.
+While Isaac has some features with clear roguelike inspirations (like "pills" wich are randomized similar to Rogue's potions),
+these games are more likely to close rogue-unlike features, such as arcade-style or locked doors.
+
+PNG isaac-presskit The Binding of Isaac (presskit)
+
+PLAY https://kbhgames.com/game/binding-of-isaac demo
+PLAY https://store.steampowered.com/app/401920/The_Binding_of_Isaac_Afterbirth/ buy on Steam
+
+VIOLATE turn decision mdecision grid potion modality similar long strictnometa rpg source free ascii rl
+
+INSPIRED Spelunky, Diablo, Desktop Dungeons, Mystery Dungeon, Dungeon Crawl Stone Soup
+INTER twin-stick shooter
+VISUAL 2D
+DEATH arcade
+META unlocks
+RPG arcade upgrades
+RANDOM maps, upgrades, monsters, potions ("pills")
+THEME special
+STRUCTURE linear, modal
+LENGTH 45min
+MODEL commercial
+COMPLEX about 725 upgrades, 200 monsters
+
+GAME TM:Tales of Maj'Eyal
+YEAR Tales of Maj'Eyal (2012-2023)
+
+OFFICIAL ToME website, https://te4.org/
+Download & Play Tales of Maj'Eyal 1.7.6 for Linux 64bits see others
+
+Tales of Maj’Eyal (ToME) is a free, open source roguelike RPG, featuring tactical turn-based combat and advanced character building.  Play as one of many unique races and classes in the lore-filled world of Eyal, exploring random dungeons, facing challenging battles, and developing characters with your own tailored mix of abilities and powers.  With a modern graphical and customisable interface, intuitive mouse control, streamlined mechanics and deep, challenging combat, Tales of Maj’Eyal offers engaging roguelike gameplay for the 21st century.
+
+The continent of Maj’Eyal lives in a relative peace.  After millennia of war the orcs are extinct, the advanced races have allied together, and the evils of magic have been repressed.  But there are still untamed forests, cursed lands, marauding bandits, sealed dungeons of undead, and whispers spread of hidden cults of mages.  Some even say the orcs are not all dead, and muster their strength in dark places.
+
+You are an adventurer, seeking your fortune in the open world, investigating ruins and mysteries in search of riches and powers.  Explore a continent still scarred by the terrible Spellblaze from ages past, teeming with wild beasts, monsters, trolls and giants.  Delve through dark dungeons infested by armies of undead, demonic monstrosities and hideous horrors.  Uncover world changing secrets, from relics of the ancient and all-powerful Sher’Tul race to veiled cities of magic and concealed psionic beings.  Fight with skill and care against undying necromancers, towering dragons, primeval forces, arcane demons and world-threatening powers.
+
+Take part in an epic fantasy adventure like no other, engaging both your imagination and your intelligence, demanding thought and attention to succeed.  Winner of the Roguelike of the Year award 2010, 2011 and 2012, Tales of Maj’Eyal is backed by constant development and an active, friendly community that have together invested over 1598 years of total playtime.  199 players are playing right now – why not join them?
+Download and have fun!
+
+FUNFACT
+We list ToME as 2012 (its release date), but it is actually ToME4. Its history starts in 1998 as PernAngband (a Pern-inspired variant of Zangband, 
+which was a variant of Angband), which later became Tales of Middle Earth, and then, its own fantasy setting.
+
+CONTRO
+This should not be controversial: it is one of the most popular games in the roguelikes community.
+Although, contrary to older roguelikes, not all powerful races and classes are available for your first run
+(you need to unlock them), and also there are some ways to reuse items by following characters.
+In the commercial version, you can disable permadeath.
+
+PNG tome-modern Tales of Maj'Eyal (modern 48x48 tiles)
+PNG tome-ascii Tales of Maj'Eyal (16x16 ASCII)
+
+VIOLATE forcedeath dungeon short strictnometa resource
+
+PLAY https://te4.org/download free download
+PLAY https://store.steampowered.com/app/259680/Tales_of_MajEyal/ buy on Steam
+
+INSPIRED Angband
+INTER Rogue-like
+VISUAL Rogue-like/tiles
+DEATH deletes saves (but has modes with a number of lives, and also infinitely many lives)
+META unlock new races and classes, can carry items for the next characters
+RPG experience, stats, race/class, equipment, skills, quests, basic storyline, shops
+RANDOM maps (except overworld and some fixed locations), items, monsters
+THEME high fantasy
+STRUCTURE overworld, branched with backtrack
+LENGTH 12-24h
+MODEL free/commercial
+COMPLEX about 725 upgrades, 200 monsters
+
+GAME FT:FTL: Faster Than Light
+YEAR FTL: Faster Than Light (2012) - FTL: Advanced Edition (2014)
+
+OFFICIAL 
+In FTL you experience the atmosphere of running a spaceship trying to save the galaxy. It's a dangerous mission, with every encounter presenting a unique challenge with multiple solutions.
+
+What will you do if a heavy missile barrage shuts down your shields?
+- Reroute all power to the engines in an attempt to escape?
+- Power up additional weapons to blow your enemy out of the sky?
+- Or take the fight to them with a boarding party?
+
+This "spaceship simulation roguelike-like" allows you to take your ship and crew on an adventure through a randomly generated galaxy filled with glory and bitter defeat.
+
+CONTRO
+FTL was very well received in the roguelike community. It does feel quite a bit like a roguelike, even if it is not one (its gameplay is very different).
+The developers have called it "roguelike-like".
+
+PNG ftl FTL: Faster than Light
+
+VIOLATE turn grid spatial potion modality single dungeon rl source free ascii
+
+PLAY https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/ buy on Steam
+
+INSPIRED roguelikes, Battlestar Galactica, Star Wars: X-Wing, Super Meat Boy
+INTER real-time strategy
+VISUAL tiles
+DEATH deletes saves
+META unlocks
+RPG experience-like system, ship stats, crew experience/race, ship equipment, shops
+RANDOM maps, items, enemies, events
+THEME space opera
+STRUCTURE graph
+LENGTH 1h
+MODEL commercial
+
+GAME OT:Oregon Trail
+YEAR Oregon Trail (1971-2022)
+
+PRE
+Oregon Trail is a classic educational adventure game about travelling a 2000-mile trail in 1847.
+The trail is difficult, and the player character is likely to die.
+Although Oregon Trail is originally from 1971,
+we list it as 2012, after the release of FTL, because it seems that people have noticed the similarities of Oregon
+Trail to roguelikes about that time -- more precisely, they have noticed that FTL is closer to
+Oregon Trail than to Rogue.
+
+CONTRO
+Rogue combined adventure with grid tactics and randomness; Oregon Trail is a randomized adventure game, but
+no grid tactics.
+
+INTER menus
+VISUAL text (graphics in newer versions)
+DEATH deletes saves
+META you can find gravestones of your earlier attempts on the trail
+RPG basic storyline, events, shops
+RANDOM events
+THEME Western
+STRUCTURE events
+LENGTH 5h?
+MODEL educational
+
+VIOLATE inspire grid spatial potion modality single similar rl source
+
+PNG oregon-trail Oregon Trail (a version from 1999)
+PLAY https://www.visitoregon.com/the-oregon-trail-game-online/ online emulator
+
+GAME PD:Pixel Dungeon
+YEAR Pixel Dungeon (2012-2015), Shattered Pixel Dungeon (2014-2024)
+
+OFFICIAL Pixel Dungeon website
+Pixel Dungeon is a traditional roguelike game with pixel-art graphics and simple interface.
+
+Explore the depths of Pixel Dungeon, collect useful items, fight fierce monsters to find Amulet of Yendor (surprise!) - the ultimate artifact of this game world.
+
+You can get the latest news about Pixel Dungeon on Temple of the Roguelike forum, RLGClub forum (russian), official facebook page, Google+ page and dedicated Tumblr blog. You can also follow me on Twitter.
+
+Pixel Dungeon Wiki is a perfect source of information about the game itself (including things like items and monsters descriptions, tactics and mechanics etc), run by a community.
+
+From Wikipedia: "Roguelike is a sub-genre of role-playing video games, characterized by random level generation, tile-based graphics and permanent death."
+
+Many people consider this game very difficult and luck-based. Maybe they are right… or maybe they should just l2p. Anyway, you will die often. You are warned! ☺
+
+CONTRO
+This should not be controversial. It is here more to show an example of a free roguelike designed for
+mobile; mobile games tend to be forgotten, while Pixel Dungeon had 5M+ downloads from Google Play,
+and a few millions more when counting its variants, such as Shattered Pixel Dungeon (fans tend to recommend Shattered rather than the original).
+
+PLAY https://shatteredpixel.com/shatteredpd/ Shattered Pixel Dungeon (free download or buy)
+
+PNG shattered Shattered Pixel Dungeon
+
+VIOLATE ascii
+
+INSPIRED Brogue
+INTER Rogue-like
+VISUAL tiles
+DEATH deletes saves
+META ?
+RPG experience, class, skills, equipment
+RANDOM maps, items, monsters, potions
+THEME high fantasy dungeon
+STRUCTURE linear with backtrack
+LENGTH 2h
+MODEL open source
+
+GAME 8H:868-HACK
+YEAR 868-HACK (2013)
+OFFICIAL 868-Hack on Steam
+
+PNG 86856527 (a 7-DRL version of 868-HACK)
+
+FUNFACT
+An early example of the <a target="_blank" href="https://itch.io/jam/broughlike">broughlike</a> subgenre, consisting of games by Michael Brough: ZAGA-33 (2012), 868-HACK (2013), Imbroglio (2016), Cinco Paus (2017), P1 Select (2019),
+as well as games made by others in similar style, for example Seven Scrolls (2020) or Magpie (2023, playable <a target="_blank" href="https://zunil.itch.io/magpie">online</a>).
+
+CONTRO
+Contrary to more traditional roguelikes, broughlikes feel more puzzly: small separate levels, 4-way movement, zugzwang (you cannot wait in place, so the usual strategy of letting the enemy move
+first does not work).
+
+VIOLATE potion exploration long meta rpg source free ascii
+
+PLAY https://store.steampowered.com/app/274700/868HACK/ buy on Steam
+
+INSPIRED roguelikes and puzzle games?
+INTER Rogue-like
+VISUAL glitch aesthetics
+DEATH arcade
+META highscore lists
+RPG equipment
+RANDOM maps, items, monsters
+THEME hacking
+STRUCTURE separate small levels
+LENGTH 30min
+MODEL commercial
+
+GAME RR:Risk of Rain
+YEAR Risk of Rain (2013)
+
+OFFICIAL Risk of Rain on Steam
+Risk of Rain is an action platformer with roguelike elements. With permanent death as a primary feature, players will have to play their best to get as far as possible. Fight on a mysterious planet with randomly spawning enemies and bosses, either alone or with 3 friends in online co-op. With over 100 items at your disposal, you will find the tools you need to find the teleporter back home. Discover a myriad of randomly chosen stages, from the desolate forest to the frozen tundra.
+
+CONTRO
+Even people who consider <i>Spelunky</i> and <i>The Binding of Isaac</i> to 
+be roguelikes might not consider <i>Risk of Rain</i> to be one, due to its
+low randomization. The maps are not randomized (except that some levels appear in two variants),
+you mostly know where everything is. The items are randomized, but they do not matter much.
+A popular arcade game. It has a sequel (<i>Risk of Rain 2</i>) but sufficiently different
+to not consider it the same for this quiz.
+
+PLAY https://store.steampowered.com/app/248820/Risk_of_Rain_2013 buy on Steam
+
+INSPIRED platformers, roguelites
+INTER platformer
+VISUAL 2D
+DEATH arcade
+META unlock classes and upgrades to find
+RPG classes, upgrades, shops
+RANDOM items, monsters (but not much)
+THEME sci-fi
+STRUCTURE linear, no backtrack
+LENGTH 45min
+MODEL commercial
+
+VIOLATE inspire turn decision mdecision grid potion similar dungeon long strictnometa randommap rpg source free ascii rl
+
+PNG riskofrain Risk of Rain (2013)
+
+GAME LE:Rogue Legacy
+YEAR Rogue Legacy (2013), Rogue Legacy II (2020)
+
+OFFICIAL Rogue Legacy on Steam
+Rogue Legacy is a genealogical rogue-"LITE" where anyone can be a hero.
+
+Each time you die, your child will succeed you. Every child is unique. One child might be colorblind, another might have vertigo-- they could even be a dwarf.
+
+That's OK, because no one is perfect, and you don't have to be perfect to win this game. But you do have to be pretty darn good because this game is HARD. Fortunately, every time you die all the gold you've collected can be used to upgrade you manor, giving your next child a step up in life and another chance at vanquishing evil.
+
+But you shouldn't listen to me. You should check out the trailer. It explains the game better then I ever could.
+
+If you really want to READ about this game though, then you should check out our bullet list below.
+
+Here's what Rogue Legacy IS:
+
+<ul>
+<li> A procedurally generated adventure. Explore new castles with every life. </li>
+<li> Rogue-lite. Your character dies, but with each passing your lineage grows and becomes stronger. </li>
+<li> Tons of unique traits that makes each playthrough special. Ever wanted to be dyslexic? Now you can! </li>
+<li> More than 8 classes to choose from (9)! Each class has unique abilities that change the way you play the game. </li>
+<li> Over 60 different enemies to test your skills against. Hope you like palette-swaps! </li>
+<li> Massive, expandable skill tree. Rack in the loot to upgrade your manor and give your successors a cutting edge. </li>
+<li> Oh yeah, there's a Blacksmith and an Enchantress shop but we forgot to show them in the trailer... </li>
+<li> Equip your heroes with powerful weaponry and armor. Or gain new abilities like flight, dash, and air jumping. </li>
+<li> Tons of secrets and easter eggs to uncover... or are there? Yes there are. </li>
+<li> Got a controller? Play with a controller. Big Picture ready. </li>
+<li> Clowns. </li>
+</ul>
+
+PLAY https://store.steampowered.com/app/241600/Rogue_Legacy/ buy on Steam
+
+CONTRO
+This game has popularized the "roguelite" term, which is still used in the roguelike community to
+refer to this new kind of game which took the common features of roguelikes such as procedural generation and permadeath,
+and put it in some other genre (in this case, a metroidvania-inspired platformer).
+
+Technically, the roguelite term did exist before Rogue Legacy, to be used for more streamlined roguelikes (such as Pokémon Mystery Dungeon).
+However, it was not used this way in the core roguelike community, and it is a bit difficult to find historical sources about it.
+
+Around 2020, most roguelike fans have stopped fighting people using "roguelike" for "a game where you can die" (while a true roguelike is "a game that is
+actually like Rogue).
+This caused the mainstream to forget what the roguelike/roguelite dispute was about, and started using "true roguelike" for "a game where you can truly die"
+and "roguelite" for "a game where you die but don't really" (usually, due to keeping some upgrades from earlier runs, as in Rogue Legacy).
+
+PNG rogue-legacy Rogue Legacy
+
+VIOLATE turn decision mdecision grid potion similar dungeon strictnometa loosenometa source free ascii rl
+
+INSPIRED Spelunky and metroidvanias?
+INTER platformer
+VISUAL 2D
+DEATH arcade
+META use gold for upgrades and equipment
+RPG classes, upgrades, equipment, shops, spells, stats, basic storyline
+RANDOM maps, monsters
+THEME gothic fantasy (Castlevania-like)
+STRUCTURE platformer with rooms (Castlevania-like)
+LENGTH 1h?
+MODEL commercrial
+
+GAME DQ:Dream Quest
+YEAR Dream Quest (2014)
+
+OFFICIAL Dream Quest on Steam
+Dream Quest is a roguelike deckbuilding game inspired by the likes of Ascension, Magic: the Gathering, and Shandalar. Explore randomly generated levels as one of 13 classes in short, 30 minute, sessions. One floor might find your wizard in the crypt, another your warrior underwater, and a third, your assassin stalking a volcanic wasteland. As you progress, your characters earn achievements, each making your future runs a little easier or more interesting.
+
+Combat is a card game. Your abilities are a deck of cards that you develop as you gain power. For example, a thief starts with a handful of Slice cards and a Backstab, but can learn defensive moves like Dodge or powerful finishing moves like Coup de Grace. Carefully choosing which cards to add to your deck is the heart of the game: wise choices will find you slicing through monsters while poor ones will leave you tripping over your own two feet.
+
+CONTRO
+One of the first "roguelike deckbuilders". Controversies would be similar to Desktop Dungeons (the map works a bit like in roguelikes, but the combat is separate from the map and very different).
+
+PNG dreamquest-battle Dream Quest (battle)
+PNG dreamquest-map Dream Quest (map)
+
+VIOLATE grid decision spatial potion modality long strictnometa loosenometa source free ascii
+
+PLAY https://store.steampowered.com/app/557410/Dream_Quest/ buy on Steam
+
+INSPIRED Ascension, Magic: the Gathering, Shandalar (Desktop Dungeons?)
+INTER card battle
+VISUAL card battle / tiles
+DEATH deletes saves
+META basic highscore lists, achievements unlock new cards and possibilities and make characters stronger
+RPG experience, health/magic, class, cards, gods, shops
+RANDOM maps, items, monsters
+THEME high fantasy dungeon
+STRUCTURE linear, no backtrack, separate battles
+LENGTH 30min
+MODEL commercial
+
+GAME SP:Sproggiwood
+YEAR Sproggiwood (2014)
+
+OFFICIAL Sproggiwood on Steam
+Bring civilization to Sproggiwood, a story-driven, turn-based roguelike set in a humorous world inspired by Finnish mythology. Grow your civilization and plunder procedural dungeons with six unique classes. Outsmart mischievous monsters who work together in unexpected ways. No two dungeon dives are alike.
+
+Sproggiwood distills the roguelike genre down to its core fun ingredients: inspired character classes, loads of interesting loot, and procedurally populated dungeons with monsters and traps that combine to produce totally unique tactical challenges. In Sproggiwood, adventure sessions are compact and chock-full of interesting choices for you to make. Each dungeon dive follows the heroic rise of one adventurer from your civilization. Journey through teeming forests, haunted swamps, teetering cliffs, and glacial mazes to uncover your civilization's whole story.
+
+FUNFACT
+Sproggiwood is made by the same developers as Caves of Qud.
+
+CONTRO
+As suggested by its cartoonish graphics, it is a bit simpler than
+a typical roguelike. It also features metaprogression (you collect gold which can be used to make
+your further characters stronger). However, all the interesting tactical elements are here.
+Some people say that roguelikes cannot have metaprogression, although most
+people in the Roguelike reddit do not seem to care (it is listed as "a popular roguelike").
+
+PNG sproggiwood Sproggiwood
+
+VIOLATE potion long strictnometa loosenometa source free ascii
+
+INSPIRED roguelikes?
+INTER Rogue-like
+VISUAL cartoonish tiles
+DEATH deletes saves
+META gold to make characters stronger, unlock classes
+RPG experience, stats, class, equipment, skills, spells, basic storyline, shops
+RANDOM maps (except overworld and some fixed locations), items, monsters, potions, traps
+THEME Finnish mythology dungeon-like
+STRUCTURE separate missions, which are linear with no backtrack
+LENGTH short?
+MODEL commercial
+
+GAME ND:Crypt of the NecroDancer
+YEAR Crypt of the NecroDancer (2015-2023)
+
+PLAY https://store.steampowered.com/app/311720/Sproggiwood/ buy on Steam
+
+OFFICIAL Crypt of the NecroDancer on Steam
+Crypt of the NecroDancer is an award winning hardcore roguelike rhythm game. Move on the beat to navigate an ever changing dungeon while battling dancing skeletons, zombies, dragons, and more. Groove to the epic Danny Baranowsky soundtrack, or select songs from your own MP3 collection!
+
+CONTRO
+One great thing about roguelikes is that you can play them as fast as you can think. Play very quickly when
+the situation is obvious, making roguelikes great if you want to make lots of interesting decisions per minute.
+Or, plan things, when you need. 
+
+As a consequence of being "rhythm based", this no longer works in Crypt of the NecroDancer.
+You no longer have as much time to think about your moves as you want.
+This is an important difference, but, if "speed Chess" is still Chess, then a rhythm roguelike should still be a roguelike.
+
+However, one good thing about this is that Crypt of the NecroDancer works great in multiplayer. There were 
+some classic multiplayer roguelikes (MAngband/Tangaria, Crossfire/Deliantra, as well as the original Diablo design pitch) which also 
+solved this using turn time limits.
+
+Some roguelike fans notice that there is a bit less focus on character development than in a typical roguelike.
+
+VIOLATE decision mdecision potion similar long source free
+
+PLAY https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/ buy on Steam
+
+PNG necrodancer Crypt of the Necrodancer
+
+INSPIRED NetHack, Spelunky
+INTER Rogue-like
+VISUAL tiles
+DEATH arcade
+META unlock characters in "all floors" run, or more unlocking when playing separate floors
+RPG class, equipment, spells, basic storyline, shops
+RANDOM maps, items, monsters
+THEME high fantasy dungeon with music
+STRUCTURE linear, no backtrack
+LENGTH 30min
+MODEL commercial
+COMPLEX about 150 monsters, lots of items, about 15 characters
+
+GAME CQ:Caves of Qud
+YEAR Caves of Qud (Steam EA 2015-2024)
+
+OFFICIAL Caves of Qud on Steam
+Caves of Qud is a science fantasy roguelike epic steeped in retrofuturism, deep simulation, and swathes of sentient plants. Come inhabit an exotic world and chisel through layers of thousand-year-old civilizations. Decide: is it a dying earth, or is it on the verge of rebirth?
+
+CONTRO
+This should not be controversial; it is included here more to show that epic roguelikes in traditional sense are still created
+and developed (there were some betas from before 2015, and it is still in EA and actively developed in 2024) and very popular. 
+Some people feel it is more RPG than Roguelike, but that is probably because they know "roguelike" from isaac-likes
+than from ADOM and other great roguelikes that have inspired Caves of Qud.
+
+VIOLATE forcedeath dungeon short meta source free
+
+INSPIRED Gamma World (pen&paper RPG), Morrowind, ADOM, Dwarf Fortress
+# https://www.reddit.com/r/roguelikes/comments/3drjoz/rroguelikes_developer_ama_uunormal_and/
+INTER Rogue-like
+VISUAL tiles (with a bit of Rogue-like feel)
+DEATH deletes saves (but also has checkpoint mode)
+META none?
+RPG experience, stats, race/class, equipment, skills, spells, quests, shops
+RANDOM maps (except overworld and some fixed locations), items, monsters
+THEME science fantasy
+STRUCTURE overworld, branched with backtrack
+LENGTH 20h+
+MODEL commercial
+
+PLAY https://store.steampowered.com/app/333640/Caves_of_Qud/ buy on Steam
+
+PNG caves-of-qud-presskit Caves of Qud (presskit)
+
+GAME DA:Darkest Dungeon
+YEAR Darkest Dungeon (2016)
+OFFICIAL Darkest Dungeon on Steam
+
+Darkest Dungeon is a challenging gothic roguelike turn-based RPG about the psychological stresses of adventuring.
+
+Recruit, train, and lead a team of flawed heroes through twisted forests, forgotten warrens, ruined crypts, and beyond. You'll battle not only unimaginable foes, but stress, famine, disease, and the ever-encroaching dark. Uncover strange mysteries, and pit the heroes against an array of fearsome monsters with an innovative strategic turn-based combat system.
+
+FUNFACT
+Darkest Dungeon has a sequel, but with different gameplay.
+
+CONTRO
+While Darkest Dungeon apparently does take inspiration from roguelikes, its gameplay is significantly different.
+Roguelike fans say it should not even be called a roguelite (<a target="_blank" href="https://www.reddit.com/r/roguelikes/comments/d87840/anyone_else_highly_disappointed_with_darkest/">example</a>).
+It is more of a resource management strategy game. It is not about a character going on a risky mission -- your characters die, but they are more of expendable resources.
+There are no spatial tactics -- Darkest Dungeon replaces the signature roguelike tactical combat with JRPG-style one.
+
+PNG darkest-dungeon Darkest Dungeon
+
+PLAY https://store.steampowered.com/app/262060/Darkest_Dungeon/ Darkest Dungeon on Steam
+
+VIOLATE grid spatial potion modality single short meta rl source free ascii
+
+INSPIRED The Bard's Tale, Eye of the Beholder, Ultima Underworld (roguelike influences not clear)
+INTER JRPG-like
+VISUAL JRPG-like
+DEATH deletes saves
+META none (if considering the whole campaign to be a run)
+RPG experience, stats, class, equipment, build city
+RANDOM maps, items, monsters
+THEME horror dungeon
+STRUCTURE separate missions with modal combat
+LENGTH 20h+?
+MODEL commercial
+
+GAME UE:Unexplored
+YEAR Unexplored (2017)
+
+OFFICIAL Unexplored on Steam
+
+Real-time Roguelite Dungeon Crawling at its Very Best!
+
+Unexplored is the roguelite that feels like a roguelike. An accessible yet challenging action rpg, praised for its fantastic level generator, real-time combat and a surprising amount of content and depth. Plus: free dlc which adds even more variety!
+
+Explore dangerous dungeons, solve mysterious puzzles and engage hundreds of foes, big and small, in intense melee combat.
+
+FUNFACT
+Unexplored has a sequel (Unexplored 2) which has very different gameplay.
+
+CONTRO
+The official description is correct: Unexplored feels very much like a traditional roguelike, with the only
+difference being that Unexplored is real-time. There is a bit of metaprogression: classes can be permanently 
+improved via quests (once per class) and gold can be used to make a later character start stronger (but only once, that gold is spent).
+
+VIOLATE turn decision grid short strictnometa rl source free ascii
+
+PLAY https://store.steampowered.com/app/506870/Unexplored/ buy on Steam
+
+PNG unexplored Unexplored
+
+INSPIRED Brogue?
+INTER low action
+VISUAL 2D
+DEATH deletes saves
+META highscore lists, quests to make classes stronger, collect gold to make characters stronger one time
+RPG stats, equipment, gods, shops
+RANDOM maps, items, monsters, potions
+THEME high fantasy dungeon
+STRUCTURE branched with backtrack
+LENGTH 5h
+MODEL commercial
+
+GAME SS:Slay the Spire
+YEAR Slay the Spire (EA 2017 - 2019 - 2020)
+
+OFFICIAL Slay the Spire on Steam
+We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!
+
+CONTRO
+It seems that the developers called this game a "roguelike deckbuilder" because of taking some inspiration
+from FTL, mostly, the event-based map structure; and people accept that due to the confusion on "roguelike"
+and "deckbuilder" terms (it could be said that "deckbuilder" includes permanent consequence, randomness, and upgrades by definition).
+Dominion, which started the deckbuilder genre, is more similar to roguelikes in many aspects (except that Slay the Spire is a single-player dungeon crawler).
+Contrary to an earlier "roguelike deckbuilder", Dream Quest, it does not feature a traditional roguelike map, and contrary to traditionally
+roguelikes (and Dominion), battles and exploration are separate.
+
+PNG slay-the-spire Slay the Spire
+
+VIOLATE grid spatial potion modality similar long strictnometa rl source free ascii
+
+INSPIRED FTL, Binding of Isaac, Magic: the Gathering
+INTER card battle / JRPG-like
+VISUAL JRPG-like
+DEATH deletes saves
+META unlock upgrades (in first games), starting bonus to avoid throwaway runs, ascension
+RPG deckbuilding, items, class, shops
+RANDOM maps, items, monsters, potions
+THEME fantasy dungeon
+STRUCTURE Spire-like, separate battles
+LENGTH 1h
+MODEL commercial
+COMPLEX about 370 cards, 150 relics, 30 monsters
+
+GAME PB:Pawnbarian
+YEAR Pawnbarian (2021-2022)
+OFFICIAL Pawnbarian on Steam
+Pawnbarian is a turn-based puzzle roguelike with bite-sized, but challenging sessions. Play cards to control your hero like a chess piece on a tiny dungeon board, outmaneuver enemies with their assortment of tricky abilities, and become the mightiest warrior of the Chesslands!
+
+CONTRO
+This is an example of a meaningful "roguelike deckbuilder", i.e., a game combining deckbuilding
+with roguelike-specific elements (single-character grid tactics). 
+There are also other games combining
+deckbuilding and single-character grid tactics, like Shotgun King, Fights in Tight Spaces, or Nitro Kid.
+Card-based movement makes it lose a bit of roguelike feel (it is not as fast).
+
+PLAY https://store.steampowered.com/app/646570/Slay_the_Spire/ buy on Steam
+
+VIOLATE potion exploration similar long randommap source
+
+INTER single-character grid tactics / cards
+VISUAL tiles
+DEATH arcade
+META no permanent upgrades, but some unlocking
+RPG class, deckbuilding, shops
+RANDOM items, monsters
+THEME Chess
+STRUCTURE linear, no backtrack
+LENGTH 30min
+MODEL commercial
+COMPLEX low
+
+PNG pawnbarian Pawnbarian
+
+GAME VS:Vampire Survivors
+YEAR Vampire Survivors (2022-2024)
+OFFICIAL Vampire Survivors on Steam
+Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you. 
+
+PNG vampire-survivors Vampire Survivors
+
+FUNFACT
+This game is very fun, and considered innovative, but it tooks lots from earlier games.
+The tiles used in Vampire Survivors have been originally created for a (less-known) roguelike named <a target="_blank" href="https://slash.itch.io/serenade-of-chaos">CastlevaniaRL</a>.
+And the gameplay is cloned from a mobile game <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vkslrzm.Zombie&hl=en&gl=US">Magic Survival</a>.
+Vampire Survivors has spawned a very large number of clones, called <i>survivors-likes</i>, or also by some other names.
+
+CONTRO
+While games such as <i>Spelunky</i> did took some roguelike elements (random maps and permadeath), these elements are not noticeable anymore in Vampire Survivors.
+The maps are not random (upgrades are, but same is true e.g. for a somewhat similar game <i>Crimsonland</i> from 2003). Death in Vampire Survivors is not really permanent --
+it is just what you have to do to play on the next map, just an occassion to spend some gold to upgrade your character. Magic Survival does not seem to be called roguelike,
+despite same gameplay. Luckily, survivors-likes are not typically called roguelikes -- more specific terms are used.
+
+VIOLATE turn decision grid potion exploration similar dungeon long strictnometa loosenometa randommap resource rpg rl source free ascii free
+
+PLAY https://store.steampowered.com/app/1142080/Pawnbarian/ download demo or buy on Steam
+
+INSPIRED Magic Survival
+INTER auto-shooter
+VISUAL tiles
+DEATH arcade
+META upgrades, unlock characters
+RPG experience, stats, arcade weapons, arcade items
+RANDOM upgrades
+THEME gothic horror
+STRUCTURE separate missions in quite open spaces
+LENGTH 30min
+MODEL cheap commercial
+
+GAME MR:Moonring
+YEAR Moonring (2023)
+OFFICIAL Moonring on Steam
+A dark-fantasy, turn-based, retro-fusion of classic turn-based RPGs and roguelikes, all presented with a unique neon aesthetic. 
+
+Moonring is a retro-inspired open-world, turn-based, tile RPG in the style of the classic Ultima games, but created from the ground up with modern design sensibilities.
+
+The world's geography is hand-designed, but the deadly dungeons beneath the surface reconfigure each time you leave... or die.
+
+A note from the creator:
+
+Hi folks. I've loved RPGs since the early 1980s, and grew up playing games like Lord British's 'Ultima' series and early Roguelikes. This is my love-letter to a style of gaming that has largely fallen out of fashion: with its vivid, bright sprites overlaid on stark black backgrounds, true open-world gameplay, and lack of handholding. The days I spent playing these games were spent in joyful exploration and discovery, venturing into the dark unknown, a co-author of the experience, filling in the gaps left by the primitive art with my imagination. For those of you who did the same, I hope Moonring recaptures some of the spirit of those days for you. For those who did not, I hope that the more modern conveniences you find in this game allow you to catch a glimpse of what we did 40 years ago.
+
+My heartfelt thanks to all who spared even a moment to play this. Please be kind to my mistakes. I will fix them. :-)
+
+- Dene
+CONTRO
+While traditionally in roguelikes you need to start a new game when you die, in Moonring, you just have
+to restart a dungeon. However, the late-game dungeons are more than a hour long, so it could be said
+that they are more in the roguelike spirit than some 30-minute long roguelite!
+Some people in r/roguelikes do not seem to classify Moonring as a roguelike, but they still recommend it as a great introduction to the roguelike genre.
+
+PNG moonring Moonring
+
+VIOLATE forcedeath suggestdeath potion dungeon short meta randombuilds resource source ascii
+
+PLAY https://store.steampowered.com/app/2373630/Moonring/ free download on Steam
+
+INSPIRED Ultima, classic roguelikes
+INTER Rogue-like
+VISUAL tiles
+DEATH checkpoint-based
+META none
+RPG stats, equipment, spells, quests, shops
+RANDOM only dungeon: maps, items, monsters
+THEME high fantasy dungeon
+STRUCTURE overworld, with dungeons
+LENGTH 10h?
+MODEL freeware
+
+GAME II:ISITRL
+YEAR Is it Roguelike? (2024)
+
+PRE
+This is a quiz where you decide whether a game is a roguelike. On the way, you will hopefully
+learn about some great games. Have fun!
+
+You probably just want to <a onclick="next()">jump straight in</a> without reading all this.
+But if you want the common conventions and their relevance, you can always click the "help" button
+below.
+
+OFFICIAL (source)
+This section quotes what the developers/publishers said about 
+the game -- what it is, its similarities and differences to roguelikes --
+from sources such as manuals (for older games), Steam pages (for newer games),
+press kits, interviews, etc.
+
+CONTRO
+This lists the common reasons why people consider the game to be a roguelike or not.
+Given that some people tend to define "roguelike" by properties that the games which
+have started the genre never had, the roguelikeness of almost any game is controversial.
+We also list the specific attributes that people commonly consider roguelike-defining below.
+(Some information may be hard to find, so corrections or more controversies are welcome.)
+
+"Roguelike community" means the original USENET community who have 
+<a target="_blank" href="https://blog.slashie.net/on-the-historical-origin-of-the-roguelike-term/">defined the roguelike term</a>
+in 1993, and the modern descendants continuing their traditions, such as the <a target="_blank" href="https://forums.roguetemple.com/">RogueTemple forums</a>
+(not very active anymore), <a target="_blank" href="https://www.reddit.com/r/roguelikes/">roguelike subreddit</a>,
+<a target="_blank" href="http://www.roguebasin.com/">RogueBasin wiki</a>, and the <a target="_blank" href="https://discord.gg/Hq8wPcs">roguelike discord</a>,
+and physical meetups such as International Roguelike Development Conference and Roguelike Celebration. (There are small 
+differences between how various people in these communities define "roguelike", but their interpretations tend to be generally closer to
+each other than the "mainstream" sources such as journalists, commercial game developers and content
+creators.)
+
+PNG rl-highscore Roguelike highscore list (Dungeon Crawl Stone Soup)
+
+VIOLATE forcedeath forcecons grid spatial potion similar dungeon long meta randommap userbuilds resource rpg rl exploration single
+
+INSPIRED *
+This list games which have inspired the current game. If you define Roguelike as
+"any game inspired by Rogue or another roguelike", this is what you should care about.
+Accurate information may be hard to find.<br/>
+INTER *
+Control genres are defined by how the map is displayed and how the players interact with the game.
+Well-known control genres include, e.g., "platformer" and "first-person shooter". In a roguelike,
+you typically press a key to immediately move to the adjacent tile, after which the enemies move.
+In particular, such games are grid-based and turn-based. 
+This style of gameplay is found extremely good by roguelike fans, since it allows them to make
+an extremely large number of interesting tactical decisions per minute, contrary to most other
+turn-based genres, which tend to be relatively slow.
+This is called "rogue-like" here (apparently this is how "roguelike" was understood around 1990).
+In multi-modal games, we list the control genre of combat.<br/>
+VISUAL *
+The kind of graphics used by the game. The canonical roguelike visuals is displaying a map
+made of ASCII characters (typically, # is a wall, . is a floor, capital letters are monsters, etc.),
+which we call "rogue-like". Some roguelike definitions mention using this style (or, either
+characters or simple tiles), but most people in roguelike communities today do not seem to care,
+thinking that roguelikes should be defined only by gameplay;
+and people who mention that often mean something different that is actually relevant to gameplay,
+like being <i>grid-based</i> (which games
+with rogue-style graphics are), <i>complexity</i> (no need to draw graphics lets roguelike developers
+to focus on creating very complex or innovative games), <i>clarity</i> (roguelike player like to
+view large areas of the level at once, and characters is one of few graphical styles which are easy to
+recognize at small scale), or <i>imagination</i> (playing an ASCII game
+lets the player use their imagination, like reading a book, which people consider better than
+any graphics). Even in the 90s, when some people suggested that the genre should be called something
+like "ascii dungeons", it was not accepted because it was seen that roguelikeness is primarily
+about the gameplay. Some people still like ASCII display for its clarity and imagination.<br/>
+DEATH *
+What is the penalty for getting your character killed. In Rogue, the game ends ("permadeath",
+you need to start a new game). You can save, but the savefile can be used just once, to prevent
+cheating (known as "savescumming"). This is copied in most traditional roguelikes; since they are
+decision-making games, savescumming is generally considered cheating in the roguelike community
+-- since it lets you avoid the consequences of your bad decisions. This is the same as in other
+genres of decision-making games, although in roguelikes it was more visible due to their similarity
+to RPGs, most of which aim to tell a story, and thus permadeath is anticlimatic.
+Cheating does not mean that
+you should never do it (it is a single-player game anyway) -- many traditional roguelikes
+provide looser options, and in those which do not, it is not hard to cheat by making backups.
+While permadeath was not generally considered a defining roguelike feature before 2000, 
+it became a high-value factor of <a target="_blank" href="https://roguebasin.com/index.php?title=Berlin_Interpretation">Berlin Interpretation</a> in 2008, and some innovative games
+added permadeath to genres which were not about decision making, and since these games were
+inspired by roguelikes (and not any other kind of decision-making game), people started 
+calling such games "roguelikes" and considered "permadeath" as the main defining characteristics
+(with 1-2 other supporting characteristics); although these games typically are short enough
+that you typically do not (or even cannot) save, so their permadeath is closer to arcade-style
+than Rogue-style.<br/>
+META *
+Does the player keep something from your earlier runs. Some people think that if roguelike means
+"permadeath", then "true roguelike" means "true permadeath", i.e., nothing is kept. However,
+while the concept of "metaprogression" (permanent upgrades for further runs) is definitely much
+more ubiquitous in "games with roguelike elements" than in traditional roguelikes, many games which
+have defined the genre actually do have some inter-run interaction. A rather important feature
+of traditional roguelikes is their high-score lists, with roguelike high-score lists being
+much more advanced than their arcade counterparts -- lots of entries (100), giving many details
+about the characters, and letting the players to set goals like "beat all your previous highscores"
+or see that they are getting better and better.<br/>
+RPG *
+Roguelikes are traditionally considered a subgenre of RPG, although many of the more modern games
+considered roguelikes in the roguelike communities reduce this aspect; they are closer to
+tactics games than RPGs in many aspects. The following elements are considered RPG elements:
+experience (your character gets stronger by defeating enemies or completing missions), 
+stats (other than just max health and/or attack strength), equipment, items, spells, quests, shops, storyline (usually very
+light in roguelikes), as well as other concepts related to character growth, such as upgrades and deckbuilding.<br/>
+RANDOM *
+Roguelikes tend to be highly randomized, and most roguelike definitions put focus on this.
+Typically, the following elements are randomized: maps, monsters you fight, items/upgrades you
+find. Rogue also randomized potions ("blue potion" might be a potion of healing in one run,
+but something else in another run) and traps; both features make much morse sense in a permadeath
+game than non-permadeath one, and these iconic features of Rogue have been copied in many other games.
+Some earlier roguelike definitions specifically mention these elements, although many modern
+roguelikes which are traditional otherwise skip them.<br/>
+THEME *
+This is just a setting, e.g., "high fantasy dungeon". Some people in the 90s thought that the
+genre should be called "dungeon games", although they did realize that roguelikes are defined more
+by their gameplay than by their setting -- a roguelike can work nicely in other setting, and
+many of them do. Japanese roguelikes still tend to be called "mystery dungeon".<br/>
+STRUCTURE *
+What is the structure of the game world. Roguelikes come in many different structures,
+and the structure seems to be seen as the main factor separating various roguelike subgenres.
+However, one common important property of traditional roguelike structure is <i>spatial consistency</i>
+and <i>non-modality</i> -- no separation between exploration and combat, and the levels
+being quite large, which provides strategical depth by strategies such as escaping dangerous monsters
+or fighting them in an easy location, or by allowing various monsters to interact; many roguelike
+fans feel that games which do have such a structure feel less roguelike. (We consider non-modality the default and
+we do not list non-modality explicitly.)<br/>
+LENGTH *
+Just the length of a successful run. Traditional roguelikes tend to be quite long
+(some <a target="_blank" href="http://web.archive.org/web/20051204035736/http://users.tkk.fi/~eye/roguelike/index.html">older definitions</a>
+even mention this as a roguelike aspect), while players accustomed to arcade-style "games with
+roguelike elements" think that roguelikes should be short.<br/>
+MODEL *
+While most popular games are commercial (you are expected to pay them in some way), many popular roguelikes follow a very
+different model: they are free and open source, and accepting contributions from passionate players who have innovative
+ideas about how to make the game even better. In some cases, the changes are not accepted
+(due to being controversial or the maintainer of the original project losing interest), thus leading to creation of
+<i>variants</i>, which sometimes overshadow the original games, and even projects started in the 80s or 90s are still
+getting better and better due to community development, which is rare in commercial games (in this quiz, such cases should
+be e clear from the 'year' line). As a result of being community passion projects, such games are much better
+in some aspects that commercial games (because working on these aspects does not sell), while much worse in other aspects
+(since contributors do not want to work on boring stuff even if they sell). 
+Some early
+roguelike definitions put some weight on aspects of this philosophy, although most modern roguelike definitions ignore it,
+since it does not actually say anything about the game itself directly. 
+Many popular general gaming sources focus on
+commercial games, not realizing that the commercial approach is not the only way to make great games,
+and thus ignore community-developed ones, even if they have dedicated communities; this seems to have contributed heavily
+to the dilution of "roguelike" term (as well as the "hacker" term, which originally meant a kind of person that would
+work on such community development projects, and later started being used to mean a computer criminal).<br/>
+COMPLEX *
+Traditional roguelikes are very complex. This is most visible in the enemy count -- a typical game would have like
+20 different enemies, while Rogue had 26 (one for each letter of the alphabet), and typical roguelikes have a few hundreds.
+This is enabled by less focus on graphics, and makes the game more interesting to replay. This point is more about the
+amount of content, than about depth.
