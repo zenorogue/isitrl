@@ -635,7 +635,17 @@ glance, and control is exercised largely through one-keystroke commands.
 FUNFACT
 Dungeon Crawl Stone Soup is a fork of Linley's Dungeon Crawl. It is still
 very actively developed, one of the central games played in the roguelike
-community, and an usual suggestion for an introduction to roguelikes.
+community, and a common suggestion for an introduction to roguelikes.
+
+DCSS has an explicit design philosophy. It is designed to avoid
+grind (where "grind" is defined as doing boring things to make the
+character stronger) and to be transparent (the rules should be clear).
+This is different from the grindy nature of <i>Angband</i>-like games,
+and from the titular mystery found in <i>Ancient Domains of Mystery</i>,
+or NetHack, where you would likely die due to not knowing the rules.
+This philosophy has influenced many later roguelikes.
+After playing DCSS, you will know what it means that a game does not
+waste the players' time, and be very sensitive to games that do!
 
 PNG crawl-tiles Dungeon Crawl Stone Soup, tiles version 
 PNG dcss-ascii Dungeon Crawl Stone Soup, ASCII version 
