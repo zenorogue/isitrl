@@ -547,8 +547,12 @@ FUNFACT
 While the manual mentions "exploration of a dungeon complex",
 the game actually features a (fixed) overworld with multiple dungeons
 and quests. (An earlier version was called Ancient Dungeon of Mystery.)
-It was not the first roguelike like this, earlier ones are Omega (todo) and
-Alphaman (todo), but the most influential one.
+It was not the first roguelike like this, Omega (1987) was earlier,
+but the most influential one.
+
+ADOM is still great, but if you want to play it and support the developers, make sure you buy
+ADOM, not Ultimate ADOM -- UADOM is a sequel that was not as well received as the
+original.
 
 PLAY https://www.adom.de/home/downloads.html free download / store links
 
@@ -719,8 +723,15 @@ not sell. It is still very similar to Angband (but not as long...).
 Diablo has many sequels (Diablo IV released in 2023), but they diverge from the original Diablo and its roguelike roots.
 
 CONTRO
-Many people in the roguelike community considered it a roguelike, although much less complex due to its focus on action. 
-todo
+Many people (including some prominent ones, such as roguelike developers <a target="_blank" href="http://www.zincland.com/powder/index.php?pagename=about">Jeff Lait</a>
+and <a target="_blank" href="https://www.roguebasin.com/index.php?title=Diablo&oldid=1027">Kornel Kisielewicz</a>) in the roguelike community considered it a roguelike,
+although a much less complex one, due to its partial focus on action. It did not lead to much controversy, as the roguelike communities preferred other games, and
+Diablo fans did not call it a roguelike. There was some controversy about whether Diablo is an RPG -- eventually leading to its classification as "action RPG", 
+which was possibly more not because of Diablo being an action game, but because of it being closer to roguelikes than typical RPGs.
+
+Today, roguelike communities put more focus on being turn-based, and media put more focus on permadeath and having short runs (which makes people feel Diablo is still not
+a roguelike even in the "hardcore" permadeath mode added in the sequels). Some roguelike fans think it would be better if "action roguelike" came to mean games like
+Diablo, instead of permadeath games.
 
 PNG diablo Diablo
 
@@ -823,11 +834,11 @@ PLAY http://www.bay12games.com/dwarves/ free download / buy
 CONTRO
 Dwarf Fortress has two modes, the fortress mode (which is an influential colony-sim) and the adventurer
 mode (which is a survival roguelike). Both modes are extremely complex, randomly
-generated, feature permanent death, and displayed traditionally in ASCII.
+generated, feature permanent death (although you can play a new game in the same world, affected by the previous run), and displayed traditionally in ASCII.
 Definitely an important element of the roguelike culture.
 
-VIOLATE turn single short meta source rl
-VIOLATEX x short meta source
+VIOLATE turn single short strictnometa source rl
+VIOLATEX x short source strictnometa
 
 EXTRA x:The adventurer mode of Dwarf Fortress is a roguelike, the fortress mode is not
 
@@ -1034,7 +1045,7 @@ FUNFACT
 You might have noticed a surprising lack of games in this quiz from 1995 (DCSS) to
 2005 (not counting Diablo). Why such a long break? Before 2008, most roguelike developers were making more and more
 complex games, like NetHack and ADOM but even more complex, and never
-produced anything. DoomRL (later renamed to DRL due to trademark violation [todo check]) taught us that it is
+produced anything. DoomRL (later renamed to DRL due to trademark violation in 2016) taught us that it is
 possible to also make a great coffeebreak roguelike.
 
 DoomRL is a great introduction to the literal meaning of "roguelike" -- what
