@@ -2096,8 +2096,11 @@ even mention this as a roguelike aspect), while players accustomed to arcade-sty
 roguelike elements" think that roguelikes should be short.<br/>
 MODEL *
 While most popular games are commercial (you are expected to pay them in some way), many popular roguelikes follow a very
-different model: they are free and open source, and accepting contributions from passionate players who have innovative
-ideas about how to make the game even better. In some cases, the changes are not accepted
+different model: they are started because the original developer wanted to make a game exciting for themselves
+(as already mentioned in the Rogue manual), and they are free and open source,
+and accepting contributions from passionate players who have innovative
+ideas about how to make the game even better.
+In some cases, the changes are not accepted
 (due to being controversial or the maintainer of the original project losing interest), thus leading to creation of
 <i>variants</i>, which sometimes overshadow the original games, and even projects started in the 80s or 90s are still
 getting better and better due to community development, which is rare in commercial games (in this quiz, such cases should
