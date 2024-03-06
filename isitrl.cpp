@@ -413,7 +413,7 @@ void show_init() {
 
   "You probably just want to jump straight in. "
   "Most things will be explained as you go, and as new games challenge earlier interpretations.<br/><br/>"
-  "But if you want mor explanations, you can always click the \"help\" button "
+  "But if you want more explanations, you can always click the \"help\" button "
   "below. Back button may be used to edit your earlier answers, or save your progress to a link.<br/><br>";
 
   add_button(ss, "next()", "Start!");
