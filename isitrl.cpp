@@ -475,7 +475,31 @@ void show_results() {
   int qpure = 0, qviolate = 0;
   for(auto& v: violations) if(v.second.first == 0 && v.second.second) qpure++; else qviolate++;
 
-  if(qpure == 0) ss << "It appears there is no element that a roguelike must have.<br/>";
+  int qty_roguelikes = 0;
+  int qty_nonroguelikes = 0;
+  int qty_matching = 0;
+  vector<string> surprises;
+
+  for(auto& g: games) if(g.verdict) {
+    bool ok = true;
+    for(auto& v: g.violate['4']) if(violations[v].first == 0) {
+      ok = false;
+      }
+
+    if(g.verdict == '4' || (g.title != "Rogue" && (g.verdict == 'x' || g.verdict == 'y'))) {
+      qty_roguelikes++; qty_matching++;
+      }
+    else {
+      qty_nonroguelikes++;
+      if(ok) { qty_matching++; surprises.push_back(g.title); }
+      }
+    }
+
+  if(qty_nonroguelikes == 0)
+    ss << "Everything is a roguelike! But then, don't you think that video game genres should mean something?<br/>";
+  else if(qty_roguelikes == 0)
+    ss << "Nothing is a roguelike! Welcome, <a target=\"_noblank\" href=\"https://hard-drive.net/hd/video-games/roguelike-genre-purist-hopes-someone-will-develop-a-roguelike-someday/\">Noreen Ramirez</a>.<br/>";
+  else if(qpure == 0) ss << "It appears there is no element that a roguelike must have.<br/>";
   else if(qpure == 1) ss << "Based on your answer, it appears there is one element that a roguelike must have:<br/>";
   else ss << "Based on your answer, it appears that:<br/>";
 
@@ -487,6 +511,17 @@ void show_results() {
       ss << "<li>" << p.shorttext << " (" << v.second << ")<br/>";
       }
     ss << "</ul>";
+
+    if(qty_roguelikes == qty_matching) {
+      ss << "You consider all " << qty_roguelikes << " games matching these criteria to be roguelikes.<br/>";
+      }
+    else {
+      ss << "You consider " << qty_roguelikes << " out of " << qty_matching << " games matching these criteria to be roguelikes.<br/>";
+      ss << "These appear to not be roguelikes due to some other criteria:";
+      bool notfirst = false;
+      for(auto &g: surprises) { if(notfirst) ss << ","; notfirst = true; ss << " " << g; }
+      ss << "<br/>";
+      }
     }
 
   if(qviolate) {
