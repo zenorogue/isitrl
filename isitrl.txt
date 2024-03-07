@@ -1,6 +1,9 @@
 # pre-Berlin
 
 PURITY inspire It is not a Roguelike if it is not Rogue and not inspired by another Roguelike.
+This point is about heritage. Is the game (possibly indirectly) inspired by Rogue? While it seems like this is how many people use 'roguelike',
+note that, if Rogue inspired A, which inspired B, which inspired C, then
+all qualify, even if the specific element that C took from B was an innovation that was contrary to the design goals of Rogue ("game design deaf telephone").
 
 PURITY rl It is not a Roguelike if it is not like you press a key to immediately move to the adjacent tile and then the monsters move.
 
@@ -71,7 +74,7 @@ A game needs to give the player choice between visiting different levels, or to 
 
 PURITY modality It is not a Roguelike if combat and exploration are separate modes.
 
-PURITY single It is not a Roguelike if you directly control multiple characters.
+PURITY single It is not a Roguelike if you directly control multiple characters, or not control a character at all.
 The "single character" must feel like an actual entity in the game, rather than being completely abstract.
 It is fine to have allies who act on their own.
 
