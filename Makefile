@@ -23,5 +23,4 @@ isitrl.zip: index.html isitrl.js isitrl.wasm zeno.css isitrl.data
 	cp isitrl.js zip/
 	cp isitrl.wasm zip/
 	cp zeno.css zip/
-	cd zip
-	zip -r ../isitrl.zip *
+	cd zip; zip -r ../isitrl.zip *
