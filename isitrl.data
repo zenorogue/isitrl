@@ -1,6 +1,9 @@
 # pre-Berlin
 
 PURITY inspire It is not a Roguelike if it is not Rogue and not inspired by another Roguelike.
+This point is about heritage. Is the game (possibly indirectly) inspired by Rogue? While it seems like this is how many people use 'roguelike',
+note that, if Rogue inspired A, which inspired B, which inspired C, then
+all qualify, even if the specific element that C took from B was an innovation that was contrary to the design goals of Rogue ("game design deaf telephone").
 
 PURITY rl It is not a Roguelike if it is not like you press a key to immediately move to the adjacent tile and then the monsters move.
 
@@ -71,7 +74,7 @@ A game needs to give the player choice between visiting different levels, or to 
 
 PURITY modality It is not a Roguelike if combat and exploration are separate modes.
 
-PURITY single It is not a Roguelike if you directly control multiple characters.
+PURITY single It is not a Roguelike if you directly control multiple characters, or not control a character at all.
 The "single character" must feel like an actual entity in the game, rather than being completely abstract.
 It is fine to have allies who act on their own.
 
@@ -1483,10 +1486,18 @@ From Wikipedia: "Roguelike is a sub-genre of role-playing video games, character
 
 Many people consider this game very difficult and luck-based. Maybe they are right… or maybe they should just l2p. Anyway, you will die often. You are warned! ☺
 
+FUNFACT
+Pixel Dungeon takes much from <a target="_blank" href="https://github.com/tmewett/BrogueCE">Brogue</a>.
+Brogue is a game often seen as a modern take on Rogue (rather than a take of some other roguelike or something trying to be different),
+with more focus on item-based character growth and terrain interaction, and as such, Brogue is quite uncontroversial;
+instead, we showcase this subgenre with an example of a mobile roguelike. Mobile games tend to be ignored by "gamers", even if they are popular
+(Pixel Dungeon had 5M+ downloads from Google Play, and a few millions more when counting its variants) and do not have the negative qualities
+typically associated with the heavily marketed "free-to-play" mobile games.
+
+Fans tend to recommend Shattered Pixel Dungeon rather than the original Pixel Dungeon.
+
 CONTRO
-This should not be controversial. It is here more to show an example of a free roguelike designed for
-mobile; mobile games tend to be forgotten, while Pixel Dungeon had 5M+ downloads from Google Play,
-and a few millions more when counting its variants, such as Shattered Pixel Dungeon (fans tend to recommend Shattered rather than the original).
+This should not be controversial.
 
 PLAY https://shatteredpixel.com/shatteredpd/ Shattered Pixel Dungeon (free download or buy)
 
@@ -1984,6 +1995,10 @@ learn about some great games. Have fun!
 You probably just want to <a onclick="next()">jump straight in</a> without reading all this.
 But if you want the common conventions and their relevance, you can always click the "help" button
 below.
+
+As in a good roguelike, this quiz can be controlled with keys: same as in the Roguelike Code,
+0-4 are levels of roguelikeness, '-' is no information (i.e. you would need to play to decide),
+'x' and 'y' are special options. There are also some other keys, like 'h' for help and 'b' for back.
 
 OFFICIAL (source)
 This section quotes what the developers/publishers said about 
