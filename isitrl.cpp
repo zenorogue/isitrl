@@ -748,6 +748,7 @@ ofstream of("isitrl.html");
 void keydown(const string& s) {
   for(auto& g: games) if(g.shorttitle == showing_what)
   for(auto& ge: g.extras) if(ge[0] == s[0]) {
+    changes++;
     g.verdict = s[0];
     show_next();
     return;
