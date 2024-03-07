@@ -1679,7 +1679,7 @@ Bring civilization to Sproggiwood, a story-driven, turn-based roguelike set in a
 Sproggiwood distills the roguelike genre down to its core fun ingredients: inspired character classes, loads of interesting loot, and procedurally populated dungeons with monsters and traps that combine to produce totally unique tactical challenges. In Sproggiwood, adventure sessions are compact and chock-full of interesting choices for you to make. Each dungeon dive follows the heroic rise of one adventurer from your civilization. Journey through teeming forests, haunted swamps, teetering cliffs, and glacial mazes to uncover your civilization's whole story.
 
 FUNFACT
-Sproggiwood is made by the same developers as Caves of Qud.
+Sproggiwood is made by the same developers as Caves of Qud. It works well on mobile devices.
 
 CONTRO
 As suggested by its cartoonish graphics, it is a bit simpler than
