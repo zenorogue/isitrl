@@ -1486,10 +1486,18 @@ From Wikipedia: "Roguelike is a sub-genre of role-playing video games, character
 
 Many people consider this game very difficult and luck-based. Maybe they are right… or maybe they should just l2p. Anyway, you will die often. You are warned! ☺
 
+FUNFACT
+Pixel Dungeon takes much from <a target="_blank" href="https://github.com/tmewett/BrogueCE">Brogue</a>.
+Brogue is a game often seen as a modern take on Rogue (rather than a take of some other roguelike or something trying to be different),
+with more focus on item-based character growth and terrain interaction, and as such, Brogue is quite uncontroversial;
+instead, we showcase this subgenre with an example of a mobile roguelike. Mobile games tend to be ignored by "gamers", even if they are popular
+(Pixel Dungeon had 5M+ downloads from Google Play, and a few millions more when counting its variants) and do not have the negative qualities
+typically associated with the heavily marketed "free-to-play" mobile games.
+
+Fans tend to recommend Shattered Pixel Dungeon rather than the original Pixel Dungeon.
+
 CONTRO
-This should not be controversial. It is here more to show an example of a free roguelike designed for
-mobile; mobile games tend to be forgotten, while Pixel Dungeon had 5M+ downloads from Google Play,
-and a few millions more when counting its variants, such as Shattered Pixel Dungeon (fans tend to recommend Shattered rather than the original).
+This should not be controversial.
 
 PLAY https://shatteredpixel.com/shatteredpd/ Shattered Pixel Dungeon (free download or buy)
 
