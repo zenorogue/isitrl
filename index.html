@@ -85,7 +85,7 @@
 
     </style>
   </head>
-    <body>
+    <body onkeydown="on_keydown(event.key)">
     <div class="spinner" id='spinner'></div>
     <div class="emscripten" id="status">Downloading...</div>
 
@@ -193,6 +193,7 @@
       function suggestions() { Module.ccall('suggestions', 'null', [], []) }
       function resetquiz() { Module.ccall('resetquiz', 'null', [], []) }
       function back_to(game) { Module.ccall('back_to', 'null', ['string'], [game]) }
+      function on_keydown(key) { Module.ccall('on_keydown', 'null', ['string'], [key]) }
       function help() { Module.ccall('help', 'null', [], []) }
       function tweet(text, url) {
         var tweetbegin = 'https://twitter.com/intent/tweet?text=';

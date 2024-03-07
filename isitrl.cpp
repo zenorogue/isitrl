@@ -19,6 +19,8 @@ struct purity_data {
 
 vector<purity_data> purity;
 
+string showing_what;
+
 struct game {
   string shorttitle;
   string pre;
@@ -307,8 +309,14 @@ void add_buttons(ostream& ss) {
 
 void show_results();
 
+bool finished() {
+  for(auto& g: games) if(!g.verdict && g.shorttitle != "II") return false;
+  return true;
+  }
+
 void show_next() {
   for(auto& g: games) if(!g.verdict && g.shorttitle != "II") {
+    showing_what = g.shorttitle;
     stringstream ss;
     display(ss, g);
 
@@ -323,6 +331,7 @@ void show_next() {
 
 void single_page_view() {
   stringstream ss;
+  showing_what = "singlepage";
 
   for(auto &g: games) if(g.shorttitle != "II") {
     // display(of, g);
@@ -365,6 +374,7 @@ void rogue_code_out(ostream& ss, string linkpart) {
 
 void show_details() {
   stringstream ss;
+  showing_what = "details";
   if(!is_mobile) {
     ss << "<div style=\"float:left;width:100%\">\n";
     ss << "<div style=\"float:left;width:30%\">&nbsp;</div>";
@@ -399,6 +409,7 @@ void show_details() {
 
 void show_init() {
   stringstream ss;
+  showing_what = "init";
   if(!is_mobile) {
     ss << "<div style=\"float:left;width:100%\">\n";
     ss << "<div style=\"float:left;width:30%\">&nbsp;</div>";
@@ -430,6 +441,7 @@ void show_init() {
 
 void show_results() {
   stringstream ss;
+  showing_what = "results";
   if(!is_mobile) {
     ss << "<div style=\"float:left;width:100%\">\n";
     ss << "<div style=\"float:left;width:30%\">&nbsp;</div>";
@@ -537,6 +549,7 @@ void show_help() {
 void show_back() {
 
   stringstream ss;
+  showing_what = "back";
 
   if(!is_mobile) {
     ss << "<div style=\"float:left;width:100%\">\n";
@@ -570,6 +583,7 @@ void show_import(const string& code) {
   parse_rogue_code(code);
 
   stringstream ss;
+  showing_what = "";
 
   if(!is_mobile) {
     ss << "<div style=\"float:left;width:100%\">\n";
@@ -602,6 +616,7 @@ void show_import(const string& code) {
 void show_suggestions() {
 
   stringstream ss;
+  showing_what = "";
 
   if(!is_mobile) {
     ss << "<div style=\"float:left;width:100%\">\n";
@@ -686,6 +701,23 @@ ofstream of("isitrl.html");
   return 0;
   }
 
+void keydown(const string& s) {
+  for(auto& g: games) if(g.shorttitle == showing_what)
+  for(auto& ge: g.extras) if(ge[0] == s[0]) {
+    g.verdict = s[0];
+    show_next();
+    return;
+    }
+  if(showing_what != "") {
+    if(s == "b") show_back();
+    if(s == "n") show_next();
+    if(s == "r" && finished()) show_results();
+    if(s == "h") show_help();
+    if(s == "i") show_init();
+    if(s == "d" && finished()) show_details();
+    }
+  }
+
 extern "C" {
   void start(bool mobile) { init(mobile); }
 
@@ -697,6 +729,7 @@ extern "C" {
   void details() { show_details(); }
   void suggestions() { show_suggestions(); }
   void resetquiz() { for(auto& g: games) g.verdict = 0; show_init(); }   
+  void on_keydown(const char *s) { keydown(s); }
   void do_import(const char *s) { show_import(s); }
   void answer(const char *name, const char *result) {
     for(auto& g: games) if(g.shorttitle == name) g.verdict = result[0];

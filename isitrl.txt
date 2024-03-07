@@ -1985,6 +1985,10 @@ You probably just want to <a onclick="next()">jump straight in</a> without readi
 But if you want the common conventions and their relevance, you can always click the "help" button
 below.
 
+As in a good roguelike, this quiz can be controlled with keys: same as in the Roguelike Code,
+0-4 are levels of roguelikeness, '-' is no information (i.e. you would need to play to decide),
+'x' and 'y' are special options. There are also some other keys, like 'h' for help and 'b' for back.
+
 OFFICIAL (source)
 This section quotes what the developers/publishers said about 
 the game -- what it is, its similarities and differences to roguelikes --
