@@ -665,7 +665,11 @@ void show_suggestions() {
     }
 
   ss << "Just as in actual roguelikes, <b>YOU</b> can make this quiz better!<br/><br/>Corrections, suggestions, ";
-  ss << "etc. are welcome.<br/><br/>You can post an issue on GitHub, comment on itch.io, or just send it here.<br/><br/>";
+  ss << "etc. are welcome.<br/><br/>You can ";
+  ss << "post an issue on <a target=\"_blank\" href=\"https://github.com/zenorogue/isitrl\">GitHub</a>, ";
+  ss << "comment on <a target=\"_blank\" href=\"https://zenorogue.itch.io/isitrl\">itch.io</a>, ";
+  ss << "comment on <a target=\"_blank\" href=\"https://www.reddit.com/r/isitroguelike/comments/1b8w194/is_it_roguelike_quiz/\">Reddit</a>, ";
+  ss << "or just send it here.<br/><br/>";
   ss << "Just sharing your answers, nickname, and your experiences with roguelikes may be used to make it better, as we could include statistical data in the future!<br/><br/>";
 
   ss << "<form method=\"post\" action=\"https://roguetemple.com/z/isitrl.php\" name=\"submit\">\n";
