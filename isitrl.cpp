@@ -539,7 +539,12 @@ void show_back_to(string what) {
     return;
     }
 
-  set_value("output", "not found");
+  stringstream ss;
+  showing_what = "not found";
+  ss << "not found";
+  ss << "<hr/>\n";
+  add_buttons(ss);
+  set_value("output", ss.str());
   }
 
 void show_help() {
