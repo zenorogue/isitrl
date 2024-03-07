@@ -1704,10 +1704,10 @@ STRUCTURE separate missions, which are linear with no backtrack
 LENGTH short?
 MODEL commercial
 
+PLAY https://store.steampowered.com/app/311720/Sproggiwood/ buy on Steam
+
 GAME ND:Crypt of the NecroDancer
 YEAR Crypt of the NecroDancer (2015-2023)
-
-PLAY https://store.steampowered.com/app/311720/Sproggiwood/ buy on Steam
 
 OFFICIAL Crypt of the NecroDancer on Steam
 Crypt of the NecroDancer is an award winning hardcore roguelike rhythm game. Move on the beat to navigate an ever changing dungeon while battling dancing skeletons, zombies, dragons, and more. Groove to the epic Danny Baranowsky soundtrack, or select songs from your own MP3 collection!
