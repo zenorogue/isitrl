@@ -260,7 +260,10 @@ PNG angband-david-gervais-tiles Angband 4.2.5 (David Gervais's tiles)
 
 FUNFACT
 Angband is a variant of an earlier game called <i>Moria</i>. It has
-lots of variants itself.
+lots (~150) of
+<a target="_blank" href="https://tangaria.com/variants/">variants</a> itself, some
+popular ones are <i>Frogcomposband</i> (which has more content)
+and <i>Sil-Q</i> (shorter and generally quite different from Angband).
 The two main early roguelike branches are usually called <i>hacklikes</i> and
 <i>bandlikes</i> (or just <i>bands</i>).
 
