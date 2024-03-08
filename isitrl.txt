@@ -1112,7 +1112,8 @@ While previously people had differing opinions on whether, for example, Diablo c
 roguelike communities did not discuss Diablo.
 
 However, in case of Spelunky, the game referred to roguelikes as its inspiration, which, for many people, was the first time they had heard about roguelikes.
-Roguelike fans, who generally thought that roguelikes were much better than anything else, were happy when Spelunky was released, and hoped that people would check what these
+Roguelike fans, who generally thought that roguelikes were much better than anything else (they would not play them again and again until they can win the whole game without dying otherwise),
+were happy when Spelunky was released, and hoped that people would check what these
 roguelikes are. Unfortunately, that did not happen -- instead, journalists with no knowledge of the roguelike genre started to refer to games like Spelunky "roguelike".
 Games with randomization and permadeath (and usually more arcade-style permadeath than roguelike-style one). Eventually, original roguelike communities started to become
 more strict in their definitions, and not count "games with roguelike elements" as roguelikes, while mainstream roguelike lists would typically never include any games that the original
