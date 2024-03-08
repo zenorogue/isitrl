@@ -1007,7 +1007,7 @@ most physical strategy games are typically played).
 It is a multi-player game, but the interaction 
 between them is relatively low -- often, the winner is the one who can apply the synergies
 between the cards better. It is very complex, with new expansions being
-released. It feels <a>non-modal</a> due to getting new cards and using them being strongly
+released. It feels <i>non-modal</i> due to getting new cards and using them being strongly
 interleaved. Some implementations of Dominion can be played for free.
 
 PNG dominion Dominion online
@@ -1344,7 +1344,7 @@ Same for roguelike fans -- roguelike, in its traditional meaning, is a genre som
 approximately, single-character grid tactics; and The Binding of Isaac is
 more arcade than RPG, more action than strategy or tactics.
 It locks the doors when you fight, while much of the fun and strategy of roguelikes is based on fleeing from encounters,
-exploration and combat being the same (<a>non-modality</a>), and interactions between different parts of the map.
+exploration and combat being the same (<i>non-modality</i>), and interactions between different parts of the map.
 
 But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'. 
 Many later successful games are quite similar to Isaac -- such 'Isaac-likes' include <i>Enter the Gungeon</i> and <i>Hades</i>.
