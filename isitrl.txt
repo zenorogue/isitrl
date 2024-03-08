@@ -1338,9 +1338,14 @@ The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue
 
 CONTRO
 The best way to be hated in the roguelike communities is to call The Binding of Isaac a roguelike.
-More arcade than RPG, more action than strategy or tactics.
+This should not be surprising -- imagine the reaction of a fan of 4X games (such as <i>Civilization</i>)
+to someone claiming that The Binding of Isaac is a 4X because of randomized maps and permanent consequence.
+Same for roguelike fans -- roguelike, in its traditional meaning, is a genre somewhere between RPG, tactics, and strategy,
+approximately, single-character grid tactics; and The Binding of Isaac is
+more arcade than RPG, more action than strategy or tactics.
 It locks the doors when you fight, while much of the fun and strategy of roguelikes is based on fleeing from encounters,
 exploration and combat being the same (<a>non-modality</a>), and interactions between different parts of the map.
+
 But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'. 
 Many later successful games are quite similar to Isaac -- such 'Isaac-likes' include <i>Enter the Gungeon</i> and <i>Hades</i>.
 While Isaac has some features with clear roguelike inspirations (like "pills" wich are randomized similar to Rogue's potions),
