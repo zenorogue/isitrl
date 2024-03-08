@@ -122,12 +122,9 @@ current dungeon level is kept.  As you explore more  of  the
 level, it appears on the screen in front of you.
 
      Rogue differs from most computer fantasy games in  that
-it  is  screen  oriented.  Commands are all one or two keys-
-trokes and the results of your commands are displayed graph-
-ically on the screen rather than being explained in words.
+it  is  screen  oriented.  Commands are all one or two keystrokes and the results of your commands are displayed graphically on the screen rather than being explained in words.
 
-     Another major difference between rogue and  other  com-
-puter  fantasy  games  is  that once you have solved all the
+     Another major difference between rogue and  other  computer  fantasy  games  is  that once you have solved all the
 puzzles in a standard fantasy game, it has lost most of  its
 excitement and it ceases to be fun.  Rogue on the other hand
 generates a new dungeon every time you play it and even  the
@@ -183,8 +180,7 @@ screen in front of you.
 
      Nethack differs from most computer fantasy games (other than
 its  ancestors  hack and rogue and its cousin larn) in that it is
-screen oriented.  Commands are all one or two keystrokes (as  op-
-posed to sentences in some losing parser's notion of English) and
+screen oriented.  Commands are all one or two keystrokes (as  opposed to sentences in some losing parser's notion of English) and
 the results of your commands are  displayed  graphically  on  the
 screen  rather  than  being  explained in words (a minimum screen
 size of 24 lines by  80  columns is required; if  the  screen  is
@@ -247,8 +243,7 @@ YEAR Umoria (1983-1994) - Angband (1993-2023)
 OFFICIAL The Pits of Angband (the Angband manual)
 
 The game of  Angband is  a single player  dungeon  simulation.  A
-player  may choose from a number of races and classes when creat-
-ing a character, and then `run' that character over a  period  of
+player  may choose from a number of races and classes when creating a character, and then `run' that character over a  period  of
 days, weeks, even months, attempting to win the game by defeating
 Morgoth who lurks in the deeper levels.
 
@@ -265,14 +260,17 @@ PNG angband-david-gervais-tiles Angband 4.2.5 (David Gervais's tiles)
 
 FUNFACT
 Angband is a variant of an earlier game called <i>Moria</i>. It has
-lots of variants itself.
+lots (~150) of
+<a target="_blank" href="https://tangaria.com/variants/">variants</a> itself, some
+popular ones are <i>Frogcomposband</i> (which has more content)
+and <i>Sil-Q</i> (shorter and generally quite different from Angband).
 The two main early roguelike branches are usually called <i>hacklikes</i> and
 <i>bandlikes</i> (or just <i>bands</i>).
 
 CONTRO
 This should not be controversial, given than the growing popularity
 of Angband is what has originally sparked "roguelike" becoming an
-<a target="_blank" href="https://blog.slashie.net/on-the-historical-origin-of-the-roguelike-term/">official Usenet category in 1993</a>.
+official Usenet category in 1993.
 As in the case of NetHack, some recent definitions would exclude Angband, for similar reasons.
 
 VIOLATE forcedeath short strictnometa
@@ -409,9 +407,14 @@ YEAR Tetris (1985 and newer versions)
 PNG tetris A Tetris clone, using the Curses library.<br/> (An ASCII library, originally created for Rogue.)
 
 PRE 
-In 1993, on USENET, a suggestion on creating a hierarchy for "rogue type" games appeared.
+In 1993, on USENET, a <a target="_blank" href="https://blog.slashie.net/on-the-historical-origin-of-the-roguelike-term/">suggestion</a>
+on creating a hierarchy for "rogue type" games appeared.
 There were some discussions on how this hierarchy should be named, and the name "roguelike"
-was chosen. To celebrate this, we ask about a game that has been declared as a "not roguelike"
+was chosen, over other suggestions such as "ASCII dungeon" (people realized that
+roguelikeness was not about using ASCII characters or about being in a dungeon --
+it was still a roguelike if it was using tile graphics or some other setting,
+it was about the "interface", i.e., the way the world was displayed and the game
+was controlled). To celebrate this, we ask about a game that has been declared as a "not roguelike"
 in these discussions. Some people thought that the element which made these games similar
 was that they were played using ASCII characters, or that they were played on a computer.
 
@@ -488,7 +491,8 @@ adventure game. While the anchor points of the story remain the same, most of
 the adventure is created anew every time you play, so the game can be enjoyed 
 again and again.
 
-FUNFACT When people come to the roguelike communities to ask what a roguelike they had played as a kid
+FUNFACT
+When people come to the roguelike communities to ask what a roguelike they had played as a kid
 was, it was usually Castle of the Winds.
 
 PNG cotw Castle of the Winds
@@ -1144,7 +1148,7 @@ FREE GAME UPDATE! Desktop Dungeons: Enhanced Edition. More ways to die horribly 
 <li> Amazing soundtrack by the improbably astounding team of Danny Baranowsky and Grant Kirkhope.
 </ul>
 
-VIOLATE potion rl long strictnometa source ascii spatial similar
+VIOLATE potion rl long strictnometa source ascii similar
 
 CONTRO
 In a roguelike, you press a key to move to the next tile, and then the monsters move. Here, the monsters <b>do not</b> move (they only retaliate if you attacked them),
@@ -1531,7 +1535,7 @@ CONTRO
 Contrary to more traditional roguelikes, broughlikes feel more puzzly: small separate levels, 4-way movement, zugzwang (you cannot wait in place, so the usual strategy of letting the enemy move
 first does not work).
 
-VIOLATE potion exploration long meta rpg source free ascii
+VIOLATE exploration long meta rpg source free ascii
 
 PLAY https://store.steampowered.com/app/274700/868HACK/ buy on Steam
 

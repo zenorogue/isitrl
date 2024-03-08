@@ -7,4 +7,5 @@ There are no 'correct' answers (even if we, and people we cite, try to convince 
 
 Updates:
 * March 7: hotkeys, show surprising negatives, minor text improvements
+* March 8: minor text and violation improvements
 
