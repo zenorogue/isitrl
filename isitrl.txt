@@ -609,7 +609,10 @@ the enemies move in response).
 
 The Civilization series is another famous series with similar similarities and
 differences from roguelikes. Traditional roguelike fans point out the
-issues of some mainstream interpretations by mentioning that they should include these series.
+issues of some mainstream interpretations of "roguelike" by mentioning that the "roguelike elements"
+such as randomization and permanent consequence were always common in decision-making
+games, as shown by Civilization and XCOM; roguelike is just one specific subgenre of
+such decision-making games.
 
 PLAY https://playclassic.games/games/turn-based-strategy-dos-games-online/play-x-com-ufo-defense-online/ online emulator
 
