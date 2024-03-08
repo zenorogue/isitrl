@@ -1148,7 +1148,7 @@ FREE GAME UPDATE! Desktop Dungeons: Enhanced Edition. More ways to die horribly 
 <li> Amazing soundtrack by the improbably astounding team of Danny Baranowsky and Grant Kirkhope.
 </ul>
 
-VIOLATE potion rl long strictnometa source ascii spatial similar
+VIOLATE potion rl long strictnometa source ascii similar
 
 CONTRO
 In a roguelike, you press a key to move to the next tile, and then the monsters move. Here, the monsters <b>do not</b> move (they only retaliate if you attacked them),
