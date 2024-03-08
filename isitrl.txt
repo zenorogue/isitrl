@@ -270,7 +270,7 @@ The two main early roguelike branches are usually called <i>hacklikes</i> and
 CONTRO
 This should not be controversial, given than the growing popularity
 of Angband is what has originally sparked "roguelike" becoming an
-<a target="_blank" href="https://blog.slashie.net/on-the-historical-origin-of-the-roguelike-term/">official Usenet category in 1993</a>.
+official Usenet category in 1993.
 As in the case of NetHack, some recent definitions would exclude Angband, for similar reasons.
 
 VIOLATE forcedeath short strictnometa
@@ -407,9 +407,14 @@ YEAR Tetris (1985 and newer versions)
 PNG tetris A Tetris clone, using the Curses library.<br/> (An ASCII library, originally created for Rogue.)
 
 PRE 
-In 1993, on USENET, a suggestion on creating a hierarchy for "rogue type" games appeared.
+In 1993, on USENET, a <a target="_blank" href="https://blog.slashie.net/on-the-historical-origin-of-the-roguelike-term/">suggestion</a>
+on creating a hierarchy for "rogue type" games appeared.
 There were some discussions on how this hierarchy should be named, and the name "roguelike"
-was chosen. To celebrate this, we ask about a game that has been declared as a "not roguelike"
+was chosen, over other suggestions such as "ASCII dungeon" (people realized that
+roguelikeness was not about using ASCII characters or about being in a dungeon --
+it was still a roguelike if it was using tile graphics or some other setting,
+it was about the "interface", i.e., the way the world was displayed and the game
+was controlled). To celebrate this, we ask about a game that has been declared as a "not roguelike"
 in these discussions. Some people thought that the element which made these games similar
 was that they were played using ASCII characters, or that they were played on a computer.
 
