@@ -1535,7 +1535,7 @@ CONTRO
 Contrary to more traditional roguelikes, broughlikes feel more puzzly: small separate levels, 4-way movement, zugzwang (you cannot wait in place, so the usual strategy of letting the enemy move
 first does not work).
 
-VIOLATE potion exploration long meta rpg source free ascii
+VIOLATE exploration long meta rpg source free ascii
 
 PLAY https://store.steampowered.com/app/274700/868HACK/ buy on Steam
 
