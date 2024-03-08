@@ -233,7 +233,7 @@ RPG experience, stats, race/class, equipment, gods, skills, spells, shops
 RANDOM maps, items, monsters, potions, traps
 THEME kitchen-sink fantasy dungeon
 STRUCTURE branched with backtrack
-LENGTH 10h+
+LENGTH 8h+
 MODEL open source community development
 COMPLEX 384 monsters, 450 items of 16 types, 6 races, 14 classes
 
@@ -677,7 +677,7 @@ RPG experience, stats, race/class, equipment, gods, skills, spells, shops
 RANDOM maps, items, monsters, potions, traps
 THEME high fantasy dungeon
 STRUCTURE branched with backtrack
-LENGTH 10h
+LENGTH 4-12h
 MODEL open source community development
 COMPLEX about 550 monsters, 350 items, 100 spells, 27 gods, 35 branches, 27 races, 25 classes
 
