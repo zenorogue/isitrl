@@ -122,12 +122,9 @@ current dungeon level is kept.  As you explore more  of  the
 level, it appears on the screen in front of you.
 
      Rogue differs from most computer fantasy games in  that
-it  is  screen  oriented.  Commands are all one or two keys-
-trokes and the results of your commands are displayed graph-
-ically on the screen rather than being explained in words.
+it  is  screen  oriented.  Commands are all one or two keystrokes and the results of your commands are displayed graphically on the screen rather than being explained in words.
 
-     Another major difference between rogue and  other  com-
-puter  fantasy  games  is  that once you have solved all the
+     Another major difference between rogue and  other  computer  fantasy  games  is  that once you have solved all the
 puzzles in a standard fantasy game, it has lost most of  its
 excitement and it ceases to be fun.  Rogue on the other hand
 generates a new dungeon every time you play it and even  the
@@ -183,8 +180,7 @@ screen in front of you.
 
      Nethack differs from most computer fantasy games (other than
 its  ancestors  hack and rogue and its cousin larn) in that it is
-screen oriented.  Commands are all one or two keystrokes (as  op-
-posed to sentences in some losing parser's notion of English) and
+screen oriented.  Commands are all one or two keystrokes (as  opposed to sentences in some losing parser's notion of English) and
 the results of your commands are  displayed  graphically  on  the
 screen  rather  than  being  explained in words (a minimum screen
 size of 24 lines by  80  columns is required; if  the  screen  is
@@ -247,8 +243,7 @@ YEAR Umoria (1983-1994) - Angband (1993-2023)
 OFFICIAL The Pits of Angband (the Angband manual)
 
 The game of  Angband is  a single player  dungeon  simulation.  A
-player  may choose from a number of races and classes when creat-
-ing a character, and then `run' that character over a  period  of
+player  may choose from a number of races and classes when creating a character, and then `run' that character over a  period  of
 days, weeks, even months, attempting to win the game by defeating
 Morgoth who lurks in the deeper levels.
 
