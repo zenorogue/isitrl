@@ -1340,7 +1340,7 @@ exploration and combat being the same (<a>non-modality</a>), and interactions be
 But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'. 
 Many later successful games are quite similar to Isaac -- such 'Isaac-likes' include <i>Enter the Gungeon</i> and <i>Hades</i>.
 While Isaac has some features with clear roguelike inspirations (like "pills" wich are randomized similar to Rogue's potions),
-these games are more likely to close rogue-unlike features, such as arcade-style or locked doors.
+these games are more likely to copy its rogue-unlike features, such as the arcade style or locked doors.
 
 PNG isaac-presskit The Binding of Isaac (presskit)
 
