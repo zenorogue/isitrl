@@ -491,7 +491,8 @@ adventure game. While the anchor points of the story remain the same, most of
 the adventure is created anew every time you play, so the game can be enjoyed 
 again and again.
 
-FUNFACT When people come to the roguelike communities to ask what a roguelike they had played as a kid
+FUNFACT
+When people come to the roguelike communities to ask what a roguelike they had played as a kid
 was, it was usually Castle of the Winds.
 
 PNG cotw Castle of the Winds
