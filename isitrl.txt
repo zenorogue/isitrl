@@ -1314,7 +1314,7 @@ VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short 
 
 INSPIRED Infiniminer, Dwarf Fortress, Dungeon Keeper
 INTER First-person perspective
-VISUAL Blocks                                              4
+VISUAL Blocks
 DEATH depends on the mode
 META none
 RPG equipment, crafting
