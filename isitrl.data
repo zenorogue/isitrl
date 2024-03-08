@@ -233,7 +233,7 @@ RPG experience, stats, race/class, equipment, gods, skills, spells, shops
 RANDOM maps, items, monsters, potions, traps
 THEME kitchen-sink fantasy dungeon
 STRUCTURE branched with backtrack
-LENGTH 10h+
+LENGTH 8h+
 MODEL open source community development
 COMPLEX 384 monsters, 450 items of 16 types, 6 races, 14 classes
 
@@ -609,7 +609,10 @@ the enemies move in response).
 
 The Civilization series is another famous series with similar similarities and
 differences from roguelikes. Traditional roguelike fans point out the
-issues of some mainstream interpretations by mentioning that they should include these series.
+issues of some mainstream interpretations of "roguelike" by mentioning that the "roguelike elements"
+such as randomization and permanent consequence were always common in decision-making
+games, as shown by Civilization and XCOM; roguelike is just one specific subgenre of
+such decision-making games.
 
 PLAY https://playclassic.games/games/turn-based-strategy-dos-games-online/play-x-com-ufo-defense-online/ online emulator
 
@@ -674,7 +677,7 @@ RPG experience, stats, race/class, equipment, gods, skills, spells, shops
 RANDOM maps, items, monsters, potions, traps
 THEME high fantasy dungeon
 STRUCTURE branched with backtrack
-LENGTH 10h
+LENGTH 4-12h
 MODEL open source community development
 COMPLEX about 550 monsters, 350 items, 100 spells, 27 gods, 35 branches, 27 races, 25 classes
 
@@ -1004,7 +1007,7 @@ most physical strategy games are typically played).
 It is a multi-player game, but the interaction 
 between them is relatively low -- often, the winner is the one who can apply the synergies
 between the cards better. It is very complex, with new expansions being
-released. It feels <a>non-modal</a> due to getting new cards and using them being strongly
+released. It feels <i>non-modal</i> due to getting new cards and using them being strongly
 interleaved. Some implementations of Dominion can be played for free.
 
 PNG dominion Dominion online
@@ -1109,7 +1112,8 @@ While previously people had differing opinions on whether, for example, Diablo c
 roguelike communities did not discuss Diablo.
 
 However, in case of Spelunky, the game referred to roguelikes as its inspiration, which, for many people, was the first time they had heard about roguelikes.
-Roguelike fans, who generally thought that roguelikes were much better than anything else, were happy when Spelunky was released, and hoped that people would check what these
+Roguelike fans, who generally thought that roguelikes were much better than anything else (they would not play them again and again until they can win the whole game without dying otherwise),
+were happy when Spelunky was released, and hoped that people would check what these
 roguelikes are. Unfortunately, that did not happen -- instead, journalists with no knowledge of the roguelike genre started to refer to games like Spelunky "roguelike".
 Games with randomization and permadeath (and usually more arcade-style permadeath than roguelike-style one). Eventually, original roguelike communities started to become
 more strict in their definitions, and not count "games with roguelike elements" as roguelikes, while mainstream roguelike lists would typically never include any games that the original
@@ -1314,7 +1318,7 @@ VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short 
 
 INSPIRED Infiniminer, Dwarf Fortress, Dungeon Keeper
 INTER First-person perspective
-VISUAL Blocks                                              4
+VISUAL Blocks
 DEATH depends on the mode
 META none
 RPG equipment, crafting
@@ -1334,13 +1338,18 @@ The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue
 
 CONTRO
 The best way to be hated in the roguelike communities is to call The Binding of Isaac a roguelike.
-More arcade than RPG, more action than strategy or tactics.
+This should not be surprising -- imagine the reaction of a fan of 4X games (such as <i>Civilization</i>)
+to someone claiming that The Binding of Isaac is a 4X because of randomized maps and permanent consequence.
+Same for roguelike fans -- roguelike, in its traditional meaning, is a genre somewhere between RPG, tactics, and strategy,
+approximately, single-character grid tactics; and The Binding of Isaac is
+more arcade than RPG, more action than strategy or tactics.
 It locks the doors when you fight, while much of the fun and strategy of roguelikes is based on fleeing from encounters,
-exploration and combat being the same (<a>non-modality</a>), and interactions between different parts of the map.
+exploration and combat being the same (<i>non-modality</i>), and interactions between different parts of the map.
+
 But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'. 
 Many later successful games are quite similar to Isaac -- such 'Isaac-likes' include <i>Enter the Gungeon</i> and <i>Hades</i>.
 While Isaac has some features with clear roguelike inspirations (like "pills" wich are randomized similar to Rogue's potions),
-these games are more likely to close rogue-unlike features, such as arcade-style or locked doors.
+these games are more likely to copy its rogue-unlike features, such as the arcade style or locked doors.
 
 PNG isaac-presskit The Binding of Isaac (presskit)
 
