@@ -1355,6 +1355,17 @@ OFFICIAL The Binding of Isaac Rebirth on Steam
 
 The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.
 
+QUOTE <a target="_blank" href="http://www.roguelikeradio.com/2011/11/episode-11-binding-of-isaac.html">Edmund McMillen on the Roguelike radio, around minute 27</a>
+The one I played the most traditional roguelike-wise is probably Crawl Stone Soup, which is probably one of my favourites. Yeah, that's probably it.
+I tried to get into NetHack, just did not jibe with me that well. I'm more into the non-traditional ones more, you know, like Spelunky, a lot, Diablo, Desktop Dungeons,
+a little bit of the Pokemon roguelikes.
+
+I don't really care.
+
+You can call it whatever you want. I don't like calling it a roguelike-like, and it probably is just because that's a suggestion that people that
+have upset me have suggested. So it is more of an annoyance. I don't really know how to call it. It is a game with roguelike elements. I think anybody with half of
+brain knows that if I say it's a roguelike shooter, that it's not a traditional roguelike.
+
 CONTRO
 The best way to be hated in the roguelike communities is to call The Binding of Isaac a roguelike.
 This should not be surprising -- imagine the reaction of a fan of 4X games (such as <i>Civilization</i>)
