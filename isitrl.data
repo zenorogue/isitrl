@@ -106,7 +106,21 @@ For example, shops (with enough cash to buy only some of the stuff), or a choice
 It is not enough if you choose whether to risk getting a powerful upgrade or not.
 (Might be a bit controversial in Rogue, but you get a choice of which weapon/armor to enchant, so that is enough.)
 
-# VIOLATE inspire turn decision mdecision forcedeath suggestdeath forcecons grid spatial potion exploration modality single similar dungeon long short meta strictnometa loosenometa randommap randombuilds userbuilds resource rpg rl
+# other
+
+PURITY topdown It is not a Roguelike if it does not have top-down graphics.
+Some people defining roguelikes include "top-down". While you could have the same gameplay, say, in first-person perspective,
+top-down just works best for this gameplay. Almost top-down like in ADOM is okay, but side view, 3D perspective, or isometric graphics violate this.
+While platformers can be seen as less roguelike than top-down shooters, this criterion is also violated by "roguelike platformers" which have
+quite traditional roguelike gameplay except gravity (these games, e.g. Fuel, are generally to small to be in this quiz).
+
+PURITY diagonal It is not a Roguelike if you cannot move diagonally.
+Many traditional roguelikes were designed in the 90s, when typical keyboards have numpads, making diagonal movements easy.
+These games are a bit harder to play on modern keyboards that do not have numpads, forcing the players to buy an external numpad, or
+learn a more complex scheme such as the VI-keys, HJKLYUBN (originally called "rogue-like keys"). For this reason, modern developers
+of otherwise traditional roguelikes sometimes decide to
+make the movement 4-directional. This considerably changes the tactics, so some fans of classic roguelikes protest against this.
+Games on hex grid (or another grid with no diagonals) or chess-based roguelikes where movement is based on a choice of chess figure do not violate.
 
 GAME Ro:Rogue
 YEAR Rogue (1980)
@@ -457,7 +471,7 @@ PLAY https://tetris.com/play-tetris Tetris online
 CONTRO
 Recently, some people think that any game with randomness and permadeath is a roguelike. So, what about Tetris?
 
-VIOLATE inspire turn decision mdecision potion single similar dungeon long meta randombuilds userbuilds rl resource rpg free exploration
+VIOLATE inspire turn decision mdecision potion single similar dungeon long meta randombuilds userbuilds rl resource rpg free exploration topdown diagonal
 
 INSPIRED pentomino, tennis
 INTER action block puzzle
@@ -616,7 +630,7 @@ such decision-making games.
 
 PLAY https://playclassic.games/games/turn-based-strategy-dos-games-online/play-x-com-ufo-defense-online/ online emulator
 
-VIOLATE inspire forcedeath suggestdeath forcecons potion dungeon short meta randombuilds rl source free ascii
+VIOLATE inspire forcedeath suggestdeath forcecons potion dungeon short meta randombuilds rl source free ascii topdown
 
 INSPIRED Rebelstar, Laser Squad
 PNG xcom UFO: Enemy Unknown (1994)
@@ -745,7 +759,7 @@ Diablo, instead of permadeath games.
 
 PNG diablo Diablo
 
-VIOLATE turn decision forcedeath suggestdeath forcecons potion short meta rl source free ascii
+VIOLATE turn decision forcedeath suggestdeath forcecons potion short meta rl source free ascii topdown
 
 INSPIRED Angband, NetHack, Warcraft
 INTER Rogue/RTS hybrid
@@ -888,7 +902,7 @@ Eschalon: Book I is an old-school role-playing game that will take you across ma
 
 PNG eschalon Eschalon: Book I
 
-VIOLATE forcedeath suggestdeath forcecons dungeon short meta randommap source free ascii
+VIOLATE forcedeath suggestdeath forcecons dungeon short meta randommap source free ascii topdown
 
 CONTRO
 This RPG is not discussed much in the roguelike communities. However, it has <a target="_blank" href="https://gamefaqs.gamespot.com/boards/916373-pc/63525918">typical roguelike combat</a>
@@ -1012,7 +1026,7 @@ interleaved. Some implementations of Dominion can be played for free.
 
 PNG dominion Dominion online
 
-VIOLATE inspire grid spatial potion exploration single dungeon long meta randommap rl rpg
+VIOLATE inspire grid spatial potion exploration single dungeon long meta randommap rl rpg diagonal
 
 INSPIRED Magic: the Gathering
 INTER cards
@@ -1119,7 +1133,7 @@ Games with randomization and permadeath (and usually more arcade-style permadeat
 more strict in their definitions, and not count "games with roguelike elements" as roguelikes, while mainstream roguelike lists would typically never include any games that the original
 communities would call roguelike.
 
-VIOLATE turn decision mdecision grid potion similar long rl rpg ascii source
+VIOLATE turn decision mdecision grid potion similar long rl rpg ascii source topdown
 
 INSPIRED NetHack, La Mulana, Spelunker
 INTER platformer
@@ -1282,7 +1296,7 @@ Some roguelike fans think that roguelike should mean precisely the interface, as
 PNG kerkerkruip Kerkerkruip (online version)
 PLAY https://textadventures.co.uk/games/view/QfAvXH_1s0_124KAHeYAsw/kerkerkruip online
 
-VIOLATE grid spatial rl meta
+VIOLATE grid spatial rl meta topdown diagonal
 
 INSPIRED interactive fiction and roguelikes
 INTER text adventure
@@ -1299,22 +1313,27 @@ MODEL open source?
 GAME MC:Minecraft
 YEAR Minecraft (2011-2023)
 
+QUOTE Notch on Twitter <a target="_blank" href="https://twitter.com/notch/status/1241073245484249088">link</a>
+Karis36: Hi Notch, I have a couple questions. When you were making Minecraft, how much of your vision was determined by roguelikes? Also, have you ever made your own roguelike before? Thanks for reading : ) .
+
+Notch: Quite a lot, I would say. I've played quite a few of them, and the very first builds of minecraft were going to be more along the lines of a dungeon keeper meets dwarf fortress. The first person mode idea came from the possess spell, and look from infiniminer.
+
 OFFICIAL Minecraft website <a target="_blank" href="https://www.minecraft.net/en-us/about-minecraft">link</a>
 Minecraft is a game made up of blocks, creatures, and community. Blocks can be used to reshape the world or build fantastical creations. Creatures can be battled or befriended, depending on your playstyle. Experience epic adventures solo or with friends, there’s no wrong way to play.
 Unless you’re digging straight down.
 
 FUNFACT
-Minecraft is the most popular game indirectly inspired by roguelikes; the author, Notch gives Dwarf Fortress as one of his inspirations.
+Minecraft is the most popular game inspired by roguelikes; the author, Notch gives Dwarf Fortress as one of his inspirations.
 Notch was also a fan of classic roguelikes; the game used to sometimes display "I miss ADOM" at startup.
 
 CONTRO
-Minecraft is not normally called a roguelike, although there are some indirect inspirations (crafting derives from UnReal World/Dwarf Fortress), and it is procedurally generated.
+Minecraft is not normally called a roguelike, although there are some inspirations (crafting derives from UnReal World/Dwarf Fortress), and it is procedurally generated.
 
 EXTRA x:Minecraft hardcore is a roguelike
 
 PNG minetest MineTest (a free clone of Minecraft)
 
-VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short meta randombuilds userbuilds resource rpg source free ascii rl
+VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short meta randombuilds userbuilds resource rpg source free ascii rl topdown
 
 INSPIRED Infiniminer, Dwarf Fortress, Dungeon Keeper
 INTER First-person perspective
@@ -1335,6 +1354,16 @@ YEAR The Binding of Isaac (2011) - Rebirth (2014) - Afterbirth (2017) - Repentan
 OFFICIAL The Binding of Isaac Rebirth on Steam
 
 The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.
+
+QUOTE Edmund McMillen on the Roguelike radio <a target="_blank" href="http://www.roguelikeradio.com/2011/11/episode-11-binding-of-isaac.html">link</a> (around minute 27)
+The one I played the most traditional roguelike-wise is probably Crawl Stone Soup, which is probably one of my favourites. Yeah, that's probably it.
+I tried to get into NetHack, just did not jibe with me that well. I'm more into the non-traditional ones more, you know, like Spelunky, a lot, Diablo, Desktop Dungeons,
+a little bit of the Pokemon roguelikes.
+
+I don't really care.
+You can call it whatever you want. I don't like calling it a roguelike-like, and it probably is just because that's a suggestion that people that
+have upset me have suggested. So it is more of an annoyance. I don't really know how to call it. It is a game with roguelike elements. I think anybody with half of
+brain knows that if I say it's a roguelike shooter, that it's not a traditional roguelike.
 
 CONTRO
 The best way to be hated in the roguelike communities is to call The Binding of Isaac a roguelike.
@@ -1420,7 +1449,7 @@ COMPLEX about 725 upgrades, 200 monsters
 GAME FT:FTL: Faster Than Light
 YEAR FTL: Faster Than Light (2012) - FTL: Advanced Edition (2014)
 
-OFFICIAL 
+OFFICIAL <a target="_blank" href="https://subsetgames.com/ftl.html">FTL website</a>
 In FTL you experience the atmosphere of running a spaceship trying to save the galaxy. It's a dangerous mission, with every encounter presenting a unique challenge with multiple solutions.
 
 What will you do if a heavy missile barrage shuts down your shields?
@@ -1478,7 +1507,7 @@ STRUCTURE events
 LENGTH 5h?
 MODEL educational
 
-VIOLATE inspire grid spatial potion modality single similar rl source
+VIOLATE inspire grid spatial potion modality single similar rl source topdown diagonal
 
 PNG oregon-trail Oregon Trail (a version from 1999)
 PLAY https://www.visitoregon.com/the-oregon-trail-game-online/ online emulator
@@ -1486,7 +1515,7 @@ PLAY https://www.visitoregon.com/the-oregon-trail-game-online/ online emulator
 GAME PD:Pixel Dungeon
 YEAR Pixel Dungeon (2012-2015), Shattered Pixel Dungeon (2014-2024)
 
-OFFICIAL Pixel Dungeon website
+OFFICIAL <a target="_blank" href="https://pixeldungeon.watabou.ru/">Pixel Dungeon website</a>
 Pixel Dungeon is a traditional roguelike game with pixel-art graphics and simple interface.
 
 Explore the depths of Pixel Dungeon, collect useful items, fight fierce monsters to find Amulet of Yendor (surprise!) - the ultimate artifact of this game world.
@@ -1544,7 +1573,7 @@ CONTRO
 Contrary to more traditional roguelikes, broughlikes feel more puzzly: small separate levels, 4-way movement, zugzwang (you cannot wait in place, so the usual strategy of letting the enemy move
 first does not work).
 
-VIOLATE exploration long meta rpg source free ascii
+VIOLATE exploration long meta rpg source free ascii diagonal
 
 PLAY https://store.steampowered.com/app/274700/868HACK/ buy on Steam
 
@@ -1588,7 +1617,7 @@ STRUCTURE linear, no backtrack
 LENGTH 45min
 MODEL commercial
 
-VIOLATE inspire turn decision mdecision grid potion similar dungeon long strictnometa randommap rpg source free ascii rl
+VIOLATE inspire turn decision mdecision grid potion similar dungeon long strictnometa randommap rpg source free ascii rl topdown
 
 PNG riskofrain Risk of Rain (2013)
 
@@ -1639,7 +1668,7 @@ and "roguelite" for "a game where you die but don't really" (usually, due to kee
 
 PNG rogue-legacy Rogue Legacy
 
-VIOLATE turn decision mdecision grid potion similar dungeon strictnometa loosenometa source free ascii rl
+VIOLATE turn decision mdecision grid potion similar dungeon strictnometa loosenometa source free ascii rl topdown
 
 INSPIRED Spelunky and metroidvanias?
 INTER platformer
@@ -1667,7 +1696,7 @@ One of the first "roguelike deckbuilders". Controversies would be similar to Des
 PNG dreamquest-battle Dream Quest (battle)
 PNG dreamquest-map Dream Quest (map)
 
-VIOLATE grid decision spatial potion modality long strictnometa loosenometa source free ascii
+VIOLATE grid decision spatial potion modality long strictnometa loosenometa source free ascii diagonal
 
 PLAY https://store.steampowered.com/app/557410/Dream_Quest/ buy on Steam
 
@@ -1703,7 +1732,7 @@ people in the Roguelike reddit do not seem to care (it is listed as "a popular r
 
 PNG sproggiwood Sproggiwood
 
-VIOLATE potion long strictnometa loosenometa source free ascii
+VIOLATE potion long strictnometa loosenometa source free ascii diagonal
 
 INSPIRED roguelikes?
 INTER Rogue-like
@@ -1733,6 +1762,8 @@ Or, plan things, when you need.
 As a consequence of being "rhythm based", this no longer works in Crypt of the NecroDancer.
 You no longer have as much time to think about your moves as you want.
 This is an important difference, but, if "speed Chess" is still Chess, then a rhythm roguelike should still be a roguelike.
+Crypt of the NecroDancer features a character, Bard, who can play at his own pace, more similar to a more traditional
+roguelike; however, this makes the game significantly easier, and will not satisfy hardcore roguelike fans.
 
 However, one good thing about this is that Crypt of the NecroDancer works great in multiplayer. There were 
 some classic multiplayer roguelikes (MAngband/Tangaria, Crossfire/Deliantra, as well as the original Diablo design pitch) which also 
@@ -1740,7 +1771,10 @@ solved this using turn time limits.
 
 Some roguelike fans notice that there is a bit less focus on character development than in a typical roguelike.
 
-VIOLATE decision mdecision potion similar long source free
+VIOLATE decision mdecision potion similar long source free diagonal
+
+EXTRA x:Crypt of the NecroDancer is a roguelike, but only when played as Bard
+VIOLATE potion similar long source free diagonal
 
 PLAY https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/ buy on Steam
 
@@ -1811,7 +1845,7 @@ PNG darkest-dungeon Darkest Dungeon
 
 PLAY https://store.steampowered.com/app/262060/Darkest_Dungeon/ Darkest Dungeon on Steam
 
-VIOLATE grid spatial potion modality single short meta rl source free ascii
+VIOLATE grid spatial potion modality single short meta rl source free ascii topdown diagonal
 
 INSPIRED The Bard's Tale, Eye of the Beholder, Ultima Underworld (roguelike influences not clear)
 INTER JRPG-like
@@ -1878,7 +1912,7 @@ roguelikes (and Dominion), battles and exploration are separate.
 
 PNG slay-the-spire Slay the Spire
 
-VIOLATE grid spatial potion modality similar long strictnometa rl source free ascii
+VIOLATE grid spatial potion modality similar long strictnometa rl source free ascii topdown diagonal
 
 INSPIRED FTL, Binding of Isaac, Magic: the Gathering
 INTER card battle / JRPG-like
@@ -1934,7 +1968,7 @@ FUNFACT
 This game is very fun, and considered innovative, but it tooks lots from earlier games.
 The tiles used in Vampire Survivors have been originally created for a (less-known) roguelike named <a target="_blank" href="https://slash.itch.io/serenade-of-chaos">CastlevaniaRL</a>.
 And the gameplay is cloned from a mobile game <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vkslrzm.Zombie&hl=en&gl=US">Magic Survival</a>.
-Vampire Survivors has spawned a very large number of clones, called <i>survivors-likes</i>, or also by some other names.
+Vampire Survivors has spawned a very large number of clones, called <a target="_blank" href="https://www.reddit.com/r/survivorslikes/"><i>survivors-likes</i></a>, or also by some other names.
 
 CONTRO
 While games such as <i>Spelunky</i> did took some roguelike elements (random maps and permadeath), these elements are not noticeable anymore in Vampire Survivors.
@@ -2038,7 +2072,7 @@ creators.)
 
 PNG rl-highscore Roguelike highscore list (Dungeon Crawl Stone Soup)
 
-VIOLATE forcedeath forcecons grid spatial potion similar dungeon long meta randommap userbuilds resource rpg rl exploration single
+VIOLATE forcedeath forcecons grid spatial potion similar dungeon long meta randommap userbuilds resource rpg rl exploration single diagonal
 
 INSPIRED *
 This list games which have inspired the current game. If you define Roguelike as
