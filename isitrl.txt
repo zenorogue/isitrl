@@ -1747,6 +1747,8 @@ Or, plan things, when you need.
 As a consequence of being "rhythm based", this no longer works in Crypt of the NecroDancer.
 You no longer have as much time to think about your moves as you want.
 This is an important difference, but, if "speed Chess" is still Chess, then a rhythm roguelike should still be a roguelike.
+Crypt of the NecroDancer features a character, Bard, who can play at his own pace, more similar to a more traditional
+roguelike; however, this makes the game significantly easier, and will not satisfy hardcore roguelike fans.
 
 However, one good thing about this is that Crypt of the NecroDancer works great in multiplayer. There were 
 some classic multiplayer roguelikes (MAngband/Tangaria, Crossfire/Deliantra, as well as the original Diablo design pitch) which also 
@@ -1755,6 +1757,9 @@ solved this using turn time limits.
 Some roguelike fans notice that there is a bit less focus on character development than in a typical roguelike.
 
 VIOLATE decision mdecision potion similar long source free diagonal
+
+EXTRA x:Crypt of the NecroDancer is a roguelike, but only when played as Bard
+VIOLATE potion similar long source free diagonal
 
 PLAY https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/ buy on Steam
 
