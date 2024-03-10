@@ -1313,7 +1313,7 @@ MODEL open source?
 GAME MC:Minecraft
 YEAR Minecraft (2011-2023)
 
-QUOTE <a target="_blank" href="https://twitter.com/notch/status/1241073245484249088">Notch on Twitter</a>
+QUOTE Notch on Twitter <a target="_blank" href="https://twitter.com/notch/status/1241073245484249088">link</a>
 Karis36: Hi Notch, I have a couple questions. When you were making Minecraft, how much of your vision was determined by roguelikes? Also, have you ever made your own roguelike before? Thanks for reading : ) .
 
 Notch: Quite a lot, I would say. I've played quite a few of them, and the very first builds of minecraft were going to be more along the lines of a dungeon keeper meets dwarf fortress. The first person mode idea came from the possess spell, and look from infiniminer.
@@ -1327,7 +1327,7 @@ Minecraft is the most popular game inspired by roguelikes; the author, Notch giv
 Notch was also a fan of classic roguelikes; the game used to sometimes display "I miss ADOM" at startup.
 
 CONTRO
-Minecraft is not normally called a roguelike, although there are some indirect inspirations (crafting derives from UnReal World/Dwarf Fortress), and it is procedurally generated.
+Minecraft is not normally called a roguelike, although there are some inspirations (crafting derives from UnReal World/Dwarf Fortress), and it is procedurally generated.
 
 EXTRA x:Minecraft hardcore is a roguelike
 
@@ -1355,13 +1355,12 @@ OFFICIAL The Binding of Isaac Rebirth on Steam
 
 The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.
 
-QUOTE <a target="_blank" href="http://www.roguelikeradio.com/2011/11/episode-11-binding-of-isaac.html">Edmund McMillen on the Roguelike radio, around minute 27</a>
+QUOTE Edmund McMillen on the Roguelike radio <a target="_blank" href="http://www.roguelikeradio.com/2011/11/episode-11-binding-of-isaac.html">link</a> (around minute 27)
 The one I played the most traditional roguelike-wise is probably Crawl Stone Soup, which is probably one of my favourites. Yeah, that's probably it.
 I tried to get into NetHack, just did not jibe with me that well. I'm more into the non-traditional ones more, you know, like Spelunky, a lot, Diablo, Desktop Dungeons,
 a little bit of the Pokemon roguelikes.
 
 I don't really care.
-
 You can call it whatever you want. I don't like calling it a roguelike-like, and it probably is just because that's a suggestion that people that
 have upset me have suggested. So it is more of an annoyance. I don't really know how to call it. It is a game with roguelike elements. I think anybody with half of
 brain knows that if I say it's a roguelike shooter, that it's not a traditional roguelike.
