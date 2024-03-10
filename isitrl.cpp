@@ -512,6 +512,10 @@ void show_results() {
       }
     ss << "</ul>";
 
+    if(qpure > 1) {
+      ss << "It is possible that you do not actually consider some of these criteria to be essential (but then, many serious roguelike definitions include such red herrings).<br/><br/>"
+      }
+
     if(qty_roguelikes == qty_matching) {
       ss << "You consider all " << qty_roguelikes << " games matching these criteria to be roguelikes.<br/>";
       }
