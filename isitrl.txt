@@ -1450,7 +1450,7 @@ COMPLEX about 725 upgrades, 200 monsters
 GAME FT:FTL: Faster Than Light
 YEAR FTL: Faster Than Light (2012) - FTL: Advanced Edition (2014)
 
-OFFICIAL 
+OFFICIAL <a target="_blank" href="https://subsetgames.com/ftl.html">FTL website</a>
 In FTL you experience the atmosphere of running a spaceship trying to save the galaxy. It's a dangerous mission, with every encounter presenting a unique challenge with multiple solutions.
 
 What will you do if a heavy missile barrage shuts down your shields?
@@ -1516,7 +1516,7 @@ PLAY https://www.visitoregon.com/the-oregon-trail-game-online/ online emulator
 GAME PD:Pixel Dungeon
 YEAR Pixel Dungeon (2012-2015), Shattered Pixel Dungeon (2014-2024)
 
-OFFICIAL Pixel Dungeon website
+OFFICIAL <a target="_blank" href="https://pixeldungeon.watabou.ru/">Pixel Dungeon website</a>
 Pixel Dungeon is a traditional roguelike game with pixel-art graphics and simple interface.
 
 Explore the depths of Pixel Dungeon, collect useful items, fight fierce monsters to find Amulet of Yendor (surprise!) - the ultimate artifact of this game world.
@@ -1969,7 +1969,7 @@ FUNFACT
 This game is very fun, and considered innovative, but it tooks lots from earlier games.
 The tiles used in Vampire Survivors have been originally created for a (less-known) roguelike named <a target="_blank" href="https://slash.itch.io/serenade-of-chaos">CastlevaniaRL</a>.
 And the gameplay is cloned from a mobile game <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vkslrzm.Zombie&hl=en&gl=US">Magic Survival</a>.
-Vampire Survivors has spawned a very large number of clones, called <i>survivors-likes</i>, or also by some other names.
+Vampire Survivors has spawned a very large number of clones, called <a target="_blank" href="https://www.reddit.com/r/survivorslikes/"><i>survivors-likes</i></a>, or also by some other names.
 
 CONTRO
 While games such as <i>Spelunky</i> did took some roguelike elements (random maps and permadeath), these elements are not noticeable anymore in Vampire Survivors.
