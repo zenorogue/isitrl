@@ -8,4 +8,4 @@ There are no 'correct' answers (even if we, and people we cite, try to convince 
 Updates:
 * March 7: hotkeys, show surprising negatives, minor text improvements
 * March 8: minor text and violation improvements
-
+* March 10: two new unorthodox purity criteria, quotes on Minecraft and TBoI, new alt-answer for Necrodancer, mention red herrings, more info about sources
