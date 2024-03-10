@@ -546,7 +546,7 @@ void show_results() {
     }
 
   ss << "<br/><br/>";
-  ss << "Please click <a onclick=\"details()\">here</a> for details.<br/><br/>";
+  ss << "Please click <a onclick=\"details()\">here</a> to see what exactly do these criteria mean.<br/><br/>";
 
   if(changes) {
     string link = mainpart + "?r=" + rogue_code("");
