@@ -1313,12 +1313,17 @@ MODEL open source?
 GAME MC:Minecraft
 YEAR Minecraft (2011-2023)
 
+QUOTE <a target="_blank" href="https://twitter.com/notch/status/1241073245484249088">Notch on Twitter</a>
+Karis36: Hi Notch, I have a couple questions. When you were making Minecraft, how much of your vision was determined by roguelikes? Also, have you ever made your own roguelike before? Thanks for reading : ) .
+
+Notch: Quite a lot, I would say. I've played quite a few of them, and the very first builds of minecraft were going to be more along the lines of a dungeon keeper meets dwarf fortress. The first person mode idea came from the possess spell, and look from infiniminer.
+
 OFFICIAL Minecraft website <a target="_blank" href="https://www.minecraft.net/en-us/about-minecraft">link</a>
 Minecraft is a game made up of blocks, creatures, and community. Blocks can be used to reshape the world or build fantastical creations. Creatures can be battled or befriended, depending on your playstyle. Experience epic adventures solo or with friends, there’s no wrong way to play.
 Unless you’re digging straight down.
 
 FUNFACT
-Minecraft is the most popular game indirectly inspired by roguelikes; the author, Notch gives Dwarf Fortress as one of his inspirations.
+Minecraft is the most popular game inspired by roguelikes; the author, Notch gives Dwarf Fortress as one of his inspirations.
 Notch was also a fan of classic roguelikes; the game used to sometimes display "I miss ADOM" at startup.
 
 CONTRO
