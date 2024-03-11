@@ -1907,9 +1907,15 @@ from FTL, mostly, the event-based map structure; and people accept that due to t
 and "deckbuilder" terms (it could be said that "deckbuilder" includes permanent consequence, randomness, and upgrades by definition).
 Dominion, which started the deckbuilder genre, is more similar to roguelikes in many aspects (except that Slay the Spire is a single-player dungeon crawler).
 Contrary to an earlier "roguelike deckbuilder", Dream Quest, it does not feature a traditional roguelike map, and contrary to traditionally
-roguelikes (and Dominion), battles and exploration are separate. To a roguelike fan, it seems that "roguelike" is more of a buzzword here, used to attract
+roguelikes (and Dominion), battles and exploration are separate.
+
+While the fast decision making in Slay the Spire is something that the fans of classic roguelikes are quite likely to enjoy,
+they argue that "roguelike" is more of a buzzword here, used to attract
 potential players ("roguelike deckbuilder" sounds more innovative) and content creators (who like short, chaotic games that are easy to understand,
 and call such games "roguelikes"), rather than to be informative.
+
+Slay the Spire has inspired many games, featuring a similar map style, side view battles, and/or deckbuilding. These are typically marketed as "roguelike", although
+"spirelike" would be more accurate.
 
 PNG slay-the-spire Slay the Spire
 
