@@ -1969,7 +1969,7 @@ FUNFACT
 This game is very fun, and considered innovative, but it tooks lots from earlier games.
 The tiles used in Vampire Survivors have been originally created for a (less-known) roguelike named <a target="_blank" href="https://slash.itch.io/serenade-of-chaos">CastlevaniaRL</a>.
 And the gameplay is cloned from a mobile game <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vkslrzm.Zombie&hl=en&gl=US">Magic Survival</a>.
-Vampire Survivors has spawned a very large number of clones, called <a target="_blank" href="https://www.reddit.com/r/survivorslikes/"><i>survivors-likes</i></a>, or also by some other names.
+Vampire Survivors has spawned a very large number of clones or similar games, called <a target="_blank" href="https://www.reddit.com/r/survivorslikes/"><i>survivors-likes</i></a>, or also by some other names.
 
 CONTRO
 While games such as <i>Spelunky</i> did took some roguelike elements (random maps and permadeath), these elements are not noticeable anymore in Vampire Survivors.
