@@ -226,9 +226,8 @@ most important games that the term <i>roguelike</i> was originally
 created for. However, some people recently define <i>roguelike</i> in a
 way which excludes NetHack, for example, no interaction between
 runs (while in NetHack you can find the inventory of an earlier
-character), permadeath enforced (while NetHack has permadeath-less
-"exploration mode"), or short runs (while NetHack is like 10-20
-hours long).
+character), or permadeath enforced (while NetHack has permadeath-less
+"exploration mode"), or short runs.
 
 PNG nethack-ascii NetHack 3.6.7 (ASCII)
 PNG nethack-x11 NetHack 3.6.7 (graphical)
@@ -1375,7 +1374,7 @@ more arcade than RPG, more action than strategy or tactics.
 It locks the doors when you fight, while much of the fun and strategy of roguelikes is based on fleeing from encounters,
 exploration and combat being the same (<i>non-modality</i>), and interactions between different parts of the map.
 
-But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'. 
+But for people who have never played any game that the roguelike communities are about, basically a synonym of 'roguelike'.
 Many later successful games are quite similar to Isaac -- such 'Isaac-likes' include <i>Enter the Gungeon</i> and <i>Hades</i>.
 While Isaac has some features with clear roguelike inspirations (like "pills" wich are randomized similar to Rogue's potions),
 these games are more likely to copy its rogue-unlike features, such as the arcade style or locked doors.
@@ -1910,6 +1909,14 @@ Dominion, which started the deckbuilder genre, is more similar to roguelikes in 
 Contrary to an earlier "roguelike deckbuilder", Dream Quest, it does not feature a traditional roguelike map, and contrary to traditionally
 roguelikes (and Dominion), battles and exploration are separate.
 
+While the fast decision making in Slay the Spire is something that the fans of classic roguelikes are quite likely to enjoy,
+they argue that "roguelike" is more of a buzzword here, used to attract
+potential players ("roguelike deckbuilder" sounds more innovative) and content creators (who like short, chaotic games that are easy to understand,
+and call such games "roguelikes"), rather than to be informative.
+
+Slay the Spire has inspired many games, featuring a similar map style, side view battles, and/or deckbuilding. These are typically marketed as "roguelike", although
+"spirelike" would be more accurate.
+
 PNG slay-the-spire Slay the Spire
 
 VIOLATE grid spatial potion modality similar long strictnometa rl source free ascii topdown diagonal
@@ -1968,7 +1975,7 @@ FUNFACT
 This game is very fun, and considered innovative, but it tooks lots from earlier games.
 The tiles used in Vampire Survivors have been originally created for a (less-known) roguelike named <a target="_blank" href="https://slash.itch.io/serenade-of-chaos">CastlevaniaRL</a>.
 And the gameplay is cloned from a mobile game <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vkslrzm.Zombie&hl=en&gl=US">Magic Survival</a>.
-Vampire Survivors has spawned a very large number of clones, called <a target="_blank" href="https://www.reddit.com/r/survivorslikes/"><i>survivors-likes</i></a>, or also by some other names.
+Vampire Survivors has spawned a very large number of clones or similar games, called <a target="_blank" href="https://www.reddit.com/r/survivorslikes/"><i>survivors-likes</i></a>, or also by some other names.
 
 CONTRO
 While games such as <i>Spelunky</i> did took some roguelike elements (random maps and permadeath), these elements are not noticeable anymore in Vampire Survivors.
