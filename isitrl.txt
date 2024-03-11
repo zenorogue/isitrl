@@ -226,9 +226,8 @@ most important games that the term <i>roguelike</i> was originally
 created for. However, some people recently define <i>roguelike</i> in a
 way which excludes NetHack, for example, no interaction between
 runs (while in NetHack you can find the inventory of an earlier
-character), permadeath enforced (while NetHack has permadeath-less
-"exploration mode"), or short runs (while NetHack is like 10-20
-hours long).
+character), or permadeath enforced (while NetHack has permadeath-less
+"exploration mode"), or short runs.
 
 PNG nethack-ascii NetHack 3.6.7 (ASCII)
 PNG nethack-x11 NetHack 3.6.7 (graphical)
