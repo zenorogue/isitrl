@@ -1366,7 +1366,16 @@ brain knows that if I say it's a roguelike shooter, that it's not a traditional 
 
 CONTRO
 The best way to be hated in the roguelike communities is to call The Binding of Isaac a roguelike.
-This should not be surprising -- imagine the reaction of a fan of 4X games (such as <i>Civilization</i>)
+When Binding of Isaac and similar games were created, Roguelike purists would usually say "not a roguelike because it is not turn-based" and
+point to the <a target="_blank" href="https://roguebasin.com/index.php?title=Berlin_Interpretation">Berlin Interpretation</a>
+-- such a hard stance would likely confuse people who have never played any roguelikes, since the Berlin Interpretation does not
+say that being turn-based (or any other element) is necessary, and puts random environment generation and permadeath first,
+so "turn-based" looks like something unimportant, like most people do not consider being turn-based to be important for strategy, RPG, or puzzle anymore.
+Today, the Berlin Interpretation seems to be cited more frequently by anti-purists (to show that the purists are wrong), than by the purists themselves.
+
+However, while real-time strategies, action RPGs, and action puzzles keep much of the features fundamental of the genre, run-based games are
+seen as being only very loosely related to roguelikes.
+Imagine the reaction of a fan of 4X games (such as <i>Civilization</i>)
 to someone claiming that The Binding of Isaac is a 4X because of randomized maps and permanent consequence.
 Same for roguelike fans -- roguelike, in its traditional meaning, is a genre somewhere between RPG, tactics, and strategy,
 approximately, single-character grid tactics; and The Binding of Isaac is
