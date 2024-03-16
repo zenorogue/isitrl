@@ -8,6 +8,12 @@
 #include <sstream>
 #include "visutils.h"
 
+#ifdef ITCH
+constexpr bool large_font = false;
+#else
+constexpr bool large_font = true;
+#endif
+
 using namespace std;
 bool is_mobile;
 
@@ -219,7 +225,10 @@ void parse() {
   }
 
 void add_button(ostream& of, string action, string text) {
-  if(is_mobile)
+  if(is_mobile && !large_font)
+     of << "<button style='width:100%;font-size:1.5rem' type='button' onclick='" << action <<
+       "'/>" << text << "</button>";
+  else if(is_mobile)
      of << "<button style='font-size:3rem;width:100%' type='button' onclick='" << action << 
        "'/>" << text << "</button>";
   else
