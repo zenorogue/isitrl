@@ -224,6 +224,10 @@ void parse() {
   printf("%s\n", junk.c_str());
   }
 
+void reset_all() {
+  for(auto& g: games) g.verdict = 0;
+  }
+
 void add_button(ostream& of, string action, string text) {
   if(is_mobile && !large_font)
      of << "<button style='width:100%;font-size:1.5rem' type='button' onclick='" << action <<
@@ -786,7 +790,7 @@ extern "C" {
   void help() { show_help(); }
   void details() { show_details(); }
   void suggestions() { show_suggestions(); }
-  void resetquiz() { for(auto& g: games) g.verdict = 0; show_init(); }   
+  void resetquiz() { reset_all(); show_init(); }
   void on_keydown(const char *s) { keydown(s); }
   void do_import(const char *s) { show_import(s); }
   void answer(const char *name, const char *result) {
