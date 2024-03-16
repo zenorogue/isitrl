@@ -194,6 +194,8 @@
       function resetquiz() { Module.ccall('resetquiz', 'null', [], []) }
       function back_to(game) { Module.ccall('back_to', 'null', ['string'], [game]) }
       function on_keydown(key) { Module.ccall('on_keydown', 'null', ['string'], [key]) }
+      function compare() { Module.ccall('compare', 'null', [], []) }
+      function aggregate(s) { Module.ccall('aggregate', 'null', ['string'], [s]) }
       function help() { Module.ccall('help', 'null', [], []) }
       function tweet(text, url) {
         var tweetbegin = 'https://twitter.com/intent/tweet?text=';

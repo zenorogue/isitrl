@@ -65,6 +65,18 @@ map<char, string> color_codes = {
   {0, "❓"},
   };
 
+map<char, string> rgb_color_codes = {
+  {'4', "00FF10"}, // green
+  {'3', "FFFF00"}, // yellow
+  {'2', "FF8000"}, // orange
+  {'1', "804000"}, // brown
+  {'0', "FF0000"}, // red
+  {'x', "FF00FF"}, // purple
+  {'y', "0000FF"}, // blue
+  {'-', "FFFFFF"}, // white
+  {0, "000000"},
+  };
+
 vector<pair<string, string>> metas =
   {
    {"INSPIRED", "INSPIRATIONS"},
@@ -314,6 +326,7 @@ void add_buttons(ostream& ss) {
   else ss << "<a onclick=\"results()\">results</a> - ";
   ss << "<a onclick=\"help()\">help</a>";
   ss << " - <a onclick=\"s_import('')\">import</a>";
+  ss << " - <a onclick=\"compare()\">compare</a>";
   if(changes) {
     ss << " - <a onclick=\"suggestions()\">suggestions</a>";
     }
@@ -670,6 +683,169 @@ void show_import(const string& code) {
   set_value("output", ss.str());
   }
 
+void show_compare() {
+  stringstream ss;
+  showing_what = "";
+
+  ss << "Enter the answers to compare here:<br/><br/>";
+
+  ss << "<textarea id=\"aggregatedata\" rows=50 cols=180>";
+
+  ifstream f("answers.txt");
+  string s;
+  while(getline(f, s)) ss << s << "\n";
+
+  ss << "</textarea><br/><br/>";
+
+  add_button(ss, "aggregate(document.getElementById(\"aggregatedata\").value)", "compare");
+
+  ss << "<br/><br/>";
+
+  ss << "<hr/>\n";
+  add_buttons(ss);
+  set_value("output", ss.str());
+  }
+
+void show_aggregate(const string& s) {
+  showing_what = "";
+  string cur = "";
+  string who;
+  map<string, string> codes;
+  for(char ch: s + "\n") {
+    if(ch == '\n') {
+      if(cur.back() == ':') { who = cur; who.pop_back(); }
+      else if(who != "") { codes[who] = cur; who = ""; }
+      cur = "";
+      }
+    else cur += ch;
+    }
+  string mycode = rogue_code("");
+  codes["YOU"] = mycode;
+  map<string, string> verdicts;
+  for(auto& p: codes) {
+    reset_all();
+    parse_rogue_code(p.second);
+    string sh;
+    for(auto& g: games) sh += g.verdict;
+    verdicts[p.first] = sh;
+    }
+
+  reset_all();
+  parse_rogue_code(mycode);
+
+  stringstream ss;
+
+  if(!is_mobile) {
+    ss << "<div style=\"float:left;width:100%\">\n";
+    ss << "<div style=\"float:left;width:30%\">&nbsp;</div>";
+    ss << "<div style=\"float:left;width:40%\">";
+    }
+
+  string you = verdicts["YOU"];
+  verdicts.erase("YOU");
+
+  struct comparison {
+    int score, outof;
+    string who;
+    map<char, string> differences;
+    };
+
+  vector<comparison> comparisons;
+
+  for(auto& v: verdicts) {
+    string& they = v.second;
+    comparisons.emplace_back();
+    auto& c = comparisons.back();
+    c.who = v.first;
+
+    c.score = 0, c.outof = 0;
+    map<char, string> differences;
+
+    for(int i=0; i<int(games.size()); i++) {
+      if(you[i] == 0 || they[i] == 0) continue;
+      if(you[i] != they[i]) {
+        c.differences[you[i]] += " " + color_codes[they[i]] + " " + games[i].title;
+        }
+      if(you[i] == '-' || they[i] == '-') continue;
+      if(you[i] == they[i]) { c.score += 2; c.outof += 2; continue; }
+      if('0' <= you[i] && you[i] <= '4' && '0' <= they[i] && '4' <= they[i] && abs(you[i] - they[i]) >= 2) { c.score += 0; c.outof += 2; continue; }
+      c.score += 1; c.outof += 2; continue;
+      }
+
+    if(c.outof == 0) { comparisons.pop_back(); continue; }
+    }
+  sort(comparisons.begin(), comparisons.end(), [] (comparison& a, comparison& b) { return a.score * b.outof > b.score * a.outof; });
+  if(comparisons.size() > 0) {
+    ss << "Your answers versus other answers:<ul>\n";
+    for(auto& c: comparisons) {
+      char buf[64]; sprintf(buf, "%5.1f%%", 100. * c.score / c.outof);
+      ss << "<li><b>" << c.who << "</b> (similarity: " << buf << ")<ul>\n";
+      for(auto& d: c.differences) {
+        ss << "<li>you: " << color_codes[d.first] << " they:" << d.second << "</li>\n";
+        }
+      ss << "</ul></li>\n";
+      }
+    ss << "</ul>\n";
+    ss << "How is similarity computed:<br/>No answers and " << color_codes['-'] << " are ignored; same answers = full similarity, at least two steps in "
+     << color_codes['0'] + color_codes['1'] + color_codes['2'] + color_codes['3'] + color_codes['4'] << " = no similarity, otherwise half similarity<br/><br/>";
+    }
+
+  verdicts["YOU"] = you;
+
+  ss << "<b>Aggregate results:</b><br/>";
+
+  if(comparisons.size() > 0) ss << "(Note: your opinions are included here)<br/>";
+
+  ss << "<table cellpadding=0 cellspacing=0>\n";
+  for(int index = 0; index < int(games.size()); index++) {
+    map<char, int> qty;
+    int total = 0;
+    for(auto& v: verdicts) if(v.second[index]) {
+      total++; qty[v.second[index]]++;
+      }
+    if(!total) continue;
+    ss << "<tr><td style=\"celling-top:0px;\">" << games[index].title << "</td>";
+    int sofar = 0;
+    double width = 200, height = 16;
+    ss << "<td style=\"celling-top:0px;\"><svg style=\"border: 0px;\" width=\"" << width << "\" height=\"" << height << "\">";
+    for(auto p: qty) {
+      double left = sofar * width / total;
+      sofar += p.second;
+      double right = sofar * width / total;
+      ss << "<path d=\"M " << left << " 0 L " << left << " " << height << " L " << right << " " << height << " L " << right << " 0 Z\" ";
+      ss << "style=\"stroke:#000000;stroke-opacity:1;stroke-width:1px;fill:#" << rgb_color_codes[p.first] << ";fill-opacity:1\"/>";
+      }
+    ss << "</svg></td></tr>\n";
+    }
+
+  ss << "</table></tr><br/>";
+
+  ss << "Aggregate results -- number details:<br/><ul>";
+  for(int index = 0; index < int(games.size()); index++) {
+    map<char, int> qty;
+    int total = 0;
+    for(auto& v: verdicts) if(v.second[index]) {
+      total++; qty[v.second[index]]++;
+      }
+    if(!total) continue;
+    ss << "<li>" << games[index].title;
+    char buf[64];
+    for(auto p: qty) {
+      sprintf(buf, "%5.1f", p.second * 100. / total);
+      ss << buf << "% " << color_codes[p.first];
+      }
+    ss << " (out of " << total << ")";
+    ss << "</li>";
+    }
+  ss << "</ul>";
+
+  if(!is_mobile) ss << "</div></div>";
+
+  ss << "<hr/>\n";
+  add_buttons(ss);
+  set_value("output", ss.str());
+  }
+
 void show_suggestions() {
 
   stringstream ss;
@@ -776,6 +952,7 @@ void keydown(const string& s) {
     if(s == "r" && finished()) show_results();
     if(s == "h") show_help();
     if(s == "i") show_init();
+    if(s == "c") show_compare();
     if(s == "d" && finished()) show_details();
     }
   }
@@ -793,6 +970,8 @@ extern "C" {
   void resetquiz() { reset_all(); show_init(); }
   void on_keydown(const char *s) { keydown(s); }
   void do_import(const char *s) { show_import(s); }
+  void compare() { show_compare(); }
+  void aggregate(const char *s) { show_aggregate(s); }
   void answer(const char *name, const char *result) {
     for(auto& g: games) if(g.shorttitle == name) g.verdict = result[0];
     changes++;
