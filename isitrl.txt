@@ -122,6 +122,11 @@ of otherwise traditional roguelikes sometimes decide to
 make the movement 4-directional. This considerably changes the tactics, so some fans of classic roguelikes protest against this.
 Games on hex grid (or another grid with no diagonals) or chess-based roguelikes where movement is based on a choice of chess figure do not violate.
 
+PURITY canwin It is not a Roguelike if you cannot win.
+This is about the game having an official win condition ("congratulations, you have won, you can go back to your life now").
+Can still have additional challenges for those who want them. Games like Tetris and survival games typically do not have a win condition.
+Run-based games that you are supposed to "win" many times (but having on "global" win condition) also do not violate this.
+
 GAME Ro:Rogue
 YEAR Rogue (1980)
 OFFICIAL A Guide to the Dungeons of Doom (Rogue manual) <a target="_blank" href="https://roguetemple.com/z/rogue.txt">(link)</a>
@@ -397,7 +402,7 @@ Probably for this reason, UnReal world seems to be discussed less often than oth
 
 PNG urw UnReal World
 
-VIOLATE potion dungeon short meta
+VIOLATE potion dungeon short meta canwin
 
 DOWNLOAD http://unrealworld.fi/urw_downloads.html free download or buy
 
@@ -860,8 +865,8 @@ mode (which is a survival roguelike). Both modes are extremely complex, randomly
 generated, feature permanent death (although you can play a new game in the same world, affected by the previous run), and displayed traditionally in ASCII.
 Definitely an important element of the roguelike culture.
 
-VIOLATE turn single short strictnometa source rl
-VIOLATEX x short source strictnometa
+VIOLATE turn single short strictnometa source rl canwin
+VIOLATEX x short source strictnometa canwin
 
 EXTRA x:The adventurer mode of Dwarf Fortress is a roguelike, the fortress mode is not
 
@@ -1332,7 +1337,7 @@ EXTRA x:Minecraft hardcore is a roguelike
 
 PNG minetest MineTest (a free clone of Minecraft)
 
-VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short meta randombuilds userbuilds resource rpg source free ascii rl topdown
+VIOLATE turn decision forcedeath suggestdeath grid potion similar dungeon short meta randombuilds userbuilds resource rpg source free ascii rl topdown canwin
 
 INSPIRED Infiniminer, Dwarf Fortress, Dungeon Keeper
 INTER First-person perspective
@@ -2088,7 +2093,7 @@ creators.)
 
 PNG rl-highscore Roguelike highscore list (Dungeon Crawl Stone Soup)
 
-VIOLATE forcedeath forcecons grid spatial potion similar dungeon long meta randommap userbuilds resource rpg rl exploration single diagonal
+VIOLATE forcedeath forcecons grid spatial potion similar dungeon long meta randommap userbuilds resource rpg rl exploration single diagonal canwin
 
 INSPIRED *
 This list games which have inspired the current game. If you define Roguelike as
