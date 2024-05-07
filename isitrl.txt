@@ -2053,6 +2053,61 @@ STRUCTURE overworld, with dungeons
 LENGTH 10h?
 MODEL freeware
 
+GAME PA:Path of Achra
+YEAR Path of Achra (2023-2024)
+OFFICIAL Path of Achra on Steam
+
+Before you lies the Path of Achra...
+
+Inspired by the dungeons of Tales of Maj Eyal, Dungeon Crawl Stone Soup and Rift Wizard, it is the ongoing passion project of a solo developer, who humbly thanks you for visiting
+
+Combine powers to create a glorious fighter
+
+Merge culture, class and religion to establish a starting hero, unlock more options as you play, with 1000+ potential combinations
+
+Customize your hero with 50+ elementally-aligned powers such as Pyrokinesis, Necromancy, Blood Retort, Obedient Ice...
+
+Discover and freely equip unique weapons and armor with impactful abilities
+
+Explosive synergies await...
+
+Brutal, streamlined turn-based dcombat
+
+A "broken build sandbox" - create devastating combos by combining triggered effects. Shoot bolts of lightning when you pierce enemies with vines, teleport while emitting psychic beams, etc...
+
+If you wish, summon armies of powerful allies
+
+Swiftly play through levels with automove commands. With caution! Enemies can be brutal...
+
+Seek the mysterious Obelisk, as the world floods behind you...
+
+QUOTE Ulfsire on the Roguelike reddit <a target="_blank" href="https://www.reddit.com/r/roguelikes/comments/1cm75ue/path_of_achra_v10_full_release_thank_you/">link</a>
+The original idea was something like Rift Wizard where you get to be a berserker instead, drawing from my love for that in DCSS / ToME -- I'm actually more comfortable calling it a "rift wizard-like" than a "roguelike" at this point, haha
+
+CONTRO
+An example of a "rift wizard-like", an innovative subgenre that is recently popular in roguelike
+communities. Still clearly the same genre as Rogue, but feels different due to the focus on
+broken builds usually focusing on large armies of summoned creatures, and "fast play" pushed
+to the extreme.
+
+PNG achra Path of Achra
+PLAY https://store.steampowered.com/app/2128270/Path_of_Achra/ buy or play a demo on Steam
+
+VIOLATE forcedeath forcecons dungeon short
+
+INSPIRED Rift Wizard (inspired by NetHack, DCSS, Brogue, ToME), DCSS, ToME
+INTER Rogue-like
+VISUAL tiles
+DEATH deletes saves
+META highscore lists/logs, unlock classes
+RPG experience, stats, race/class/gods, equipment, basic storyline
+RANDOM maps, items, monsters
+THEME ancient earth, with nods to Conan + mysticism
+STRUCTURE branched, no backtrack
+LENGTH about 2h
+MODEL commercial (free demo)
+COMPLEX 24 cultures, 24 classes, 24 religions, 90 powers, 72 prestige classes, 138 enemies, 168 items
+
 GAME II:ISITRL
 YEAR Is it Roguelike? (2024)
 
