@@ -2094,7 +2094,7 @@ to the extreme.
 PNG achra Path of Achra
 PLAY https://store.steampowered.com/app/2128270/Path_of_Achra/ buy or play a demo on Steam
 
-VIOLATE forcedeath forcecons dungeon short
+VIOLATE ascii source free long potion
 
 INSPIRED Rift Wizard (inspired by NetHack, DCSS, Brogue, ToME), DCSS, ToME
 INTER Rogue-like
