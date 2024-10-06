@@ -12,3 +12,4 @@ Updates:
 * March 11: minor text improvements, fixed the font size on itch mobile
 * March 16: added a tool to compare the answers (with some example answers from [itch](https://zenorogue.itch.io/isitrl) and other places), more on TBoI
 * May 7: added Path of Achra, a new purity criterion, and more answers to the statistics, fixed Ctrl+C etc being captured
+* Oct 6: added a reference to roguelite, added some answers to the statistics
