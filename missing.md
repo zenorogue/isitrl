@@ -1,6 +1,7 @@
 Some games that could be included but we have not included them yet, either to keep it reasonably short, or due to not knowing much about them.
 
 * Star Trek (1971) -- some call it roguelike, also it has influenced both Rogue and Beneath Apple Manor.
+* Impossible Mission -- an early platformer which (according to Wikipedia) took some inspiration from Rogue, probably would count as a proto-Isaac-like.
 * ToeJam & Earl -- an early example of a roguelike-like.
 * Ultima -- a series of early RPG, early parts of the series (including 'Ultima 0' i.e. Akalabeth) have some similarities to Rogue and have sometimes been called roguelikes.
 * Brogue -- not controversial, but could be still included because of being influential.
@@ -16,5 +17,7 @@ Some games that could be included but we have not included them yet, either to k
 * Ending -- abstract roguelike.
 * Vagante -- spelunky-like with more roguelike elements.
 * Transcendence, Triangle Wizard -- early real-time "roguelikes"
-* Crown Trick, Quasimorph, Rift Wizard, Path of Achra, Soulash -- modern, innovative roguelikes in the traditional sense or close (I have not played those).
+* Crown Trick, Quasimorph, Rift Wizard, Soulash -- modern, innovative roguelikes in the traditional sense or close (I have not played those).
 * Balatro -- a recent take on deckbuilder that is further away from roguelikes than typical.
+* Against the Storm -- a popular city-builder
+
