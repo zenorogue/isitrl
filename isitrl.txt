@@ -1671,7 +1671,7 @@ This game has popularized the "roguelite" term, which is still used in the rogue
 refer to this new kind of game which took the common features of roguelikes such as procedural generation and permadeath,
 and put it in some other genre (in this case, a metroidvania-inspired platformer).
 
-Technically, the roguelite term did exist before Rogue Legacy, to be used for more streamlined roguelikes (such as Pokémon Mystery Dungeon).
+Technically, the roguelite term <a href="https://forums.penny-arcade.com/discussion/comment/10596483/#Comment_10596483">did exist</a> before Rogue Legacy, to be used for more streamlined roguelikes (such as Pokémon Mystery Dungeon).
 However, it was not used this way in the core roguelike community, and it is a bit difficult to find historical sources about it.
 
 Around 2020, most roguelike fans have stopped fighting people using "roguelike" for "a game where you can die" (while a true roguelike is "a game that is
