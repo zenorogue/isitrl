@@ -1320,6 +1320,9 @@ YEAR Minecraft (2011-2023)
 QUOTE Notch on Twitter <a target="_blank" href="https://twitter.com/notch/status/1241073245484249088">link</a>
 Karis36: Hi Notch, I have a couple questions. When you were making Minecraft, how much of your vision was determined by roguelikes? Also, have you ever made your own roguelike before? Thanks for reading : ) .
 
+QUOTE Glenn Wichman, one of devs of Rogue <a target="_blank" href="https://spillhistorie.no/the-story-of-rogue/">link</a>
+Even though nobody really counts it as a «Roguelike», my favorite Roguelike is Minecraft. I think if I had just kept working on Rogue constantly over the years, what I would have ended up with would look very much like Minecraft. Maybe Minecraft, Diablo, and No Man’s Sky are all remakes of Rogue, if you want to look at it that way.
+
 Notch: Quite a lot, I would say. I've played quite a few of them, and the very first builds of minecraft were going to be more along the lines of a dungeon keeper meets dwarf fortress. The first person mode idea came from the possess spell, and look from infiniminer.
 
 OFFICIAL Minecraft website <a target="_blank" href="https://www.minecraft.net/en-us/about-minecraft">link</a>
