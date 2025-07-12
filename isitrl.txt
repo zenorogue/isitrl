@@ -751,7 +751,18 @@ not sell. It is still very similar to Angband (but not as long...).
 Diablo has many sequels (Diablo IV released in 2023), but they diverge from the original Diablo and its roguelike roots.
 
 CONTRO
-Many people (including some prominent ones, such as roguelike developers <a target="_blank" href="http://www.zincland.com/powder/index.php?pagename=about">Jeff Lait</a>
+Diablo was likely the first game where <a target="_blank" href="https://groups.google.com/g/rec.games.roguelike.misc/c/OgIE8gx5CbM/m/vT75FQwes88J">
+there was really question of its roguelike-ness</a>, so it is interesting to see what people in 90s thought about it. Many people
+thought that Diablo was a roguelike or that <a target="_blank" href="https://groups.google.com/g/alt.games.diablo/c/sFTGoqlB2FA/m/sTqxPuklIKwJ">it was more "roguelike" than "RPG"</a>.
+But also lots of people thought that being turn-based was essential for a roguelike, similar to the roguelike communities today.
+There were also people thinking Diablo was not a roguelike because of
+<a target="_blank" href="https://groups.google.com/g/rec.games.roguelike.nethack/c/mTmONlCMs90/m/YwOsODBz6u8J">being commercial and having nice graphics</a>, that people do not care anymore,
+or <a target="_blank" href="https://groups.google.com/g/comp.sys.ibm.pc.demos/c/uBjzn_8mYdY/m/eWURo77H1eAJ">having less races/classes/everything</a> which made the game
+<a target="_blank" href="https://groups.google.com/g/comp.sys.ibm.pc.games.strategic/c/MyF5Hb6-AOM/m/kN5s9GG9q3YJ">less infinite</a>. There was some discussion
+about the <a target="_blank" https://groups.google.com/g/rec.games.roguelike.misc/c/OgIE8gx5CbM/m/VbTXlSTxzhgJ>apparent lack of permadeath</a> but people rarely thought it was
+<a target="_blank" href="https://groups.google.com/g/pl.rec.gry.komputerowe.roguelike/c/m14jF_w83UQ/m/ZGIWx2UYYeUJ">disqualifying</a>, it was observed that many people savescummed anyway.
+
+Even later, many people (including some prominent ones, such as roguelike developers <a target="_blank" href="http://www.zincland.com/powder/index.php?pagename=about">Jeff Lait</a>
 and <a target="_blank" href="https://www.roguebasin.com/index.php?title=Diablo&oldid=1027">Kornel Kisielewicz</a>) in the roguelike community considered it a roguelike,
 although a much less complex one, due to its partial focus on action. It did not lead to much controversy, as the roguelike communities preferred other games, and
 Diablo fans did not call it a roguelike. There was some controversy about whether Diablo is an RPG -- eventually leading to its classification as "action RPG", 
